@@ -7,7 +7,6 @@ weight: 50
 
 ---
 
-Name: gzhh
+Hi, I'm gzhh.
 
-Role: Backend Developer
-
+I live in China and work as an Backend Engineer.
