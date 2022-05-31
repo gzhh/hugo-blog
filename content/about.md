@@ -7,6 +7,10 @@ weight: 50
 
 ---
 
+嗨，我是 gzhh。
+
+我居住在中国，是一名后端开发工程师。
+
 Hi, I'm gzhh.
 
 I live in China and work as an Backend Engineer.
