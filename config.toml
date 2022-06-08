@@ -14,7 +14,7 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "gzhh"
+disqusShortname = "gzhh-tech"
 
 [params]
   author = "gzhh"
@@ -63,6 +63,10 @@ disqusShortname = "gzhh"
   weight = 1
   url  = "posts/"
 [[menu.main]]
-  name = "About"
+  name = "Read"
   weight = 2
+  url  = "read/"
+[[menu.main]]
+  name = "About"
+  weight = 3
   url = "about/"
