@@ -13,17 +13,17 @@ weight: 50
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
 | ----  | ---- | ---- | ---- | ---- | ---- | ---- |
 | [深入理解计算机系统](https://book.douban.com/subject/26912767/) | 计算机 | 在读 | PDF & 实体书 | 分析阅读 | 2022/06/08 | |
-| [小狗钱钱](https://book.douban.com/subject/3576486/) | 经济 | 已读 | 微信阅读 | 分析阅读 | 2022/01/09 | 2022/01/13 |
+| [小狗钱钱](https://book.douban.com/subject/3576486/) | 经济 | [已读](/reads/xiao-gou-qian-qian/) | 微信阅读 | 分析阅读 | 2022/01/09 | 2022/01/13 |
 
 ## 2021
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
 | ----  | ---- | ---- | ---- | ---- | ---- | ---- |
 | [数据密集型应用系统设计（DDIA）](https://book.douban.com/subject/30329536/) | 计算机 | 已读 | 实体书 | 检视阅读 | 2021/12/19 | 2021/12/19 |
-| [学习之道](https://book.douban.com/subject/26895988/) | 逻辑 | 已读 | 微信阅读 | 分析阅读 | 2021/12/18 | 2021/12/18 |
+| [学习之道](https://book.douban.com/subject/26895988/) | 逻辑 | [已读](/reads/a-mind-for-numbers/) | 微信阅读 | 分析阅读 | 2021/12/18 | 2021/12/18 |
 | [Redis设计与实现](https://book.douban.com/subject/25900156/) | 计算机 | 已读 | 实体书 | 分析阅读 | 2021/12/11 | 2021/12/12 |
-| [中国近代史](https://book.douban.com/subject/3293627/) | 历史 | 已读 | PDF | 分析阅读 | 2021/12/05 | 2022/01/03 |
+| [中国近代史](https://www.goodreads.com/book/show/28450368) | 历史 | [已读](/reads/the-rise-of-modern-china/) | PDF | 分析阅读 | 2021/12/05 | 2022/01/03 |
 | [HTTP/2 in Action 中文版](https://book.douban.com/subject/35137621/) | 计算机 | 已读 | 实体书 | 分析阅读 | 2021/11/27 | 2021/12/04 |
-| [思考，快与慢](https://book.douban.com/subject/10785583/) | 逻辑 | 已读 | 微信阅读 | 检视阅读 | 2021/11/27 | 2021/11/27 |
+| [思考，快与慢](https://book.douban.com/subject/10785583/) | 逻辑 | [已读](/reads/thinking-fast-and-slow/) | 微信阅读 | 检视阅读 | 2021/11/27 | 2021/11/27 |
 | [Go语言学习笔记](https://book.douban.com/subject/26832468/) | 计算机 | 已读 | PDF | 分析阅读 | 2021/10/17 | 2021/10/20 |
 | [Go语言编程](https://book.douban.com/subject/11577300/) | 计算机 | 已读 | 微信阅读 | 检视阅读 | 2021/10/11 | 2021/10/16 |
 | [寻路中国](https://book.douban.com/subject/5414391/) | 社科 | 已读 | PDF | 分析阅读 | 2021/10/03 | 2021/10/06 |
@@ -36,19 +36,19 @@ weight: 50
 | [夹边沟记事](https://www.goodreads.com/book/show/18876054) | 社科 | 已读 | PDF | 分析阅读 | 2021/04/01 | 2021/05/01 |
 | [程序化广告](https://book.douban.com/subject/27180590/) | 互联网 | 已读 | 微信阅读 | 分析阅读 | 2021/04/14 | 2021/04/14 |
 | [江城](https://book.douban.com/subject/7060185/) | 社科 | 已读 | 实体书 | 分析阅读 | 2021/03/20 | 2021/03/21 |
-| [如何阅读一本书](https://book.douban.com/subject/1013208/) | 逻辑 | 已读 | 微信阅读 | 分析阅读 | 2021/03/06 | 2021/03/06 |
+| [如何阅读一本书](https://book.douban.com/subject/1013208/) | 逻辑 | [已读](/reads/how-to-read-a-book/) | 微信阅读 | 分析阅读 | 2021/03/06 | 2021/03/06 |
 | [江村经济](https://book.douban.com/subject/1325507/) | 社科 | 已读 | 微信阅读 | 分析阅读 | 2021/01/09 | 2021/01/09 |
 | [The Go Programming Language](https://book.douban.com/subject/26337545/) | 计算机 | 已读 | 实体书 | 分析阅读 | 2021/01/01 | 2021/04/09 |
 
 ## 2020
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
 | ----  | ---- | ---- | ---- | ---- | ---- | ---- |
-| [1984](https://book.douban.com/subject/4820710/) | 文学 | 已读 | PDF | 分析阅读 | 2020/12/05 | 2020/12/05 |
+| [1984](https://book.douban.com/subject/4820710/) | 文学 | [已读](/reads/1984/) | PDF | 分析阅读 | 2020/12/05 | 2020/12/05 |
 | [悉达多](https://book.douban.com/subject/3406401/) | 哲学 | 已读 | 实体书 | 分析阅读 | 2020/10/26 | 2020/10/26 |
-| [富爸爸，穷爸爸](https://book.douban.com/subject/1033778/) | 经济 | 已读 | 微信读书 | 分析阅读 | 2020/09/12 | 2020/09/12 |
-| [邓小平时代](https://book.douban.com/subject/20424526/) | 历史 | 已读 | PDF | 分析阅读 | 2020/09/10 | 2020/09/10 |
+| [富爸爸，穷爸爸](https://book.douban.com/subject/1033778/) | 经济 | [已读](/reads/rich-dad-poor-dad/) | 微信读书 | 分析阅读 | 2020/09/12 | 2020/09/12 |
+| [邓小平时代](https://book.douban.com/subject/20424526/) | 历史 | [已读](/reads/dengxiaoping-and-the-transformation-of-china/) | PDF | 分析阅读 | 2020/09/10 | 2020/09/10 |
 
 ## 2019
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
 | ----  | ---- | ---- | ---- | ---- | ---- | ---- |
-| [西方哲学史](https://book.douban.com/subject/34447865/) | 哲学 | 已读 | 实体书 | 分析阅读 | 2019/11/10 | 2019/12/19 |
+| [西方哲学史](https://book.douban.com/subject/34447865/) | 哲学 | [已读](/reads/a-historical-survey-with-essential-readings/) | 实体书 | 分析阅读 | 2019/11/10 | 2019/12/19 |
