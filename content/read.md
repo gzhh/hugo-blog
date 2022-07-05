@@ -2,7 +2,6 @@
 title: "Read"
 date: 2021-12-06T16:38:52+08:00
 lastmod: 2021-12-06T16:41:52+08:00
-menu: "main"
 weight: 50
 
 ---
@@ -12,6 +11,9 @@ weight: 50
 ## 2022
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
 | ----  | ---- | ---- | ---- | ---- | ---- | ---- |
+| [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | 分析阅读 | | |
+| [微服务架构设计模式](https://book.douban.com/subject/33425123/) | 计算机 | [已读](/reads/microservices-patterns/) | 实体书 | 分析阅读 | 2022/06/20 | 2022/06/27 |
+| [微服务设计](https://book.douban.com/subject/26772677/) | 计算机 | 读过 | 实体书 | 检视阅读 | 2022/06/20 | 2022/06/20 |
 | [网络是怎样连接的](https://book.douban.com/subject/26941639/) | 计算机 | 在读 | PDF | 分析阅读 | 2022/06/19 | |
 | [深入理解计算机系统](https://book.douban.com/subject/26912767/) | 计算机 | 在读 | PDF & 实体书 | 主题阅读 | 2022/06/08 | |
 | [小狗钱钱](https://book.douban.com/subject/3576486/) | 经济 | [已读](/reads/xiao-gou-qian-qian/) | 微信阅读 | 分析阅读 | 2022/01/09 | 2022/01/13 |
