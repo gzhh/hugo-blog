@@ -70,3 +70,8 @@ disqusShortname = "gzhh-tech"
   name = "About"
   weight = 3
   url = "about/"
+
+[markup.goldmark.renderer]
+  unsafe = true # table 单元格开启 <br> 换行，参考 https://gohugo.io/getting-started/configuration-markup#config
+
+
