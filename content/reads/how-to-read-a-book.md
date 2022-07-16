@@ -4,7 +4,7 @@ date: 2021-03-06T16:38:52+08:00
 lastmod: 2021-03-06T16:41:52+08:00
 draft: false
 categories: [Read]
-tags: [read]
+tags: [Read]
 ---
 
 ## 一、阅读方式

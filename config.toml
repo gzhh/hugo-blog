@@ -1,4 +1,4 @@
-baseURL = "https://gzhh.github.io"
+baseURL = "https://blog.gzhh.tech"
 title = "gzhh's blog"
 theme = "hugo-coder"
 languageCode = "en"
@@ -71,6 +71,8 @@ disqusShortname = "gzhh-tech"
   weight = 3
   url = "about/"
 
+[markup.goldmark.extensions]
+  linkfy = false # 禁止 https 页面跳转到 http 页面
 [markup.goldmark.renderer]
   unsafe = true # table 单元格开启 <br> 换行，参考 https://gohugo.io/getting-started/configuration-markup#config
 
