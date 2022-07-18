@@ -6,6 +6,8 @@ categories: [Read, Methodology]
 tags: [Methodology]
 ---
 
+{{< toc >}}
+
 ## Part 1: Adopt the Right Mindsets
 ### 1. Focus on High-Leverage Activities
 **Use Leverage as Your Yardstick for Effectiveness**
@@ -15,13 +17,12 @@ tags: [Methodology]
 > 杠杆率大概就相当于 ROI，即投资回报比
 
 **Increase Your Leverage in Three Ways**
+> 提高杠杆率的三个途径：
 - 减少做某件事的时间
 - 增加做某件事的产出
 - 换到有更高杠杆率的事情上
 
-
-       the-effective-engineer.| 15 > 杠杆率大概就相当于 ROI，即投**translate into three questions**
-
+> 翻译成三个问题：
 - 如何缩短完成这件事情的时间？
 - 如何提高这件事情的产出价值？
 - 有什么值得花费我时间的事情可以产出更多的价值？
@@ -33,7 +34,7 @@ tags: [Methodology]
 **Key Takeaways**
 
 - 使用杠杆率来衡量你的工程效率
-- 有系的提高你的时间杠杆率
+- 有系统的提高你的时间杠杆率
 - 将你的努力集中在杠杆点上
 
 ### 2. Optimize for Learning

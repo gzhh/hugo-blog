@@ -12,7 +12,7 @@ weight: 50
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
 | ----  | ---- | ---- | ---- | ---- | ---- | ---- |
 | [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | 分析阅读 | | |
-| [The Effective<br>Engineer](https://book.douban.com/subject/26360716/) | 方法论 | 在读 | PDF | 分析阅读 | 2022/07/13 | |
+| [The Effective<br>Engineer](https://book.douban.com/subject/26360716/) | 方法论 | [已读](/posts/the-effective-engineer/) | PDF | 分析阅读 | 2022/07/13 | 2022/07/17 |
 | [计算广告](https://book.douban.com/subject/34804492/) | 互联网 | 已读 | 微信阅读 | 分析阅读 | 2022/07/12 | 2022/07/12 |
 | [Kubernetes<br>生产化实践之路](https://book.douban.com/subject/35268764/) | 计算机 | 在读 | 实体书 | 分析阅读 | 2022/07/07 | |
 | [微服务架构设计模式](https://book.douban.com/subject/33425123/) | 计算机 | [已读](/reads/microservices-patterns/) | 实体书 | 分析阅读 | 2022/06/20 | 2022/06/27 |
