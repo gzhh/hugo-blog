@@ -17,7 +17,7 @@ tags: [Economics]
 
 我要让钱为我工作
 
-![学习金字塔](https://uploads.gzhh.tech/2022/06/learning-pyramid.png)
+![学习金字塔](https://cdn.gzhh.tech/2022/06/learning-pyramid.png)
 
 ### 第一课 富人不为钱工作
 
@@ -47,11 +47,11 @@ tags: [Economics]
 
 巴克敏斯特·富勒的定义：“财富就是支撑一个人生存多长时间的能力，或者说，如果我今天停止工作，我还能活多久？”
 
-![穷人现金流图](https://uploads.gzhh.tech/2022/06/poor-people-cash-flow.png)
+![穷人现金流图](https://cdn.gzhh.tech/2022/06/poor-people-cash-flow.png)
 
-![中产现金流图](https://uploads.gzhh.tech/2022/06/middle-class-people-cash-flow.png)
+![中产现金流图](https://cdn.gzhh.tech/2022/06/middle-class-people-cash-flow.png)
 
-![富人现金流图](https://uploads.gzhh.tech/2022/06/rich-people-cash-flow.png)
+![富人现金流图](https://cdn.gzhh.tech/2022/06/rich-people-cash-flow.png)
 
 ### 第三课 关注自己的事业
 

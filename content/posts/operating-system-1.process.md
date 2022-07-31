@@ -166,7 +166,7 @@ fork/exec 编程模式很流行
 ### 进程的创建
 
 从程序到进程创建
-![program_to_process](http://uploads.gzhh.tech/2018/02/program_to_process.png)
+![program_to_process](http://cdn.gzhh.tech/2018/02/program_to_process.png)
 - 1.进程加载一个程序和静态数据到内存，要求操作系统从磁盘读取数据并把它们放到内存中去。
 - 2.为程序的运行栈分配内存 Ｃ语言用栈来处理局部变量、函数形参和返回地址。
 用堆来动态分配数据：例如调用 malloc() 分配内存，释放内存调用 free()， 堆的数据结构可以是链表、hash 表、树等。
@@ -174,7 +174,7 @@ fork/exec 编程模式很流行
 ### 进程的状态
 
 进程状态转换图
-![process_state_transitions](http://uploads.gzhh.tech/2018/02/process_state_transitions.png)
+![process_state_transitions](http://cdn.gzhh.tech/2018/02/process_state_transitions.png)
 Running 运行中 Ready 等待 Blocked 阻塞 Zombie 僵尸
 
 ### 进程的数据结构

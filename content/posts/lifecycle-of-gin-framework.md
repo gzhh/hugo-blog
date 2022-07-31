@@ -412,7 +412,7 @@ type Context struct {
 
 总结下一个 gin 框架的大致运行流程：
 
-![HTTP request lifecycle in gin](https://uploads.gzhh.tech/2022/07/http-request-lifecycle-in-gin.png)
+![HTTP request lifecycle in gin](https://cdn.gzhh.tech/2022/07/http-request-lifecycle-in-gin.png)
 
 还有 Gin 中基本最重要的概念就是围绕 Context 来展开的，理解 Context 的实现对用好 Gin 框架可以起到重要的作用。
 

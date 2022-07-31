@@ -11,7 +11,12 @@ weight: 50
 ## 2022
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
 | ----  | ---- | ---- | ---- | ---- | ---- | ---- |
+| [Software Engineering at Google](https://www.goodreads.com/book/show/48816586-software-engineering-at-google) | 计算机 | 想读 | PDF | 分析阅读 | | |
+| [System Design Interview](https://www.goodreads.com/book/show/54109255-system-design-interview-an-insider-s-guide) | 计算机 | 想读 | PDF | 分析阅读 | | |
+| [Understanding Distributed Systems](https://www.goodreads.com/book/show/56977420-understanding-distributed-systems) | 计算机 | 在读 | PDF | 分析阅读 | 2022/07/29 | |
+| [被讨厌的勇气](https://book.douban.com/subject/26369699/) | 心理 | 想读 | 微信阅读 | 分析阅读 | | |
 | [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | 分析阅读 | | |
+| [凤凰架构](https://book.douban.com/subject/35492898/) | 计算机 | 已读 | 实体书 | 检视阅读 | 2022/07/18 | 2022/07/19 |
 | [The Effective<br>Engineer](https://book.douban.com/subject/26360716/) | 方法论 | [已读](/posts/the-effective-engineer/) | PDF | 分析阅读 | 2022/07/13 | 2022/07/17 |
 | [计算广告](https://book.douban.com/subject/34804492/) | 互联网 | 已读 | 微信阅读 | 分析阅读 | 2022/07/12 | 2022/07/12 |
 | [Kubernetes<br>生产化实践之路](https://book.douban.com/subject/35268764/) | 计算机 | 在读 | 实体书 | 分析阅读 | 2022/07/07 | |
@@ -51,9 +56,11 @@ weight: 50
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
 | ----  | ---- | ---- | ---- | ---- | ---- | ---- |
 | [1984](https://book.douban.com/subject/4820710/) | 文学 | [已读](/reads/1984/) | PDF | 分析阅读 | 2020/12/05 | 2020/12/05 |
+| [路易·波拿巴的雾月十八日](https://book.douban.com/subject/1091964/) | 政治 | 已读 | PDF | 分析阅读 | 2020/11/08 | 2020/11/08 |
 | [悉达多](https://book.douban.com/subject/3406401/) | 哲学 | 已读 | 实体书 | 分析阅读 | 2020/10/26 | 2020/10/26 |
 | [富爸爸，穷爸爸](https://book.douban.com/subject/1033778/) | 经济 | [已读](/reads/rich-dad-poor-dad/) | 微信读书 | 分析阅读 | 2020/09/12 | 2020/09/12 |
 | [邓小平时代](https://book.douban.com/subject/20424526/) | 历史 | [已读](/reads/dengxiaoping-and-the-transformation-of-china/) | PDF | 分析阅读 | 2020/09/10 | 2020/09/10 |
+| [动物庄园](https://book.douban.com/subject/11533585/) | 政治 | 已读 | 微信读书 | 分析阅读 | 2020/08/01 | 2020/08/01 |
 
 ## 2019
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
