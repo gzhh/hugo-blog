@@ -27,7 +27,7 @@ jobs:
           hugo-version: 'latest'
           # extended: true
 
-      # 编译站点
+      # 编译生成静态文件
       - name: Build
         run: hugo
 
