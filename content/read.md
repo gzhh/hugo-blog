@@ -12,7 +12,7 @@ weight: 50
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
 | ----  | ---- | ---- | ---- | ---- | ---- | ---- |
 | [Software<br>Engineering at<br>Google](https://www.goodreads.com/book/show/48816586-software-engineering-at-google) | 计算机 | 想读 | PDF | 分析阅读 | | |
-| [System Design<br>Interview](https://www.goodreads.com/book/show/54109255-system-design-interview-an-insider-s-guide) | 计算机 | 想读 | PDF | 分析阅读 | | |
+| [System Design<br>Interview](https://www.goodreads.com/book/show/54109255-system-design-interview-an-insider-s-guide) | 计算机 | 在读 | PDF | 分析阅读 | 2022/08/16 | |
 | [Understanding<br>Distributed<br>Systems](https://www.goodreads.com/book/show/56977420-understanding-distributed-systems) | 计算机 | [已读](/posts/understanding-distributed-systems/) | PDF | 分析阅读 | 2022/07/29 | 2022/08/15 |
 | [被讨厌的勇气](https://book.douban.com/subject/26369699/) | 心理 | 想读 | 微信阅读 | 分析阅读 | | |
 | [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | 分析阅读 | | |

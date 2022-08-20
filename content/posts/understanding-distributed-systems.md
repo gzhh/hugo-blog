@@ -174,7 +174,7 @@ Partition 的复杂性
 
 Hash 分区 Hash partitioning
 - [consistent hashing](https://en.wikipedia.org/wiki/Consistent_hashing)
-- 与 Range partitioning 相关，Hash partitioning 最主要的缺点时会失去数据的排序顺序
+- 与 Range partitioning 相关，Hash partitioning 最主要的缺点是会失去数据的排序顺序
 
 
 ### 17. File storage
@@ -231,7 +231,7 @@ Hash 分区 Hash partitioning
 
 
 ### 21. Microservices
-当系统变得越来月庞大时，往往需要从单体应用架构迁移到微服务架构。
+当系统变得越来越庞大时，往往需要从单体应用架构迁移到微服务架构。
 
 **注意点**
 - 技术栈
@@ -274,7 +274,7 @@ Hash 分区 Hash partitioning
 
 **Control theory**
 - Goal is to create a controller that monitors a dynamic system, compares its state to the desired one, and applies a corrective action to drive the system closer to it while minimizing any instabilities on the way.
-- The data plane is the dynamic system we would like to drive to the desired state, while the controller is the control plane responsible for monitoring the data plane, comparing it to the de- sired state, and executing a corrective action if needed.
+- The data plane is the dynamic system we would like to drive to the desired state, while the controller is the control plane responsible for monitoring the data plane, comparing it to the desired state, and executing a corrective action if needed.
 
 ### 23. Messaging
 消息中间件在分布式系统中能起到很好的解耦效果，消息中间件通信风格有以下几种：
@@ -299,10 +299,10 @@ Hash 分区 Hash partitioning
 - 所以为了保证消息只被处理一次，要求消费者要做到幂等处理，并且只有在消息处理完成后才从 channel 中删除消息。
 
 **Failures**
-消费者处理消息失败时有几种办法：
-- 重试，尽可能多的重试
-- 将多次重试后无法处理的消息加入 dead letter channel，然后再从 main channel 删除
-- 追踪消费失败的原因，并解决，再将消息放回 main channel 重新消费
+- 消费者处理消息失败时有几种办法：
+  - 重试，尽可能多的重试
+  - 将多次重试后无法处理的消息加入 dead letter channel，然后再从 main channel 删除
+  - 追踪消费失败的原因，并解决，再将消息放回 main channel 重新消费
 
 **Backlogs 堆积**
 - 处理消息堆积的办法：
@@ -386,10 +386,10 @@ Hash 分区 Hash partitioning
   - mock
 
 **Practical considerations 实际考虑**
-当然测试还需要考虑实际情况，比如测试时应该用 mock 代替真实的第三方支付 API
+- 当然测试还需要考虑实际情况，比如测试支付场景时应该用 mock 代替真实的第三方支付 API
 
 **Formal verification 形式化验证**
-除了测试之外，我们可以通过写说明书来描述系统的行为，让我们在写代码之前就能发现细微的 bug 和架构缺陷
+- 除了测试之外，我们可以通过写说明书来描述系统的行为，让我们在写代码之前就能发现细微的 bug 和架构缺陷
 
 
 ### 30. Continuous delivery and deployment
