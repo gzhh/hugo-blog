@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="gzhh">
+<meta name="description" content="gzhh&#39;s personal website">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="理解Go函数中的切片传参"/>
+<meta name="twitter:description" content=""/>
+
+<meta property="og:title" content="理解Go函数中的切片传参" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.gzhh.tech/posts/understand-slice-param-in-go-function/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-06-19T17:00:00+08:00" />
+<meta property="article:modified_time" content="2022-06-19T17:00:00+08:00" />
+
+
+
+
+  <title>gzhh&#39;s blog</title>
+
+  
+  <link rel="canonical" href="https://blog.gzhh.tech/posts/understand-slice-param-in-go-function/">
+  
+
+  <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.6b1a4fbc48955b72aea7913e43fabeb45e8bc120da5aa41b598dd33adcac4b59.css" integrity="sha256-axpPvEiVW3Kup5E&#43;Q/q&#43;tF6LwSDaWqQbWY3TOtysS1k=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.39e41a7f16bdf8cb16e43cae7d714fa1016f1d2d2898a5b3f27f42c9979204e2.css" integrity="sha256-OeQafxa9&#43;MsW5DyufXFPoQFvHS0omKWz8n9CyZeSBOI=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+   
+
+
+
+
+  <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+  
+
+  <meta name="generator" content="Hugo 0.89.4" />
+
+
+  
+
+</head>
+
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      gzhh&#39;s blog
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/read/">Read</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://blog.gzhh.tech/posts/understand-slice-param-in-go-function/">
+              理解Go函数中的切片传参
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime="2022-06-19T17:00:00&#43;08:00">
+                June 19, 2022
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              4-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="/categories/golang/">Golang</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/slice/">Slice</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <div>
+    <h2>Table Of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#切片slice">切片（Slice）</a></li>
+    <li><a href="#函数使用切片传参涉及到的拷贝及扩容">函数使用切片传参涉及到的拷贝及扩容</a>
+      <ul>
+        <li><a href="#例一切片传参且函数内只有读操作">例一：切片传参且函数内只有读操作</a></li>
+        <li><a href="#例二切片传参且函数有修改操作不涉及扩容">例二：切片传参且函数有修改操作（不涉及扩容）</a></li>
+        <li><a href="#例三切片传参且函数有修改操作涉及扩容">例三：切片传参且函数有修改操作（涉及扩容）</a></li>
+        <li><a href="#例四切片指针传参且函数有修改操作不涉及扩容">例四：切片指针传参且函数有修改操作（不涉及扩容）</a></li>
+        <li><a href="#例五切片指针传参且函数有修改操作涉及扩容">例五：切片指针传参且函数有修改操作（涉及扩容）</a></li>
+      </ul>
+    </li>
+    <li><a href="#参考">参考</a></li>
+  </ul>
+</nav>
+</div>
+
+<h2 id="切片slice">
+  切片（Slice）
+  <a class="heading-link" href="#%e5%88%87%e7%89%87slice">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>我们知道在 Go 中切片的底层数据结构是一个结构体，结构体中有一个指针 array 指向一个底层数组，len 表示当前切片的长度，cap 表示当前切片的容量。</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">type slice struct {
+	array unsafe.Pointer
+	len   int
+	cap   int
+}
+</code></pre></div><h2 id="函数使用切片传参涉及到的拷贝及扩容">
+  函数使用切片传参涉及到的拷贝及扩容
+  <a class="heading-link" href="#%e5%87%bd%e6%95%b0%e4%bd%bf%e7%94%a8%e5%88%87%e7%89%87%e4%bc%a0%e5%8f%82%e6%b6%89%e5%8f%8a%e5%88%b0%e7%9a%84%e6%8b%b7%e8%b4%9d%e5%8f%8a%e6%89%a9%e5%ae%b9">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<h3 id="例一切片传参且函数内只有读操作">
+  例一：切片传参且函数内只有读操作
+  <a class="heading-link" href="#%e4%be%8b%e4%b8%80%e5%88%87%e7%89%87%e4%bc%a0%e5%8f%82%e4%b8%94%e5%87%bd%e6%95%b0%e5%86%85%e5%8f%aa%e6%9c%89%e8%af%bb%e6%93%8d%e4%bd%9c">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="font-weight:bold">package</span> main
+
+<span style="font-weight:bold">import</span> <span style="font-style:italic">&#34;fmt&#34;</span>
+
+<span style="font-weight:bold">func</span> test(nums []<span style="">int</span>) {
+	fmt.Printf(<span style="font-style:italic">&#34;\ninner before address: %p\n&#34;</span>, nums)
+	fmt.Println(<span style="font-style:italic">&#34;inner before len: &#34;</span>, len(nums))
+	<span style="font-weight:bold">for</span> _, num := <span style="font-weight:bold">range</span> nums {
+		_ = num
+	}
+	fmt.Printf(<span style="font-style:italic">&#34;inner after address: %p\n&#34;</span>, nums)
+	fmt.Println(<span style="font-style:italic">&#34;inner after len: &#34;</span>, len(nums))
+}
+
+<span style="font-weight:bold">func</span> main() {
+	nums := []<span style="">int</span>{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+	fmt.Println(<span style="font-style:italic">&#34;outer before print: &#34;</span>, nums)
+	fmt.Printf(<span style="font-style:italic">&#34;outer before address: %p\n&#34;</span>, nums)
+	fmt.Println(<span style="font-style:italic">&#34;outer before len: &#34;</span>, len(nums))
+
+	test(nums)
+
+	fmt.Println(<span style="font-style:italic">&#34;\nouter after print: &#34;</span>, nums)
+	fmt.Printf(<span style="font-style:italic">&#34;outer after address: %p\n&#34;</span>, nums)
+	fmt.Println(<span style="font-style:italic">&#34;outer after len: &#34;</span>, len(nums))
+}
+</code></pre></div><p>输入结果如下：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">outer before print:  [0 1 2 3 4 5 6 7 8 9]
+outer before address: 0xc00012c000
+outer before len:  10
+
+inner before address: 0xc00012c000
+inner before len:  10
+inner after address: 0xc00012c000
+inner after len:  10
+
+outer after print:  [0 1 2 3 4 5 6 7 8 9]
+outer after address: 0xc00012c000
+outer after len:  10
+</code></pre></div><p>输出解释：</p>
+<ol>
+<li>将切片按值传递给函数，函数内只读切片，不涉及到对切片的修改操作。</li>
+<li>从输出可以看到函数内和函数外切片指向的底层数组的内存地址都是一样的。</li>
+<li>并且可以看到主函数调用 test 函数前后打印的原数组的值都是不变的。</li>
+</ol>
+<h3 id="例二切片传参且函数有修改操作不涉及扩容">
+  例二：切片传参且函数有修改操作（不涉及扩容）
+  <a class="heading-link" href="#%e4%be%8b%e4%ba%8c%e5%88%87%e7%89%87%e4%bc%a0%e5%8f%82%e4%b8%94%e5%87%bd%e6%95%b0%e6%9c%89%e4%bf%ae%e6%94%b9%e6%93%8d%e4%bd%9c%e4%b8%8d%e6%b6%89%e5%8f%8a%e6%89%a9%e5%ae%b9">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">func test(nums []int) {
+	fmt.Printf(&#34;inner before address: %p\n&#34;, nums)
+	fmt.Println(&#34;inner before len: &#34;, len(nums))
+	for i, num := range nums {
+		nums[i] = num + 1
+	}
+	fmt.Printf(&#34;inner after address: %p\n&#34;, nums)
+	fmt.Println(&#34;inner after len: &#34;, len(nums))
+}
+</code></pre></div><p>输入结果如下：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">outer before print:  [0 1 2 3 4 5 6 7 8 9]
+outer before address: 0xc00001c050
+outer before len:  10
+
+inner before address: 0xc00001c050
+inner before len:  10
+inner after address: 0xc00001c050
+inner after len:  10
+
+outer after print:  [1 2 3 4 5 6 7 8 9 10]
+outer after address: 0xc00001c050
+outer after len:  10
+</code></pre></div><p>输出解释：</p>
+<ol>
+<li>将切片按值传递给函数，函数内对切片的各元素执行加一操作，但不涉及扩容。</li>
+<li>从输出可以看到函数内和函数外切片指向的底层数组的内存地址都是一样的，即不涉及扩容。</li>
+<li>但可以看到主函数调用 test 函数前后打印的原数组的值都是不一致的，函数会修改原切片的值。</li>
+</ol>
+<h3 id="例三切片传参且函数有修改操作涉及扩容">
+  例三：切片传参且函数有修改操作（涉及扩容）
+  <a class="heading-link" href="#%e4%be%8b%e4%b8%89%e5%88%87%e7%89%87%e4%bc%a0%e5%8f%82%e4%b8%94%e5%87%bd%e6%95%b0%e6%9c%89%e4%bf%ae%e6%94%b9%e6%93%8d%e4%bd%9c%e6%b6%89%e5%8f%8a%e6%89%a9%e5%ae%b9">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">func test(nums []int) {
+	fmt.Printf(&#34;inner before address %p\n&#34;, nums)
+	fmt.Println(&#34;inner before len: &#34;, len(nums))
+	for i, num := range nums {
+		nums[i] = num + 1
+	}
+	nums = append(nums, 100)
+	fmt.Printf(&#34;inner after address: %p\n&#34;, nums)
+	fmt.Println(&#34;inner after len: &#34;, len(nums))
+}
+</code></pre></div><p>输入结果如下：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">outer before print:  [0 1 2 3 4 5 6 7 8 9]
+outer before address: 0xc00001c050
+outer before len:  10
+
+inner before address 0xc00001c050
+inner before len:  10
+inner after address: 0xc000108000
+inner after len:  11
+
+outer after print:  [1 2 3 4 5 6 7 8 9 10]
+outer after address: 0xc00001c050
+outer after len:  10
+</code></pre></div><p>输出解释：</p>
+<ol>
+<li>将切片按值传递给函数，函数内对切片的各元素执行加一操作，并且最后向切片 append 一个数，涉及到扩容。</li>
+<li>从输出可以看到函数内切片 appen 操作的时候内存发生了变化，会在内存新分配一块空间出来，即发生扩容。</li>
+<li>且函数外部的切片还是指向原来切片的底层数组，没有发生变化；但是原切片的值还是发生了改变，函数内部对切片内元素执行加一操作由于是在扩容之前，所以影响到了原切片。</li>
+</ol>
+<h3 id="例四切片指针传参且函数有修改操作不涉及扩容">
+  例四：切片指针传参且函数有修改操作（不涉及扩容）
+  <a class="heading-link" href="#%e4%be%8b%e5%9b%9b%e5%88%87%e7%89%87%e6%8c%87%e9%92%88%e4%bc%a0%e5%8f%82%e4%b8%94%e5%87%bd%e6%95%b0%e6%9c%89%e4%bf%ae%e6%94%b9%e6%93%8d%e4%bd%9c%e4%b8%8d%e6%b6%89%e5%8f%8a%e6%89%a9%e5%ae%b9">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">func test(nums *[]int) {
+	fmt.Printf(&#34;\ninner before address: %p\n&#34;, nums)
+	fmt.Println(&#34;inner before len: &#34;, len(*nums))
+	for i := 0; i &lt; len(*nums); i++ {
+		(*nums)[i] = (*nums)[i] + 1
+	}
+	fmt.Printf(&#34;inner after address: %p\n&#34;, nums)
+	fmt.Println(&#34;inner after len: &#34;, len(*nums))
+}
+
+func main() {
+	nums := []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+	fmt.Println(&#34;outer before print: &#34;, nums)
+	fmt.Printf(&#34;outer before address: %p\n&#34;, nums)
+	fmt.Println(&#34;outer before len: &#34;, len(nums))
+
+	test(&amp;nums)
+
+	fmt.Println(&#34;\nouter after print: &#34;, nums)
+	fmt.Printf(&#34;outer after address: %p\n&#34;, nums)
+	fmt.Println(&#34;outer after len: &#34;, len(nums))
+}
+</code></pre></div><p>输入结果如下：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">outer before print:  [0 1 2 3 4 5 6 7 8 9]
+outer before address: 0xc00001c050
+outer before len:  10
+
+inner before address: 0xc00000c030
+inner before len:  10
+inner after address: 0xc00000c030
+inner after len:  10
+
+outer after print:  [1 2 3 4 5 6 7 8 9 10]
+outer after address: 0xc00001c050
+</code></pre></div><p>输出解释：</p>
+<ol>
+<li>将切片指针传递给函数，函数内对切片的各元素执行加一操作，不涉及扩容。</li>
+<li>由于传参方式是切片指针，函数内部会复制指针，也就是会同时出现两个指针指向原有的内存空间。</li>
+<li>所以主函数调用 test 函数前后的原切片底层数组指向的内存地址不变，但切片里的各元素值发生了加一变化。</li>
+</ol>
+<h3 id="例五切片指针传参且函数有修改操作涉及扩容">
+  例五：切片指针传参且函数有修改操作（涉及扩容）
+  <a class="heading-link" href="#%e4%be%8b%e4%ba%94%e5%88%87%e7%89%87%e6%8c%87%e9%92%88%e4%bc%a0%e5%8f%82%e4%b8%94%e5%87%bd%e6%95%b0%e6%9c%89%e4%bf%ae%e6%94%b9%e6%93%8d%e4%bd%9c%e6%b6%89%e5%8f%8a%e6%89%a9%e5%ae%b9">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">func test(nums *[]int) {
+	fmt.Printf(&#34;\ninner before address: %p\n&#34;, nums)
+	fmt.Println(&#34;inner before len: &#34;, len(*nums))
+	for i := 0; i &lt; len(*nums); i++ {
+		(*nums)[i] = (*nums)[i] + 1
+	}
+	*nums = append(*nums, 100)
+	fmt.Printf(&#34;inner after address: %p\n&#34;, nums)
+	fmt.Println(&#34;inner after len: &#34;, len(*nums))
+}
+
+</code></pre></div><p>输入结果如下：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">outer before print:  [0 1 2 3 4 5 6 7 8 9]
+outer before address: 0xc0000b6000
+outer before len:  10
+
+inner before address: 0xc0000a4018
+inner before len:  10
+inner after address: 0xc0000a4018
+inner after len:  11
+
+outer after print:  [1 2 3 4 5 6 7 8 9 10 100]
+outer after address: 0xc0000ba000
+outer after len:  11
+</code></pre></div><p>输出解释：</p>
+<ol>
+<li>将切片指针传递给函数，函数内对切片的各元素执行加一操作，并且最后向切片 append 一个数。</li>
+<li>由于传参方式是切片指针，函数内部会复制指针，也就是会同时出现两个指针指向原有的内存空间。</li>
+<li>由于函数内部有一个 append 操作，所以需要分配一块新的内存空间用来扩容。</li>
+<li>执行 test 函数后，主函数 nums 切片底层数组指向的内存地址发生了改变，指向了新分配的内存地址；且元素内部的值都发生了加一变化（除了最后 append 的那个元素）。</li>
+</ol>
+<h2 id="参考">
+  参考
+  <a class="heading-link" href="#%e5%8f%82%e8%80%83">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p><a href="https://halfrost.com/go_slice/">https://halfrost.com/go_slice/</a></p>
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "gzhh-tech" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2017 -
+    
+    2022
+     gzhh 
+    ·
+    
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+  
+  <script src="/js/coder.min.08fc7a7924db1ae6786408cb68e12ff953e6329376a469f5f517f3769c19194d.js" integrity="sha256-CPx6eSTbGuZ4ZAjLaOEv&#43;VPmMpN2pGn19RfzdpwZGU0="></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on gzhh&#39;s blog</title>
+    <link>https://blog.gzhh.tech/posts/</link>
+    <description>Recent content in Posts on gzhh&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Aug 2022 00:30:07 +0800</lastBuildDate><atom:link href="https://blog.gzhh.tech/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【阅读笔记】Understanding Distributed Systems</title>
+      <link>https://blog.gzhh.tech/posts/understanding-distributed-systems/</link>
+      <pubDate>Mon, 15 Aug 2022 00:30:07 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/understanding-distributed-systems/</guid>
+      <description>Table Of Contents  1. Introduction Part I: Communication  2. Reliable links 3. Secure links 4. Discovery 5. APIs   Part II: Coordination  8. Time 9. Leader election 10. Replication 11. Coordination avoidance 12 . Transactions 13. Asynchronous transactions   Part III: Scalability  14. HTTP caching 15. Content delivery networks 16. Partitioning 17. File storage 18. Network load balancing 19. Data storage 20. Caching 21.</description>
+    </item>
+    
+    <item>
+      <title>【阅读笔记】The Effective Engineer</title>
+      <link>https://blog.gzhh.tech/posts/the-effective-engineer/</link>
+      <pubDate>Sat, 16 Jul 2022 18:30:07 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/the-effective-engineer/</guid>
+      <description>Table Of Contents  Part 1: Adopt the Right Mindsets  1. Focus on High-Leverage Activities 2. Optimize for Learning 3. Prioritize Regularly   Part 2: Execute, Execute, Execute  4. Invest in Iteration Speed 5. Measure What You Want to Improve 6. Validate Your Ideas Early and Often 7. Improve Your Project Estimation Skills   Part 3: Build Long-Term Value  8. Balance Quality with Pragmatism 9.</description>
+    </item>
+    
+    <item>
+      <title>Gin生命周期</title>
+      <link>https://blog.gzhh.tech/posts/lifecycle-of-gin-framework/</link>
+      <pubDate>Tue, 05 Jul 2022 17:38:50 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/lifecycle-of-gin-framework/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>理解Go函数中的切片传参</title>
+      <link>https://blog.gzhh.tech/posts/understand-slice-param-in-go-function/</link>
+      <pubDate>Sun, 19 Jun 2022 17:00:00 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/understand-slice-param-in-go-function/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2022新年计划</title>
+      <link>https://blog.gzhh.tech/posts/the-purpose-of-2022/</link>
+      <pubDate>Fri, 31 Dec 2021 23:55:50 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/the-purpose-of-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2021新年计划</title>
+      <link>https://blog.gzhh.tech/posts/the-purpose-of-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 01:10:50 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/the-purpose-of-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MySQL 锁</title>
+      <link>https://blog.gzhh.tech/posts/know_mysql_lock/</link>
+      <pubDate>Sun, 23 Feb 2020 09:43:53 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/know_mysql_lock/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LaTeX学习记录</title>
+      <link>https://blog.gzhh.tech/posts/latex-usage-notes/</link>
+      <pubDate>Sun, 20 Oct 2019 17:23:05 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/latex-usage-notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lua 语言入门（二）</title>
+      <link>https://blog.gzhh.tech/posts/play-lua-second/</link>
+      <pubDate>Sun, 06 Oct 2019 09:22:54 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/play-lua-second/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lua 语言入门（一）</title>
+      <link>https://blog.gzhh.tech/posts/play-lua-first/</link>
+      <pubDate>Sun, 29 Sep 2019 20:20:36 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/play-lua-first/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>【操作系统】3.内存memory(抽象的地址空间)</title>
+      <link>https://blog.gzhh.tech/posts/operating-system-3.memory/</link>
+      <pubDate>Mon, 11 Mar 2019 01:08:00 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/operating-system-3.memory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>【操作系统】2.调度scheduling</title>
+      <link>https://blog.gzhh.tech/posts/operating-system-2.scheduling/</link>
+      <pubDate>Wed, 27 Feb 2019 16:37:33 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/operating-system-2.scheduling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>【操作系统】1.进程process</title>
+      <link>https://blog.gzhh.tech/posts/operating-system-1.process/</link>
+      <pubDate>Mon, 25 Feb 2019 23:00:39 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/operating-system-1.process/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>【操作系统】基础概念介绍</title>
+      <link>https://blog.gzhh.tech/posts/operating-system-0.basic-info/</link>
+      <pubDate>Sat, 23 Feb 2019 09:43:53 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/operating-system-0.basic-info/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019新年计划</title>
+      <link>https://blog.gzhh.tech/posts/the-purpose-of-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 22:10:51 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/the-purpose-of-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>对于如何提升能力的一些思考</title>
+      <link>https://blog.gzhh.tech/posts/how-to-improve-yourself/</link>
+      <pubDate>Thu, 06 Sep 2018 00:53:07 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/how-to-improve-yourself/</guid>
+      <description>&lt;p&gt;如何在技术快速发展的时代成为逐浪者？随着接触越来越多的新技术新名词，内心就越会感觉到知识的空虚，恨不得一下子就多学一门新技术，但是对每个技术都是浅尝即止，很难深入．最近思来想去只能把问题集中在基础不扎实上．如果技术扎实，那么在尝试新技术的时候心里底气就会足一点，学起来也就不会那么吃力了．&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SSO 单点登录</title>
+      <link>https://blog.gzhh.tech/posts/sso/</link>
+      <pubDate>Sun, 01 Apr 2018 23:24:03 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/sso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>常见排序算法</title>
+      <link>https://blog.gzhh.tech/posts/sort-algorithm/</link>
+      <pubDate>Sun, 01 Apr 2018 23:24:03 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/sort-algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>【VIM】vim常用操作</title>
+      <link>https://blog.gzhh.tech/posts/vim-skill/</link>
+      <pubDate>Fri, 23 Mar 2018 09:22:30 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/vim-skill/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2018新年计划</title>
+      <link>https://blog.gzhh.tech/posts/the-purpose-of-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:43:02 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/the-purpose-of-2018/</guid>
+      <description>&lt;p&gt;2018要来了，回想2017年出校门实习的这半年来，学到了挺多职场的知识，但是对自己还是不够满意，比自己的期望也低了好多，而且人也变得懒惰了，希望2018能改掉这些毛病，努力争取获取的一个更好的机会。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>玩转sed操作文本-基础篇</title>
+      <link>https://blog.gzhh.tech/posts/play-sed-first/</link>
+      <pubDate>Fri, 17 Nov 2017 18:42:35 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/play-sed-first/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2017新年计划</title>
+      <link>https://blog.gzhh.tech/posts/the-purpose-of-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 23:26:25 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/the-purpose-of-2017/</guid>
+      <description>&lt;p&gt;今天是2017年的第一天，度过了有很过欢笑也有很多悲伤的2016年，不管怎样，2016年都过去了，新生活还要继续，写点新年的计划吧，虽然知道很大部分很难完成，但还是写一下吧，万一完成了呢。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

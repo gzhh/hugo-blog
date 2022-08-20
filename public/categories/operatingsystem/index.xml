@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OperatingSystem on gzhh&#39;s blog</title>
+    <link>https://blog.gzhh.tech/categories/operatingsystem/</link>
+    <description>Recent content in OperatingSystem on gzhh&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 11 Mar 2019 01:08:00 +0800</lastBuildDate><atom:link href="https://blog.gzhh.tech/categories/operatingsystem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【操作系统】3.内存memory(抽象的地址空间)</title>
+      <link>https://blog.gzhh.tech/posts/operating-system-3.memory/</link>
+      <pubDate>Mon, 11 Mar 2019 01:08:00 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/operating-system-3.memory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>【操作系统】2.调度scheduling</title>
+      <link>https://blog.gzhh.tech/posts/operating-system-2.scheduling/</link>
+      <pubDate>Wed, 27 Feb 2019 16:37:33 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/operating-system-2.scheduling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>【操作系统】1.进程process</title>
+      <link>https://blog.gzhh.tech/posts/operating-system-1.process/</link>
+      <pubDate>Mon, 25 Feb 2019 23:00:39 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/operating-system-1.process/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>【操作系统】基础概念介绍</title>
+      <link>https://blog.gzhh.tech/posts/operating-system-0.basic-info/</link>
+      <pubDate>Sat, 23 Feb 2019 09:43:53 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/posts/operating-system-0.basic-info/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

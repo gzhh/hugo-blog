@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on gzhh&#39;s blog</title>
+    <link>https://blog.gzhh.tech/tags/</link>
+    <description>Recent content in Tags on gzhh&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Aug 2022 00:30:07 +0800</lastBuildDate><atom:link href="https://blog.gzhh.tech/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DistributedSystems</title>
+      <link>https://blog.gzhh.tech/tags/distributedsystems/</link>
+      <pubDate>Mon, 15 Aug 2022 00:30:07 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/tags/distributedsystems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Methodology</title>
+      <link>https://blog.gzhh.tech/tags/methodology/</link>
+      <pubDate>Sat, 16 Jul 2022 18:30:07 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/tags/methodology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gin</title>
+      <link>https://blog.gzhh.tech/tags/gin/</link>
+      <pubDate>Tue, 05 Jul 2022 17:38:50 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/tags/gin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microservices</title>
+      <link>https://blog.gzhh.tech/tags/microservices/</link>
+      <pubDate>Mon, 20 Jun 2022 17:58:50 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/tags/microservices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slice</title>
+      <link>https://blog.gzhh.tech/tags/slice/</link>
+      <pubDate>Sun, 19 Jun 2022 17:00:00 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/tags/slice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Economics</title>
+      <link>https://blog.gzhh.tech/tags/economics/</link>
+      <pubDate>Thu, 13 Jan 2022 16:38:52 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/tags/economics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>History</title>
+      <link>https://blog.gzhh.tech/tags/history/</link>
+      <pubDate>Mon, 03 Jan 2022 20:38:52 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/tags/history/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>summary</title>
+      <link>https://blog.gzhh.tech/tags/summary/</link>
+      <pubDate>Fri, 31 Dec 2021 23:55:50 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/tags/summary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logic</title>
+      <link>https://blog.gzhh.tech/tags/logic/</link>
+      <pubDate>Sat, 18 Dec 2021 16:38:52 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/tags/logic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thinking</title>
+      <link>https://blog.gzhh.tech/tags/thinking/</link>
+      <pubDate>Sat, 18 Dec 2021 16:38:52 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/tags/thinking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Read</title>
+      <link>https://blog.gzhh.tech/tags/read/</link>
+      <pubDate>Sat, 06 Mar 2021 16:38:52 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/tags/read/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Utopia</title>
+      <link>https://blog.gzhh.tech/tags/utopia/</link>
+      <pubDate>Sat, 05 Dec 2020 16:38:52 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/tags/utopia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MySQL</title>
+      <link>https://blog.gzhh.tech/tags/mysql/</link>
+      <pubDate>Sun, 23 Feb 2020 09:43:53 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philosophy</title>
+      <link>https://blog.gzhh.tech/tags/philosophy/</link>
+      <pubDate>Sun, 10 Nov 2019 16:38:52 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/tags/philosophy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LaTeX</title>
+      <link>https://blog.gzhh.tech/tags/latex/</link>
+      <pubDate>Sun, 20 Oct 2019 17:23:05 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/tags/latex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lua</title>
+      <link>https://blog.gzhh.tech/tags/lua/</link>
+      <pubDate>Sun, 06 Oct 2019 09:22:54 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/tags/lua/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OS</title>
+      <link>https://blog.gzhh.tech/tags/os/</link>
+      <pubDate>Mon, 11 Mar 2019 01:08:00 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/tags/os/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quick-sort</title>
+      <link>https://blog.gzhh.tech/tags/quick-sort/</link>
+      <pubDate>Sun, 01 Apr 2018 23:24:03 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/tags/quick-sort/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSO</title>
+      <link>https://blog.gzhh.tech/tags/sso/</link>
+      <pubDate>Sun, 01 Apr 2018 23:24:03 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/tags/sso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>https://blog.gzhh.tech/tags/vim/</link>
+      <pubDate>Fri, 23 Mar 2018 09:22:30 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/tags/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sed</title>
+      <link>https://blog.gzhh.tech/tags/sed/</link>
+      <pubDate>Fri, 17 Nov 2017 18:42:35 +0800</pubDate>
+      
+      <guid>https://blog.gzhh.tech/tags/sed/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
