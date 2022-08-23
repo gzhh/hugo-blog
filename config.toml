@@ -56,6 +56,11 @@ disqusShortname = "gzhh-tech"
   icon = "fa fa-instagram fa-2x"
   weight = 3 
   url = "https://www.instagram.com/gaozhonghuan/"
+[[params.social]]
+  name = "RSS"
+  icon = "fa fa-rss-square fa-2x"
+  weight = 4
+  url = "/index.xml"
 
 # Menu links
 [[menu.main]]
