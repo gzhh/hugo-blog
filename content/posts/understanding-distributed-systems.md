@@ -197,7 +197,7 @@ Hash 分区 Hash partitioning
 - 缺点：由于是基于 TCP 协议按字节流传输数据，所以不能使用像 TLS 这样更高层的协议提供的特性。
 
 **Application layer load balancing**
-- 使用网络栈的 TCP 协议来实现负载均衡，也叫七层负载均衡，是一个 HTTP 反向代理。
+- 使用网络栈的 HTTP 协议来实现负载均衡，也叫七层负载均衡，是一个 HTTP 反向代理。
 - 可以让多个 HTTP 请求可以共用一个 TCP 连接
 - 可以在流量控制方面做的更智能：
   - 基于 HTTP Header 的限流
@@ -243,12 +243,12 @@ Hash 分区 Hash partitioning
 - 最终一致性
 
 **API gateway**
-暴露公网 API 的服务叫做 API gateway（一种反向代理）
+- 暴露公网 API 的服务叫做 API gateway（一种反向代理）
 
 - 核心职责
-  - Routing：路请求到具体的子服务
+  - Routing：路由请求到具体的子服务
   - Composition：组合多个子服务返回的数据
-  - Translation：可以转化 IPC 的机制，例如将 Restful HTTP 请求转换为 内部 RPC 调用
+  - Translation：可以转化 IPC 的机制，例如将 Restful HTTP 请求转换为内部 RPC 调用
 - Cross-cutting concerns 横切关注点
  <br>软件系统，可看作由一组关注点组成。其中，直接的业务关注点，是直切关注点。而为直切关注点提供服务的，就是横切关注点。
   - 日志
@@ -265,7 +265,7 @@ Hash 分区 Hash partitioning
 - 数据平面 data plane: serves external requests directed towards our internal services
 
 总结：
-- More generally, a data plane includes any functionality on the criti- cal path that needs to run for each client request. Therefore, it must be highly available, fast, and scale with the number of requests. In contrast, a control plane is not on the critical path and has less strict scaling requirements. Its main job is to help the data plane do its work by managing metadata or configuration and coordinating complex and infrequent operations. And since it generally needs to offer a consistent view of its state to the data plane, it favors consistency over availability.
+- More generally, a data plane includes any functionality on the critical path that needs to run for each client request. Therefore, it must be highly available, fast, and scale with the number of requests. In contrast, a control plane is not on the critical path and has less strict scaling requirements. Its main job is to help the data plane do its work by managing metadata or configuration and coordinating complex and infrequent operations. And since it generally needs to offer a consistent view of its state to the data plane, it favors consistency over availability.
 - Try to make the control plane more reliable, but more importantly, we should ensure that the data plane can withstand control plane failures.
 
 **Scale imbalance**

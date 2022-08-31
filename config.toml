@@ -75,6 +75,14 @@ disqusShortname = "gzhh-tech"
   name = "About"
   weight = 3
   url = "about/"
+# [[menu.main]]
+#  name = "Logseq"
+#  weight = 4 
+#  url = "https://logseq.gzhh.tech/"
+# [[menu.main]]
+#  name = "Notion"
+#  weight = 5 
+#  url = "https://notion.gzhh.tech/"
 
 [markup.goldmark.extensions]
   linkfy = false # 禁止 https 页面跳转到 http 页面
