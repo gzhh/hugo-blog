@@ -1,6 +1,6 @@
 ---
 title: "理解Go函数中的切片传参"
-date: 2022-06-19T17:00:00+08:00
+date: 2020-06-19T17:00:00+08:00
 draft: false
 tags: [Slice]
 categories: [Golang]

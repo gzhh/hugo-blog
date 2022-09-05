@@ -15,6 +15,11 @@ Hi, I'm gzhh.
 I live in China and work as an Backend Engineer.
 
 <!--
+
+多关注自己的想法，尽量少去关注别人的看法。
+
+多点现实主义，少点理想主义。
+
 <br>
 
 “如果你想掌握某样东西，就去教它。”

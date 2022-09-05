@@ -1,5 +1,5 @@
 ---
-title: "微服务架构设计模式"
+title: "【阅读笔记】微服务架构设计模式"
 date: 2022-06-20T17:58:50+08:00
 draft: false
 categories: [系统架构]
@@ -73,16 +73,16 @@ tags: [Microservices]
 4. 小功能要积累到大版本才能上线
 
 拆分规范参考
-- [参考1](https://zhuanlan.zhihu.com/p/333393446)
-- [参考2](https://mp.weixin.qq.com/s/mojOSgEUaHWGU3H3j7WjlQ)
+- [微服务拆分规范](https://zhuanlan.zhihu.com/p/333393446)
+- [微服务拆分之道](https://mp.weixin.qq.com/s/mojOSgEUaHWGU3H3j7WjlQ)
 
 ### 拆分策略
 **根据业务能力进行拆分**
 
 **根据子域进行服务拆分**
 - 领域驱动设计 DDD
-  - [参考1](https://tech.meituan.com/2017/12/22/ddd-in-practice.html)
-  - [参考2](https://www.infoq.cn/article/mf3sggvvf69fidl26ie6)
+  - [领域驱动设计在互联网业务开发中的实践](https://tech.meituan.com/2017/12/22/ddd-in-practice.html)
+  - [使用 DDD 指导微服务拆分的逻辑](https://www.infoq.cn/article/mf3sggvvf69fidl26ie6)
 
 ### 拆分难点
 - 网络延迟
