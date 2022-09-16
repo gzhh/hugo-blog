@@ -1,5 +1,5 @@
 ---
-title: "理解Go函数中的切片传参"
+title: "理解 Go 函数中的切片传参"
 date: 2020-06-19T17:00:00+08:00
 draft: false
 tags: [Slice]

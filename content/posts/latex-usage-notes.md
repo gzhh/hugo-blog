@@ -1,5 +1,5 @@
 ---
-title: "LaTeX学习记录"
+title: "LaTeX 学习记录"
 date: 2019-10-20T17:23:05+08:00
 draft: false
 tags: [LaTeX]

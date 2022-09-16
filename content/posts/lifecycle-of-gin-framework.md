@@ -1,5 +1,5 @@
 ---
-title: "Gin生命周期"
+title: "Gin 生命周期"
 date: 2021-07-05T17:38:50+08:00
 draft: false
 categories: [Go]

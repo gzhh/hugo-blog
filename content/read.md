@@ -9,7 +9,7 @@ weight: 50
 ## 阅读媒介
 非技术书一半是微信读书，一半是 PDF，很小一部分是实体书；技术书主要是 PDF，少部分是微信阅读和纸质书。 
 
-微信读书通过 Mac 网页版和 iPad app 来阅读；PDF 通过 z-library 下载倒入到 MarginNote 里来阅读。
+微信读书通过 Mac 网页版和 iPad app 来阅读；PDF 通过 z-library 下载导入到 MarginNote 里来阅读。
 
 PS：Kindle 已经很久没用上，经典反复看的会买纸质书；因为已经有了蛮多的纸质书，搬家不方便，后续估计不太会买纸质书。
 
@@ -17,6 +17,8 @@ PS：Kindle 已经很久没用上，经典反复看的会买纸质书；因为�
 ### 2022
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
 | ----  | ---- | ---- | ---- | ---- | ---- | ---- |
+| [Unix/Linux<br>编程实践教程](https://book.douban.com/subject/1219329/) | 计算机 | 想读 | | 主题阅读 | | |
+| [Linux/UNIX<br>系统编程手册](https://book.douban.com/subject/25809330/) | 计算机 | 想读 | PDF & 实体书 | 主题阅读 | | |
 | [Unit Testing: <br>Principles, <br>Practices, <br>and Patterns](https://www.goodreads.com/book/show/48927138-unit-testing) | 计算机 | 想读 | PDF | 主题阅读 | | |
 | [用Go语言自制<br>编译器](https://book.douban.com/subject/35909089/) | 计算机 | 想读 | 微信阅读 | 主题阅读 | | |
 | [用Go语言自制<br>解释器](https://book.douban.com/subject/35909085/) | 计算机 | 想读 | 微信阅读 | 主题阅读 | | |
