@@ -65,6 +65,9 @@ TCP 三次握手的引入。
 
 ## Part II: Coordination
 ### 8. Time
+**Physical clocks 物理时钟**
+**Logical clocks 逻辑时钟**
+**Vector clocks 向量时钟**
 
 参考：
 [时钟介绍](https://www.raychase.net/5768)

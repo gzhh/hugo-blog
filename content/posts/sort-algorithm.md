@@ -39,6 +39,32 @@ categories: [Algorithm]
     1 2 3 5 6 7 8 9
     1 2 3 4 5 6 7 8 9
     
+**代码**
+
+    #include<iostream>
+    using namespace std;
+
+    // 直接插入排序
+    void insertSort(int a[], int n) {
+      for (int i = 1; i < n; i++) {
+        int j = i, m = a[i];
+          while (a[j-1] > m) {
+            a[j] = a[j-1];
+            j--;
+          }
+          a[j] = m;
+      }
+    }
+
+    int main() {
+      int n = 9;
+      int a[n] = {6,7,1,9,5,2,8,3,4};
+      insertSort(a, n);
+      for (int i = 0; i < n; i++)
+        cout << a[i] << " ";
+      cout << endl;
+    }
+
 
 ### 二、希尔排序
 
@@ -57,7 +83,9 @@ categories: [Algorithm]
     a[n] = {6,7,1,9,5,2,8,3,4};
     
 
-**第一次循环** 那么可以假设步长为 gap = n / 2 = 4，按步长进行分组
+**第一次循环**
+
+那么可以假设步长为 gap = n / 2 = 4，按步长进行分组
 
     a[0] = 6, a[4] = 5, a[8] = 4
     a[1] = 7, a[5] = 2
@@ -73,21 +101,20 @@ categories: [Algorithm]
     a[3] = 3, a[7] = 9
     
 
-排序后的数组为 `4 2 1 3 5 7 8 9 6` **第二次循环** 步长再除以2得 gap = 2，排序后的数组为 `1 2 4 3 5 7 6 9 8` **第三次循环** 步长再除以2得 gap = 1，这时候就是直接插入排序，排序后的数组为 `1 2 3 4 5 6 7 8 9` **最后步长为0跳出循环** **代码**
+排序后的数组为 `4 2 1 3 5 7 8 9 6`
 
-    #include<iostream>
-    using namespace std;
-    // 直接插入排序
-    void insertSort(int a[], int n) {
-      for (int i = 1; i < n; i++) {
-        int j = i, m = a[i];
-          while (a[j-1] > m) {
-            a[j] = a[j-1];
-            j--;
-          }
-          a[j] = m;
-      }
-    }
+**第二次循环**
+
+步长再除以2得 gap = 2，排序后的数组为 `1 2 4 3 5 7 6 9 8`
+
+**第三次循环**
+
+步长再除以2得 gap = 1，这时候就是直接插入排序，排序后的数组为 `1 2 3 4 5 6 7 8 9`
+
+**最后步长为0跳出循环**
+
+**代码**
+
     // 希尔排序(最小增量排序)
     void shellSort(int a[], int n) {
       int gap = n / 2; // 步长
@@ -111,15 +138,6 @@ categories: [Algorithm]
           cout << a[m] << " ";
         cout << endl;
       }
-    }
-    int main() {
-      int n = 9;
-      int a[n] = {6,7,1,9,5,2,8,3,4};
-      // insertSort(a, n);
-      shellSort(a, n);
-      for (int i = 0; i < n; i++)
-        cout << a[i] << " ";
-      cout << endl;
     }
 
 
@@ -163,7 +181,6 @@ categories: [Algorithm]
 
 原理：将第一个元素的索引设置为标志，遍历数组，将每个数和标志处的元素比较，若小于标志数，则将标志数设为当前数的索引，一轮遍历完，最后将标志数处的数和数组开头的数交换，继续遍历直至排好序
 
-<!--more-->
     void selectSort(int a[], int len)
     {
         int key;
@@ -220,12 +237,15 @@ categories: [Algorithm]
 
 ### 七、归并排序
 原理：
-1.将序列每相邻两个数字进行归并操作，形成`ceil(n/2)`个序列， 排序后每个序列包含两/一个元素
-2.若此时序列数不是1个则将上述序列再次归并，形成`ceil(n/4)`个序列， 每个序列包含四/三个元素
-3.重复步骤2，直到所有元素排序完毕，即序列数为1 实现：
+1. 将序列每相邻两个数字进行归并操作，形成`ceil(n/2)`个序列， 排序后每个序列包含两/一个元素
+2. 若此时序列数不是1个则将上述序列再次归并，形成`ceil(n/4)`个序列， 每个序列包含四/三个元素
+3. 重复步骤2，直到所有元素排序完毕，即序列数为1
 
-    #include<iostream>
+实现：
+
+    #include <iostream>
     using namespace std;
+
     void merge_sort_recursive(int a[], int b[], int start, int end) {
       if (start >= end) // 如果待排序局部数组的长度为1,返回上一步递归调用的地方
         return;
@@ -264,5 +284,7 @@ categories: [Algorithm]
     }
 
 ### 八、基数排序
+- [基数排序](https://zh.wikipedia.org/zh-hans/基数排序)
 
-[基数排序](https://zh.wikipedia.org/wiki/%E5%9F%BA%E6%95%B0%E6%8E%92%E5%BA%8F)
+### 参考
+- [排序算法](https://zh.wikipedia.org/zh-hans/排序算法)

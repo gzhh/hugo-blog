@@ -5,7 +5,6 @@ draft: false
 tags: [SSO]
 categories: [Architecture]
 ---
-<!--more-->
 
 ### 说在前面
 
@@ -256,9 +255,8 @@ myauth.x.com/logout.php
     
 
 ### 参考
-
-[Single sign-on](https://en.wikipedia.org/wiki/Single_sign-on)
-[Central Authentication Service](https://en.wikipedia.org/wiki/Central_Authentication_Service)
-[单点登录](https://zh.wikipedia.org/wiki/%E5%96%AE%E4%B8%80%E7%99%BB%E5%85%A5)
-[集中式认证服务](https://zh.wikipedia.org/wiki/%E9%9B%86%E4%B8%AD%E5%BC%8F%E8%AE%A4%E8%AF%81%E6%9C%8D%E5%8A%A1)
-[CAS protocol](https://apereo.github.io/cas/4.2.x/protocol/CAS-Protocol.html)
+- [Single sign-on](https://en.wikipedia.org/wiki/Single_sign-on)
+- [Central Authentication Service](https://en.wikipedia.org/wiki/Central_Authentication_Service)
+- [单点登录](https://zh.wikipedia.org/wiki/%E5%96%AE%E4%B8%80%E7%99%BB%E5%85%A5)
+- [集中式认证服务](https://zh.wikipedia.org/wiki/%E9%9B%86%E4%B8%AD%E5%BC%8F%E8%AE%A4%E8%AF%81%E6%9C%8D%E5%8A%A1)
+- [CAS protocol](https://apereo.github.io/cas/4.2.x/protocol/CAS-Protocol.html)

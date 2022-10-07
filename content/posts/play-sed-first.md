@@ -5,7 +5,6 @@ draft: false
 tags: [Sed]
 categories: [Linux]
 ---
-<!--more-->
 
 ### 介绍
 sed 全名是 stream editor，是文本流处理方面的强大工具，和另一个文本处理工具 awk 工具有的一比，接下来就让我们简单介绍下它的基本使用和适用场景。
@@ -83,5 +82,5 @@ sed -i command [file ...]
     #Include httpd-def.conf
     
 ### 参考
-[BSD/macOS Sed vs. GNU Sed vs. the POSIX Sed specification](https://riptutorial.com/sed/topic/9436/bsd-macos-sed-vs--gnu-sed-vs--the-posix-sed-specification)
-[https://www.zhukun.net/archives/6975](https://www.zhukun.net/archives/6975)
+- [BSD/macOS Sed vs. GNU Sed vs. the POSIX Sed specification](https://riptutorial.com/sed/topic/9436/bsd-macos-sed-vs--gnu-sed-vs--the-posix-sed-specification)
+- [https://www.zhukun.net/archives/6975](https://www.zhukun.net/archives/6975)

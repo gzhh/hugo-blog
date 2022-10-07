@@ -115,3 +115,6 @@ tags: [Blog, Hugo]
 - https://github.com/luizdepra/hugo-coder
 - https://www.cloudflare.com
 - https://disqus.com
+- 搭建参考1: https://h1z3y3.me/posts/hugo-auto-deploy-github-with-actions/
+- 搭建参考2: https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action
+

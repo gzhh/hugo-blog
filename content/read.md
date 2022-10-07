@@ -17,6 +17,7 @@ PS：Kindle 已经很久没用上，经典反复看的会买纸质书；因为�
 ### 2022
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
 | ----  | ---- | ---- | ---- | ---- | ---- | ---- |
+| [NoSQL Distilled](https://www.goodreads.com/book/show/13610343-nosql-distilled) | 计算机 | 想读 | | 主题阅读 | | |
 | [Unix/Linux<br>编程实践教程](https://book.douban.com/subject/1219329/) | 计算机 | 想读 | | 主题阅读 | | |
 | [Linux/UNIX<br>系统编程手册](https://book.douban.com/subject/25809330/) | 计算机 | 想读 | PDF & 实体书 | 主题阅读 | | |
 | [Unit Testing: <br>Principles, <br>Practices, <br>and Patterns](https://www.goodreads.com/book/show/48927138-unit-testing) | 计算机 | 想读 | PDF | 主题阅读 | | |
@@ -27,6 +28,7 @@ PS：Kindle 已经很久没用上，经典反复看的会买纸质书；因为�
 | [非暴力沟通](https://book.douban.com/subject/3533221/) | 心理 | 想读 |  | 分析阅读 | | |
 | [被讨厌的勇气](https://book.douban.com/subject/26369699/) | 心理 | 想读 | 微信阅读 | 分析阅读 | | |
 | [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | 分析阅读 | | |
+| [梅里雪山](https://book.douban.com/subject/35308870/) | 纪实 | 已读 | 微信读书 | 分析阅读 |2022/10/03 | 2022/10/06 |
 | [叫魂](https://book.douban.com/subject/10471333/) | 历史 | [已读](/reads/soulstealers/) | PDF | 分析阅读 |2022/08/27 | 2022/08/30 |
 | [System Design<br>Interview](https://www.goodreads.com/book/show/54109255-system-design-interview-an-insider-s-guide) | 计算机 | 在读 | PDF | 分析阅读 | 2022/08/26 | |
 | [Understanding<br>Distributed<br>Systems](https://www.goodreads.com/book/show/56977420-understanding-distributed-systems) | 计算机 | [已读](/posts/understanding-distributed-systems/) | PDF | 分析阅读 | 2022/07/29 | 2022/08/15 |

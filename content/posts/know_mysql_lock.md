@@ -5,7 +5,6 @@ draft: false
 tags: [MySQL]
 categories: [Database]
 ---
-<!--more-->
 
 ### 锁介绍
 假设我们有一个商品表 item，里面有两个字段 id 和 store
@@ -57,7 +56,7 @@ UPDATE item SET store = store - 1 WHERE id=1; COMMIT;
 5. (主键不明确，table lock)
     - SELECT * FROM item WHERE id LIKE '1' FOR UPDATE;
 
-### 乐观所和悲观锁策略
+### 乐观锁和悲观锁策略
 - 悲观锁：
     在读取数据时锁住那几行，其他对这几行的更新需要等到悲观锁结束时才能继续 。
 - 乐观锁：
