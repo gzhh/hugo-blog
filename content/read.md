@@ -28,9 +28,10 @@ PS：Kindle 已经很久没用上，经典反复看的会买纸质书；因为�
 | [非暴力沟通](https://book.douban.com/subject/3533221/) | 心理 | 想读 |  | 分析阅读 | | |
 | [被讨厌的勇气](https://book.douban.com/subject/26369699/) | 心理 | 想读 | 微信阅读 | 分析阅读 | | |
 | [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | 分析阅读 | | |
+| [OKR 工作法](https://book.douban.com/subject/27132072/) | 方法论 | 已读 | 分析阅读 | 2022/11/06 | 2022/11/06 |
 | [梅里雪山](https://book.douban.com/subject/35308870/) | 纪实 | 已读 | 微信读书 | 分析阅读 |2022/10/03 | 2022/10/06 |
 | [叫魂](https://book.douban.com/subject/10471333/) | 历史 | [已读](/reads/soulstealers/) | PDF | 分析阅读 |2022/08/27 | 2022/08/30 |
-| [System Design<br>Interview](https://www.goodreads.com/book/show/54109255-system-design-interview-an-insider-s-guide) | 计算机 | 在读 | PDF | 分析阅读 | 2022/08/26 | |
+| [System Design<br>Interview](https://www.goodreads.com/book/show/54109255-system-design-interview-an-insider-s-guide) | 计算机 | 已读 | PDF | 分析阅读 | 2022/08/26 | 2022/11/06 |
 | [Understanding<br>Distributed<br>Systems](https://www.goodreads.com/book/show/56977420-understanding-distributed-systems) | 计算机 | [已读](/posts/understanding-distributed-systems/) | PDF | 分析阅读 | 2022/07/29 | 2022/08/15 |
 | [凤凰架构](https://book.douban.com/subject/35492898/) | 计算机 | 已读 | 实体书 | 检视阅读 | 2022/07/18 | 2022/07/19 |
 | [The Effective<br>Engineer](https://book.douban.com/subject/26360716/) | 方法论 | [已读](/posts/the-effective-engineer/) | PDF | 分析阅读 | 2022/07/13 | 2022/07/17 |
