@@ -12,7 +12,7 @@ weight: 50
 
 Hi, I'm gzhh.
 
-I live in China and work as an Backend Engineer.
+I live in China and work as an backend engineer.
 
 <!--
 
