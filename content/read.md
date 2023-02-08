@@ -34,6 +34,7 @@ PS：Kindle 已经很久没用上，经典反复看的会买纸质书；因为�
 | [Kubernetes<br>生产化实践之路](https://book.douban.com/subject/35268764/) | 计算机 | 在读 | 实体书 | 分析阅读 | 2022/07/07 | |
 | [网络是怎样连接的](https://book.douban.com/subject/26941639/) | 计算机 | 在读 | PDF | 分析阅读 | 2022/06/19 | |
 | [深入理解计算机<br>系统](https://book.douban.com/subject/26912767/) | 计算机 | 在读 | PDF & 实体书 | 主题阅读 | 2022/06/08 | |
+| [计算机程序的<br>构造和解释](https://book.douban.com/subject/1148282/) | 计算机 | 在读 | PDF & 实体书 | 主题阅读 | 2023/02/01 | |
 | [国史大纲](https://book.douban.com/subject/1046492/) | 历史政治 | 在读 | 微信阅读 | 分析阅读 | 2023/01/27 |  |
 | [中国历代政治得失](https://book.douban.com/subject/1003479/) | 历史政治 | 读过 | 微信阅读 | 分析阅读 | 2023/01/19 | 2023/01/20 |
 
