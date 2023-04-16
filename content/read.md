@@ -7,11 +7,13 @@ weight: 50
 ---
 
 ## 阅读媒介
-非技术书一半是微信读书，一半是 PDF，很小一部分是实体书；技术书主要是 PDF，少部分是微信阅读和纸质书。 
+非技术书大约一半是微信读书，一半是 PDF、EPUB 和 MOBI，很小一部分是实体书；技术书主要是 PDF，少部分是纸质书和微信阅读。 
 
-微信读书通过 Mac 网页版和 iPad app 来阅读；PDF 通过 z-library 下载导入到 MarginNote 里来阅读。
+微信读书主要通过 iPad 设备来阅读；PDF 通过下载后导入到 ~~MarginNote~~ 微信读书里来阅读。
 
-PS：Kindle 已经很久没用上，经典反复看的会买纸质书；因为已经有了蛮多的纸质书，搬家不方便，后续估计不太会买纸质书。
+Mac 也会用来看一些 PDF 形式的技术书，偶尔也会在微信读书网页版看书。
+
+PS：Kindle 已经很久没用上，偶尔拿出来擦擦灰；经典反复看的会买纸质书，因为已经有了蛮多的纸质书，搬家不方便，后续会等有条件再买质书。
 
 ## 阅读记录
 ### 2023
@@ -36,6 +38,7 @@ PS：Kindle 已经很久没用上，经典反复看的会买纸质书；因为�
 | [被讨厌的勇气](https://book.douban.com/subject/26369699/) | 心理 | 想读 | 微信阅读 | 分析阅读 | | |
 | [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | 分析阅读 | | |
 | [人月神话](https://book.douban.com/subject/1102259/) | 计算机 | 想读 |  | 分析阅读 | | |
+| [Make Something<br>Wonderful](https://www.goodreads.com/book/show/128533513-make-something-wonderful) | 计算机 | 在读 | PDF | 分析阅读 | 2023/04/16 | |
 | [把自己作为方法](https://book.douban.com/subject/35092383/) | 社会学 | 在读 | 微信阅读 | 分析阅读 | 2023/01/20 |  |
 | [Kubernetes<br>生产化实践之路](https://book.douban.com/subject/35268764/) | 计算机 | 在读 | 实体书 | 分析阅读 | 2022/07/07 | |
 | [网络是怎样连接的](https://book.douban.com/subject/26941639/) | 计算机 | 在读 | PDF | 分析阅读 | 2022/06/19 | |
