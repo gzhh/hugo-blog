@@ -11,7 +11,7 @@ weight: 50
 
 阅读方式主要是通过 iPad 上的微信阅读 APP 来阅读，一半是直接阅读上面已有的图书，另一半是将 PDF、EPUB 和 MOBI 格式的资源下载后导入到 ~~MarginNote~~ 微信读书里来阅读；Mac 也会用来看一些 PDF 形式的技术书，偶尔也会在微信读书网页版看书。
 
-PS：Kindle 已经很久没用上，偶尔拿出来擦擦灰；经典反复看的会买纸质书，现在因为已经有了蛮多的纸质书，搬家不方便，后续会等有条件再买质书。
+PS：Kindle 已经很久没用上，偶尔拿出来擦擦灰；经典反复看的会买纸质书，现在因为已经有了蛮多的纸质书，搬家不方便，后续会等有条件再买纸质书。
 
 ## 阅读记录
 ### 2023
@@ -36,12 +36,12 @@ PS：Kindle 已经很久没用上，偶尔拿出来擦擦灰；经典反复看�
 | [被讨厌的勇气](https://book.douban.com/subject/26369699/) | 心理 | 想读 | 微信阅读 | 分析阅读 | | |
 | [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | 分析阅读 | | |
 | [人月神话](https://book.douban.com/subject/1102259/) | 计算机 | 想读 |  | 分析阅读 | | |
-| [Make Something<br>Wonderful](https://www.goodreads.com/book/show/128533513-make-something-wonderful) | 计算机 | 在读 | PDF | 分析阅读 | 2023/04/16 | |
 | [把自己作为方法](https://book.douban.com/subject/35092383/) | 社会学 | 在读 | 微信阅读 | 分析阅读 | 2023/01/20 |  |
 | [Kubernetes<br>生产化实践之路](https://book.douban.com/subject/35268764/) | 计算机 | 在读 | 实体书 | 分析阅读 | 2022/07/07 | |
 | [网络是怎样连接的](https://book.douban.com/subject/26941639/) | 计算机 | 在读 | PDF | 分析阅读 | 2022/06/19 | |
 | [100 Go Mistakes<br>and How to Avoid<br>Them](https://book.douban.com/subject/36084407/) | 计算机 | 在读 | PDF | 主题阅读 | 2023/04/02 | |
 | [深入理解计算机<br>系统](https://book.douban.com/subject/5333562/) | 计算机 | 在读 | PDF & 实体书 | 主题阅读 | 2022/06/08 | |
+| [Make Something<br>Wonderful](https://www.goodreads.com/book/show/128533513-make-something-wonderful) | 计算机 | 已读 | PDF | 分析阅读 | 2023/04/16 | 2023/04/23 |
 | [计算机程序的<br>构造和解释](https://book.douban.com/subject/1148282/) | 计算机 | 已读 | PDF & 实体书 | 主题阅读 | 2023/02/01 | 2023/03/11 |
 | [国史大纲](https://book.douban.com/subject/1046492/) | 历史政治 | 已读 | 微信阅读 | 分析阅读 | 2023/01/27 | 2023/04/01 |
 | [中国历代政治得失](https://book.douban.com/subject/1003479/) | 历史政治 | 已读 | 微信阅读 | 分析阅读 | 2023/01/19 | 2023/01/20 |

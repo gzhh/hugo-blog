@@ -7,9 +7,57 @@ tags: [Golang]
 ---
 
 ## 介绍
-Golang 中的 Channel 可以用来处理并发，下面我们就使用 Channel 来实现一个并发异步任务 worker pool。maxWorkers 是最大并发数，JobQueue 为待执行 job 队列。
+Golang 中的 Channel 可以用来处理并发，下面我们就使用 Channel 来实现一个并发异步任务 worker pool。
 
-## 实现
+## 简单实现
+```
+package main
+
+import (
+	"fmt"
+	"time"
+
+	"github.com/gin-gonic/gin"
+)
+
+var mq chan int64
+
+func init() {
+	mq = make(chan int64, 10)
+}
+
+func produce(i int64) {
+	time.Sleep(time.Second)
+
+	mq <- i
+}
+
+func consume() {
+	for {
+		i := <-mq
+		time.Sleep(time.Second)
+		fmt.Printf("get i %d\n", i)
+	}
+}
+
+func main() {
+	go consume()
+
+	r := gin.Default()
+	r.GET("/ping", func(c *gin.Context) {
+		go produce(time.Now().UnixMilli())
+
+		c.JSON(200, gin.H{
+			"message": "pong",
+		})
+	})
+	r.Run() // listen and serve on 0.0.0.0:8080
+}
+```
+
+## 优化
+maxWorkers 是最大并发数，JobQueue 为待执行 job 队列。
+
 ```
 package main
 
