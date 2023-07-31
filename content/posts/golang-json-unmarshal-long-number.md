@@ -76,6 +76,18 @@ func f2() {
 }
 ```
 
+## golang unmarshal string into int64, or marshal int64 to string
+在和前端交互的时候，在 json 结构中放大整数的 uid，前端使用 javascript json 处理的时候会掉丢失精度，虽然 javascript 有解决方式，但是后端接口将 int64 转为 string 更直接。
+
+在 Golang 中的解决办法，就是在渲染 json 数据之前，将返回结构体中的 int64 类型的字段 json 标签类型设为 string 即可。
+
+```
+type Data struct {
+   ID   int64  `json:"id,string,omitempty"`
+   Name string `json:"name,omitempty"`
+}
+```
+
 
 ## Ref
 - [Decoder.UseNumber](https://pkg.go.dev/encoding/json#Decoder.UseNumber)
@@ -84,3 +96,4 @@ func f2() {
 - [Decoding JSON using json.Unmarshal vs json.NewDecoder.Decode](https://stackoverflow.com/questions/21197239/decoding-json-using-json-unmarshal-vs-json-newdecoder-decode)
 - [深入理解Go Json.Unmarshal精度丢失之谜](https://zhuanlan.zhihu.com/p/467537027)
 - [golang json 避免大整数变为浮点数](https://rivers-shall.github.io/2020/06/23/golang-json-%E9%81%BF%E5%85%8D%E5%A4%A7%E6%95%B4%E6%95%B0%E5%8F%98%E4%B8%BA%E6%B5%AE%E7%82%B9%E6%95%B0/)
+- https://stackoverflow.com/questions/21151765/cannot-unmarshal-string-into-go-value-of-type-int64
