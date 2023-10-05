@@ -22,7 +22,6 @@ PS：Kindle 已经很久没用上，偶尔拿出来擦擦灰；经典反复看�
 | [宇宙](https://book.douban.com/subject/35490038/) | 天文学 | 想读 |  | | | |
 | [原则](https://book.douban.com/subject/27608239/) | 方法论 | 想读 |  | | | |
 | [翦商](https://book.douban.com/subject/36096304/) | 历史 | 想读 |  | | | |
-| [置身事内](https://book.douban.com/subject/35546622/) | 经济 | 想读 |  | | | |
 | [中国国家治理的<br>制度逻辑](https://book.douban.com/subject/26901114/) | 历史 | 想读 |  | | | |
 | [善恶的彼岸](https://book.douban.com/subject/26663535/) | 哲学 | 想读 |  | | | |
 | [NoSQL Distilled](https://www.goodreads.com/book/show/13610343-nosql-distilled) | 计算机 | 想读 | | 主题阅读 | | |
@@ -43,6 +42,7 @@ PS：Kindle 已经很久没用上，偶尔拿出来擦擦灰；经典反复看�
 | [Linux内核设计<br>与实现](https://book.douban.com/subject/6097773/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/07/08 | |
 | [经济学原理](https://book.douban.com/subject/26435630/) | 经济 | 在读 | PDF | 分析阅读 | 2023/05/01 | |
 | [穷查理宝典](https://book.douban.com/subject/26831789/) | 方法论 | 想读 | 方法论 | 分析阅读 | 2023/06/10 | |
+| [置身事内](https://book.douban.com/subject/35546622/) | 政经 | [已读](/reads/political-economy/zhi-shen-shi-nei/) | e-book | 分析阅读 | 2023/10/04 | 2023/10/05 |
 | [中央帝国的<br>财政密码](https://book.douban.com/subject/27007549/) | 政经 | [已读](/reads/economics/zhong-yang-di-guo-de-cai-zheng-mi-ma/) | PDF | 分析阅读 | 2023/08/26 | 2023/09/21 |
 | [被讨厌的勇气](https://book.douban.com/subject/26369699/) | 心理 | [已读](/reads/psychology/the-courage-to-be-disliked/) | 微信阅读 | 分析阅读 | 2023/08/12 | 2023/08/12 |
 | [Python编程-从入门<br>到实践（第2版）](https://book.douban.com/subject/35196328/) | 计算机 | [已读](/reads/cs/python-crash-course-2nd-edition/) | PDF | 主题阅读 | 2023/08/04 | 2023/08/07 |
