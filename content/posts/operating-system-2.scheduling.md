@@ -53,30 +53,30 @@ response time T\_response = T\_firstrun − T\_arrival
 - 1.先来先服务
 First In, First Out (FIFO) 或 First Come, First Served (FCFS)
 假设作业A, B, C 的到达时间均为 0, 所需执行的时长分别为 100, 10, 10, 且其他假设条件不变 那么我们设计出下图
-![FIFO.png](http://cdn.gzhh.tech/2018/02/FIFO.png)
+![FIFO.png](/img/2018/02/FIFO.png)
 可以很容易得到三个作业的平均周转时间 = (100 + 110 + 120) / 3
 
 - 2.短作业优先 Shortest Job First (SJF)
 假设还是和上面一样的，得到下图
-![FIFO.png](http://cdn.gzhh.tech/2018/02/SJF.png)
+![FIFO.png](/img/2018/02/SJF.png)
 平均周转时间 = (10 + 20 + 120) / 3
 根据平均周转时间指标可以得出 SJF 比 FIFO 要优化不少
 但是我们改了下假设，让 B, C 的开始时间都为 10，这里作业的执行策略就会像下图这样
-![FIFO.png](http://cdn.gzhh.tech/2018/02/SJF_2.png)
+![FIFO.png](/img/2018/02/SJF_2.png)
 平均周转时间 = (100 + 100 + 110) / 3 效果差了很多
 
 - 3.抢占式短作业优先 Shortest Time-to-Completion First (STCF)
 我们这里还是按照上面 SJF 的第二个假设来看
 抢占式短作业优先的策略就是根据作业的优先权来先后执行作业
 下图的作业优先权是依据当前进程的运行时间和余下进程的总时间来比较的，如果前者比后者小，当前进程优先级比后者高；如果前者比后者大，那么余下进程优先级高
-![FIFO.png](http://cdn.gzhh.tech/2018/02/STCF.png)
+![FIFO.png](/img/2018/02/STCF.png)
 得出平均周转时间 = (120 + 20 + 30) / 3 比 SFJ 的第二种情况好了不少
 
 - 4.轮循 Round Robin
 这里我们还是把假设改下，让 A, B, C 的开始时间都为 0，执行时间都为 5
 但是当我们考虑到与用户交互的作业时，上面三种调度一般都会让用户等待作业比较长时间，所以这里我们说下 Round Robin 调度的实现原则：
 即给每个作业都设置一个时间片(可以是很短)，然后在时间片内不停的切换不同的进程，让每个进程的响应时间都短，提高用户体验 所以，我们可以假设得到下面的图，用 SJF 和 RR 来分别实现这里的假设
-![FIFO.png](http://cdn.gzhh.tech/2018/02/RoundRobin.png) 
+![FIFO.png](/img/2018/02/RoundRobin.png) 
 可以看出如果根据周转时间来衡量，那么 SJF 周转时间 = (5 + 10 + 15) / 3 RR 周转时间 = (13 + 14 + 15) / 3 得出 SJF 比 RR 稍微好点
 如果根据响应时间来衡量，那么 SJF 响应时间 = (5 + 10 + 15) / 3 RR 响应时间 = (1 + 2 + 3) / 3 得出 RR 比 SJF 好了很多
 
@@ -90,7 +90,7 @@ First In, First Out (FIFO) 或 First Come, First Served (FCFS)
 - Rule 4a: If a job uses up an entire time slice while running, its pri- ority is reduced (i.e., it moves down one queue).
 - Rule 4b: If a job gives up the CPU before the time slice is up, it stays at the same priority level.
 例如键盘输入作业的优先级比较高，而长期占用cpu的作业优先级比较低，短时间作业一般要求很强的交互，响应时间比较重要，而长期占用cpu的作业一般则不需要很强的交互 我们这里给出一个多队列作业图
-![FIFO.png](http://cdn.gzhh.tech/2018/02/MLFQ.png)
+![FIFO.png](/img/2018/02/MLFQ.png)
 
 **根据 MLFQ 的概念，我们基本可以得出以下结论**
 - 1.如果任务A的优先级大于任务C的优先级，则先运行任务A

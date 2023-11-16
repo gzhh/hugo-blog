@@ -67,6 +67,6 @@ tags: [Logic,Thinking]
 
 ### 参考
 
-[执行力](https://cdn.gzhh.tech/2022/06/executive-ability.png)
+[执行力](/img/2022/06/executive-ability.png)
 
 [PDCA](https://en.wikipedia.org/wiki/PDCA)

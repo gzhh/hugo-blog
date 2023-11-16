@@ -114,7 +114,7 @@ Optimizing for learning is a high-leverage activity for the effective engineer.
 
 > 我们每天都被紧急的事情所淹没：会议、邮件、电话、bug、值班告警、DDL 等。
 
-![Partitioning of activities based on urgency and importance](https://cdn.gzhh.tech/2022/07/partitioning-of-activities-based-on-urgency-and-importance.png)
+![Partitioning of activities based on urgency and importance](/img/2022/07/partitioning-of-activities-based-on-urgency-and-importance.png)
 
 > 按上图我们根据紧迫性和重要性对事情进行划分，将事情划分为四个象限，其中第二象限重要、不紧急的事最值得我们长期投资关注的，即使没有 DDL。
 - 重要、紧急：高优问题、DDL 等
