@@ -79,8 +79,31 @@ RUN cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 一般需要保证下面三者所在时区一致才不会导致时间数据混乱
 
 ### MySQL 服务器时区
+查看
 ```
 show variables like "%time_zone%";
+```
+
+修改服务器所在时区，MySQL 使用服务器系统时区
+```
+cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+```
+
+修改 MySQL 时区为固定时区，例如中国时区
+```
+临时（重启失效）：
+进入 mysql 所在服务器
+set global time_zone = '+8:00';
+set time_zone = '+8:00';
+
+
+永久生效：
+vim /etc/my.cnf
+
+[mysqld]
+default-time_zone = '+8:00'
+
+重启mysql 服务
 ```
 
 ### Go 服务所在服务器时区
