@@ -98,7 +98,7 @@ tags: [Blog, Hugo]
 最后如果想各方面都满足自己的要求，那就自己动手自建个图床（还未开源）
 - 使用 Golang 和 Gin 搭建图片上传服务
 - 简单做了登录认证功能，并配置 https 以增加安全
-- 最后使用 Nginx 部署图片服务 https://cdn.gzhh.tech
+- 最后使用 Nginx 部署图片服务 https://cdn.gzhh.tech（2023.11.16 更新：改为使用 hugo 静态资源）
 
 
 ## 博客评论

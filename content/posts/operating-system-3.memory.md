@@ -11,19 +11,19 @@ categories: [OperatingSystem]
 
 早期的操作系统实现功能起来很简单，一般看来，物理内存的结构就一般分为俩快：一块用来存os的代码和数据，另一块给当前程序的代码和数据。就像下图： 
 
-![early_memory](http://cdn.gzhh.tech/2018/03/early_memory.png) 
+![early_memory](/img/2018/03/early_memory.png) 
 
 但是随着多程序的诞生，为了避免在进程间频繁的切换损失性能，所以重新设计了内存的结构，来增加效率，就像下图这样，每个进程都有自己的私有空间，保护了进程的安全，不受其他进程影响
 
-![three_process_sharing_memory](http://cdn.gzhh.tech/2018/03/three_process_sharing_memory.png) 
+![three_process_sharing_memory](/img/2018/03/three_process_sharing_memory.png) 
 
 为了用起来方便，我们让操作系统创建了物理内存的抽象，叫做地址空间 address space，它是运行中程序的视图，地址空间是内存虚拟化的关键，进程的地址空间包含所有在运行中程序的记忆状态；用地址空间的顶部来存静态代码，提高空间利用率；用栈区来保存函数调用链，局部变量，传递形参，返回值等；用堆区来动态分配内存，用户管理内存，例如c语言里的malloc()和c++里面的new，其他的还有静态区 我们抽象的假设code区在顶部，它的下面是heap区，堆动态向下增长，堆的下面是free区，free区的下面是stack区，stack会动态向上增长。
 
-![a_example_address_space](http://cdn.gzhh.tech/2018/03/a_example_address_space.png) 
+![a_example_address_space](/img/2018/03/a_example_address_space.png) 
 
 然而事实上进程在内存中的地址是随机
 
-![three_process_sharing_memory](http://cdn.gzhh.tech/2018/03/three_process_sharing_memory.png) 
+![three_process_sharing_memory](/img/2018/03/three_process_sharing_memory.png) 
 
 所以就出现了虚拟化内存virtualizing memory，即操作系统为正在运行的多个进程分配私有、潜在、独立的地址空间，所有的虚拟地址都会被操作系统翻译成真实物理地址，然后就可以获取到各种值和信息
 
