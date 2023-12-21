@@ -88,3 +88,21 @@ tags: [History]
 
 >> 留下来的真正有价值的历史遗产，是江南广阔的土地开发和精致的文化创造，是北方普遍的民族进步和宏伟的民族融合。这些才是人民的业绩和历史的核心，而人民的业绩和历史的核心，又要通过历史现象的纷纭变化才能完成，才能显现。
 
+
+### 人物列表
+- [王敦](https://zh.wikipedia.org/wiki/王敦)
+- [王导](https://zh.wikipedia.org/wiki/王导)
+- [郗鉴](https://zh.wikipedia.org/wiki/郗鉴)
+- [庾亮](https://zh.wikipedia.org/wiki/庾亮)
+- [陶侃](https://zh.wikipedia.org/wiki/陶侃)
+- [桓温](https://zh.wikipedia.org/wiki/桓温)
+- [谢安](https://zh.wikipedia.org/wiki/谢安)
+- [谢玄](https://zh.wikipedia.org/wiki/谢玄)
+- [淝水之战](https://zh.wikipedia.org/wiki/淝水之战)
+- [司马道子](https://zh.wikipedia.org/wiki/司马道子)
+- [王恭](https://zh.wikipedia.org/wiki/王恭)
+- [北府军](https://zh.wikipedia.org/wiki/北府军)
+- [刘牢之](https://zh.wikipedia.org/wiki/刘牢之)
+- [桓玄](https://zh.wikipedia.org/wiki/桓玄)
+- [孙恩](https://zh.wikipedia.org/wiki/孙恩)
+- [刘裕](https://zh.wikipedia.org/wiki/刘裕)
