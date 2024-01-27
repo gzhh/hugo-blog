@@ -16,6 +16,8 @@ weight: 50
 ### 2024
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
 | ----  | ---- | ---- | ---- | ---- | ---- | ---- |
+| [太白金星有点烦](https://book.douban.com/subject/36328704/) | 小说 | 想读 |  | | | |
+| [长安的荔枝](https://book.douban.com/subject/36104107/) | 小说 | 想读 |  | | | |
 | [芯片战争](https://book.douban.com/subject/36350632/) | 科技 | 想读 |  | | | |
 | [暗淡蓝点](https://book.douban.com/subject/26214114/) | 天文学 | 想读 |  | | | |
 | [宇宙](https://book.douban.com/subject/35490038/) | 天文学 | 想读 |  | | | |
