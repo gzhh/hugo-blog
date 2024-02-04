@@ -39,10 +39,11 @@ weight: 50
 | [Kubernetes<br>生产化实践之路](https://book.douban.com/subject/35268764/) | 计算机 | 在读 | 实体书 | 分析阅读 | 2022/07/07 | |
 | [网络是怎样连接的](https://book.douban.com/subject/26941639/) | 计算机 | 在读 | PDF | 分析阅读 | 2022/06/19 | |
 | [Linux内核设计<br>与实现](https://book.douban.com/subject/6097773/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/07/08 | |
-| [经济学原理](https://book.douban.com/subject/26435630/) | 经济 | 在读 | Apple Books | 分析阅读 | 2023/05/01 | |
 | [穷查理宝典](https://book.douban.com/subject/26831789/) | 方法论 | 想读 | 方法论 | 分析阅读 | 2023/06/10 | |
 | [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/10/29 | |
+| [经济学原理](https://book.douban.com/subject/26435630/) | 经济 | 在读 | Apple Books | 分析阅读 | 2023/05/01 | |
 | [Fluent Python,<br>2nd Edition](https://book.douban.com/subject/34990079/) | 计算机 | 在读 | PDF | 主题阅读 | 2023/09/13 |  |
+| [大江东去](https://book.douban.com/subject/25918895/) | 小说 | 已读 | 微信读书 | 分析阅读 | 2023/04/29 | 2024/02/04 |
 | [中国国家治理的<br>制度逻辑](https://book.douban.com/subject/26901114/) | 社会学 | 已读 | Apple Books | 分析阅读 | 2023/12/23 | 2024/01/07 |
 
 ### 2023
