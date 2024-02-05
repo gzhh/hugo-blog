@@ -26,7 +26,7 @@ weight: 50
 | [NoSQL Distilled](https://www.goodreads.com/book/show/13610343-nosql-distilled) | 计算机 | 想读 | | 主题阅读 | | |
 | [Unix/Linux<br>编程实践教程](https://book.douban.com/subject/1219329/) | 计算机 | 想读 | | 主题阅读 | | |
 | [Linux/UNIX<br>系统编程手册](https://book.douban.com/subject/25809330/) | 计算机 | 想读 | PDF & 实体书 | 主题阅读 | | |
-| [Unit Testing: <br>Principles, <br>Practices, <br>and Patterns](https://www.goodreads.com/book/show/48927138-unit-testing) | 计算机 | 想读 | PDF | 主题阅读 | | |
+| [System Design<br>Interview: <br>Volume 2](https://goodreads.com/book/show/60631342-system-design-interview-an-insider-s-guide) | 计算机 | 想读 | PDF | 分析阅读 | |
 | [用Go语言自制<br>编译器](https://book.douban.com/subject/35909089/) | 计算机 | 想读 | 微信阅读 | 主题阅读 | | |
 | [用Go语言自制<br>解释器](https://book.douban.com/subject/35909085/) | 计算机 | 想读 | 微信阅读 | 主题阅读 | | |
 | [Programming<br>Kubernetes](https://book.douban.com/subject/33393681/) | 计算机 | 想读 | PDF | 分析阅读 | | |
@@ -39,6 +39,7 @@ weight: 50
 | [Kubernetes<br>生产化实践之路](https://book.douban.com/subject/35268764/) | 计算机 | 在读 | 实体书 | 分析阅读 | 2022/07/07 | |
 | [网络是怎样连接的](https://book.douban.com/subject/26941639/) | 计算机 | 在读 | PDF | 分析阅读 | 2022/06/19 | |
 | [Linux内核设计<br>与实现](https://book.douban.com/subject/6097773/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/07/08 | |
+| [维特根斯坦传](https://book.douban.com/subject/6152040/) | 传记 | 想读 |  | | | |
 | [穷查理宝典](https://book.douban.com/subject/26831789/) | 方法论 | 想读 | 方法论 | 分析阅读 | 2023/06/10 | |
 | [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/10/29 | |
 | [经济学原理](https://book.douban.com/subject/26435630/) | 经济 | 在读 | Apple Books | 分析阅读 | 2023/05/01 | |
@@ -60,7 +61,7 @@ weight: 50
 | [刀锋](https://book.douban.com/subject/2035162/) | 小说 | 已读 | PDF | 分析阅读 | 2023/06/10 | 2023/06/24 |
 | [深入理解计算机<br>系统](https://book.douban.com/subject/5333562/) | 计算机 | 已读 | PDF & 实体书 | 分析阅读 | 2023/03/11 | 2023/06/22 |
 | [100 Go Mistakes<br>and How to Avoid<br>Them](https://book.douban.com/subject/36084407/) | 计算机 | 已读 | PDF | 主题阅读 | 2023/05/11 | 2023/05/21 |
-| [纳瓦尔宝典](https://book.douban.com/subject/35876121/) | 方法论 | 已读 | 微信读书 | 分析阅读 | 2023/05/07 | 2023/05/07 |
+| [纳瓦尔宝典](https://book.douban.com/subject/35876121/) | 方法论 | [已读](/reads/life/The-Almanack-of-Naval-Ravikant/) | 微信读书 | 分析阅读 | 2023/05/07 | 2023/05/07 |
 | [北方的空地](https://book.douban.com/subject/6125543/) | 户外 | 已读 | PDF | 分析阅读 | 2023/05/01 | 2023/05/02 |
 | [Make Something<br>Wonderful](https://www.goodreads.com/book/show/128533513-make-something-wonderful) | 传记 | 已读 | PDF | 分析阅读 | 2023/04/16 | 2023/04/23 |
 | [计算机程序的<br>构造和解释](https://book.douban.com/subject/1148282/) | 计算机 | 已读 | PDF & 实体书 | 主题阅读 | 2023/02/01 | 2023/03/11 |
