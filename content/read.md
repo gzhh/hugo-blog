@@ -17,7 +17,6 @@ weight: 50
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
 | ----  | ---- | ---- | ---- | ---- | ---- | ---- |
 | [太白金星有点烦](https://book.douban.com/subject/36328704/) | 小说 | 想读 |  | | | |
-| [长安的荔枝](https://book.douban.com/subject/36104107/) | 小说 | 想读 |  | | | |
 | [芯片战争](https://book.douban.com/subject/36350632/) | 科技 | 想读 |  | | | |
 | [暗淡蓝点](https://book.douban.com/subject/26214114/) | 天文学 | 想读 |  | | | |
 | [宇宙](https://book.douban.com/subject/35490038/) | 天文学 | 想读 |  | | | |
@@ -44,6 +43,7 @@ weight: 50
 | [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/10/29 | |
 | [经济学原理](https://book.douban.com/subject/26435630/) | 经济 | 在读 | Apple Books | 分析阅读 | 2023/05/01 | |
 | [Fluent Python,<br>2nd Edition](https://book.douban.com/subject/34990079/) | 计算机 | 在读 | PDF | 主题阅读 | 2023/09/13 |  |
+| [长安的荔枝](https://book.douban.com/subject/36104107/) | 小说 | [已读](/reads/fiction/chang-an-de-li-zhi) | Apple Books | 分析阅读 | 2024/02/07 | 2024/02/07 |
 | [大江东去](https://book.douban.com/subject/25918895/) | 小说 | 已读 | 微信读书 | 分析阅读 | 2023/04/29 | 2024/02/04 |
 | [中国国家治理的<br>制度逻辑](https://book.douban.com/subject/26901114/) | 社会学 | 已读 | Apple Books | 分析阅读 | 2023/12/23 | 2024/01/07 |
 

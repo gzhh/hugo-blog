@@ -1,7 +1,7 @@
 ---
 title: "纳瓦尔宝典"
-date: 2023-05-07T16:48:52+08:00
-lastmod: 2023-05-07T16:48:52+08:00
+date: 2024-02-06T16:48:52+08:00
+lastmod: 2024-02-06T16:48:52+08:00
 draft: false
 categories: [Read]
 tags: [Work]
