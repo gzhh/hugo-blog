@@ -42,6 +42,8 @@ weight: 50
 | [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/10/29 | |
 | [经济学原理](https://book.douban.com/subject/26435630/) | 经济 | 在读 | Apple Books | 分析阅读 | 2023/05/01 | |
 | [Fluent Python,<br>2nd Edition](https://book.douban.com/subject/34990079/) | 计算机 | 在读 | PDF | 主题阅读 | 2023/09/13 |  |
+| [深入理解Linux网络](https://book.douban.com/subject/35922722/) | 计算机 | 在读 | PDF | 主题阅读 | 2024/02/18 |  |
+| [显微镜下的大明](https://book.douban.com/subject/30414743/) | 历史 | 在读 | Apple Books | 分析阅读 | 2024/02/18 |  |
 | [太白金星有点烦](https://book.douban.com/subject/36328704/) | 小说 | [已读](/reads/fiction/tai-bai-jin-xing-you-dian-fan) | Apple Books | 分析阅读 | 2024/02/14 | 2024/02/15 |
 | [长安的荔枝](https://book.douban.com/subject/36104107/) | 小说 | [已读](/reads/fiction/chang-an-de-li-zhi) | Apple Books | 分析阅读 | 2024/02/07 | 2024/02/07 |
 | [大江东去](https://book.douban.com/subject/25918895/) | 小说 | 已读 | 微信读书 | 分析阅读 | 2023/04/29 | 2024/02/04 |
