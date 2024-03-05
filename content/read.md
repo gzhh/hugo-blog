@@ -34,6 +34,7 @@ weight: 50
 | [非暴力沟通](https://book.douban.com/subject/3533221/) | 心理 | 想读 |  | 分析阅读 | | |
 | [人月神话](https://book.douban.com/subject/1102259/) | 计算机 | 想读 |  | 分析阅读 | | |
 | [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | 分析阅读 | | |
+| [百年孤独](https://book.douban.com/subject/6082808/) | 小说 | 豆瓣读书 |  | 分析阅读 | | |
 | [Kubernetes<br>生产化实践之路](https://book.douban.com/subject/35268764/) | 计算机 | 在读 | 实体书 | 分析阅读 | 2022/07/07 | |
 | [网络是怎样连接的](https://book.douban.com/subject/26941639/) | 计算机 | 在读 | PDF | 分析阅读 | 2022/06/19 | |
 | [Linux内核设计<br>与实现](https://book.douban.com/subject/6097773/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/07/08 | |
@@ -116,6 +117,7 @@ weight: 50
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
 | ----  | ---- | ---- | ---- | ---- | ---- | ---- |
 | [1984](https://book.douban.com/subject/4820710/) | 文学 | [已读](/reads/1984/) | PDF | 分析阅读 | 2020/12/05 | 2020/12/05 |
+| [小王子](https://book.douban.com/subject/1091964/) | 文学 | 已读 | PDF | 分析阅读 | 2020/11/08 | 2020/11/08 |
 | [路易·波拿巴的雾月十八日](https://book.douban.com/subject/1091964/) | 政治 | 已读 | PDF | 分析阅读 | 2020/11/08 | 2020/11/08 |
 | [悉达多](https://book.douban.com/subject/3406401/) | 哲学 | 已读 | 实体书 | 分析阅读 | 2020/10/26 | 2020/10/26 |
 | [富爸爸，穷爸爸](https://book.douban.com/subject/1033778/) | 经济 | [已读](/reads/rich-dad-poor-dad/) | 微信读书 | 分析阅读 | 2020/09/12 | 2020/09/12 |
@@ -152,8 +154,8 @@ weight: 50
 | [白帽子讲Web安全](https://book.douban.com/subject/10546925/) | 计算机 | 已读 | 电子书 | 分析阅读 |  |  |
 | [黑客与画家](https://book.douban.com/subject/6021440/) | 计算机 | 已读 | 电子书 | 分析阅读 |  |  |
 | [枪炮、病菌与钢铁](https://book.douban.com/subject/1813841/) | 历史、人类 | 已读 | 实体书 | 分析阅读 |  |  |
-| [人类简史](https://book.douban.com/subject/25985021/) | 历史、人类 | 已读 | 实体书 | 分析阅读 |  |  |
 | [未来简史](https://book.douban.com/subject/26943161/) | 历史、人类 | 已读 | 实体书 | 分析阅读 |  |  |
+| [人类简史](https://book.douban.com/subject/25985021/) | 历史、人类 | 已读 | 实体书 | 分析阅读 |  |  |
 
 ### 2016 及以前
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
