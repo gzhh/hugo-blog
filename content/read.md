@@ -23,7 +23,7 @@ weight: 50
 | [善恶的彼岸](https://book.douban.com/subject/26663535/) | 哲学 | 想读 |  | | | |
 | [NoSQL Distilled](https://www.goodreads.com/book/show/13610343-nosql-distilled) | 计算机 | 想读 | | 主题阅读 | | |
 | [Unix/Linux<br>编程实践教程](https://book.douban.com/subject/1219329/) | 计算机 | 想读 | | 主题阅读 | | |
-| [Linux/UNIX<br>系统编程手册](https://book.douban.com/subject/25809330/) | 计算机 | 想读 | PDF & 实体书 | 主题阅读 | | |
+| [Linux/UNIX<br>系统编程手册](https://book.douban.com/subject/25809330/) | 计算机 | 想读 | | 主题阅读 | | |
 | [System Design<br>Interview: <br>Volume 2](https://goodreads.com/book/show/60631342-system-design-interview-an-insider-s-guide) | 计算机 | 想读 | PDF | 分析阅读 | |
 | [用Go语言自制<br>编译器](https://book.douban.com/subject/35909089/) | 计算机 | 想读 | 微信阅读 | 主题阅读 | | |
 | [用Go语言自制<br>解释器](https://book.douban.com/subject/35909085/) | 计算机 | 想读 | 微信阅读 | 主题阅读 | | |
@@ -41,14 +41,13 @@ weight: 50
 | [维特根斯坦传](https://book.douban.com/subject/6152040/) | 传记 | 想读 |  | | | |
 | [穷查理宝典](https://book.douban.com/subject/26831789/) | 方法论 | 想读 | 方法论 | 分析阅读 | 2023/06/10 | |
 | [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/10/29 | |
-| [经济学原理](https://book.douban.com/subject/26435630/) | 经济 | 在读 | Apple Books | 分析阅读 | 2023/05/01 | |
+| [经济学原理](https://book.douban.com/subject/26435630/) | 经济 | 在读 | iBooks | 分析阅读 | 2023/05/01 | |
 | [Fluent Python,<br>2nd Edition](https://book.douban.com/subject/34990079/) | 计算机 | 在读 | PDF | 主题阅读 | 2023/09/13 |  |
 | [深入理解Linux网络](https://book.douban.com/subject/35922722/) | 计算机 | 在读 | PDF | 主题阅读 | 2024/02/18 |  |
-| [显微镜下的大明](https://book.douban.com/subject/30414743/) | 历史 | [已读](/reads/history/xian-wei-jing-xia-de-da-ming) | Apple Books | 分析阅读 | 2024/02/18 | 2024/03/04 |
-| [太白金星有点烦](https://book.douban.com/subject/36328704/) | 小说 | [已读](/reads/fiction/tai-bai-jin-xing-you-dian-fan) | Apple Books | 分析阅读 | 2024/02/14 | 2024/02/15 |
-| [长安的荔枝](https://book.douban.com/subject/36104107/) | 小说 | [已读](/reads/fiction/chang-an-de-li-zhi) | Apple Books | 分析阅读 | 2024/02/07 | 2024/02/07 |
+| [显微镜下的大明](https://book.douban.com/subject/30414743/) | 历史 | [已读](/reads/history/xian-wei-jing-xia-de-da-ming) | iBooks | 分析阅读 | 2024/02/18 | 2024/03/04 |
+| [太白金星有点烦](https://book.douban.com/subject/36328704/) | 小说 | [已读](/reads/fiction/tai-bai-jin-xing-you-dian-fan) | iBooks | 分析阅读 | 2024/02/14 | 2024/02/15 |
+| [长安的荔枝](https://book.douban.com/subject/36104107/) | 小说 | [已读](/reads/fiction/chang-an-de-li-zhi) | iBooks | 分析阅读 | 2024/02/07 | 2024/02/07 |
 | [大江东去](https://book.douban.com/subject/25918895/) | 小说 | 已读 | 微信读书 | 分析阅读 | 2023/04/29 | 2024/02/04 |
-| [中国国家治理的<br>制度逻辑](https://book.douban.com/subject/26901114/) | 社会学 | 已读 | Apple Books | 分析阅读 | 2023/12/23 | 2024/01/07 |
 
 ### 2023
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
