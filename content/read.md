@@ -34,15 +34,17 @@ weight: 50
 | [非暴力沟通](https://book.douban.com/subject/3533221/) | 心理 | 想读 |  | 分析阅读 | | |
 | [人月神话](https://book.douban.com/subject/1102259/) | 计算机 | 想读 |  | 分析阅读 | | |
 | [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | 分析阅读 | | |
-| [百年孤独](https://book.douban.com/subject/6082808/) | 小说 | 豆瓣读书 |  | 分析阅读 | | |
 | [Kubernetes<br>生产化实践之路](https://book.douban.com/subject/35268764/) | 计算机 | 在读 | 实体书 | 分析阅读 | 2022/07/07 | |
 | [网络是怎样连接的](https://book.douban.com/subject/26941639/) | 计算机 | 在读 | PDF | 分析阅读 | 2022/06/19 | |
 | [Linux内核设计<br>与实现](https://book.douban.com/subject/6097773/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/07/08 | |
-| [维特根斯坦传](https://book.douban.com/subject/6152040/) | 传记 | 想读 |  | | | |
 | [穷查理宝典](https://book.douban.com/subject/26831789/) | 方法论 | 想读 | 方法论 | 分析阅读 | 2023/06/10 | |
 | [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/10/29 | |
-| [经济学原理](https://book.douban.com/subject/26435630/) | 经济 | 在读 | iBooks | 分析阅读 | 2023/05/01 | |
+| [经济学原理-宏观](https://book.douban.com/subject/26435630/) | 经济 | 在读 | iBooks | 分析阅读 | 2023/05/01 | 2024/03/24 |
+| [经济学原理-微观](https://book.douban.com/subject/26435630/) | 经济 | 已读  | iBooks | 主题阅读 | 2023/05/01 | 2024/03/24 |
 | [Fluent Python,<br>2nd Edition](https://book.douban.com/subject/34990079/) | 计算机 | 在读 | PDF | 主题阅读 | 2023/09/13 |  |
+| [维特根斯坦传](https://book.douban.com/subject/6152040/) | 传记 | 想读 |  | | | |
+| [百年孤独](https://book.douban.com/subject/6082808/) | 小说 | 豆瓣读书 |  | 分析阅读 | | |
+| [沉默的大多数](https://book.douban.com/subject/1054685/) | 计算机 | 在读 | Kindle | 分析阅读 | 2024/03/09 |  |
 | [深入理解Linux网络](https://book.douban.com/subject/35922722/) | 计算机 | 在读 | PDF | 主题阅读 | 2024/02/18 |  |
 | [显微镜下的大明](https://book.douban.com/subject/30414743/) | 历史 | [已读](/reads/history/xian-wei-jing-xia-de-da-ming) | iBooks | 分析阅读 | 2024/02/18 | 2024/03/04 |
 | [太白金星有点烦](https://book.douban.com/subject/36328704/) | 小说 | [已读](/reads/fiction/tai-bai-jin-xing-you-dian-fan) | iBooks | 分析阅读 | 2024/02/14 | 2024/02/15 |
