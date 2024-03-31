@@ -45,7 +45,7 @@ weight: 50
 | [维特根斯坦传](https://book.douban.com/subject/6152040/) | 传记 | 想读 |  | | | |
 | [百年孤独](https://book.douban.com/subject/6082808/) | 小说 | 豆瓣读书 |  | 分析阅读 | | |
 | [沉默的大多数](https://book.douban.com/subject/1054685/) | 计算机 | 在读 | Kindle | 分析阅读 | 2024/03/09 |  |
-| [深入理解Linux<br>网络](https://book.douban.com/subject/35922722/) | 计算机 | 在读 | PDF | 主题阅读 | 2024/02/18 |  |
+| [深入理解Linux<br>网络](https://book.douban.com/subject/35922722/) | 计算机 | 已读 | PDF | 主题阅读 | 2024/02/18 | 2024/03/31 |
 | [经济学原理-微观](https://book.douban.com/subject/26435630/) | 经济 | 已读  | iBooks | 主题阅读 | 2023/05/01 | 2024/03/24 |
 | [显微镜下的大明](https://book.douban.com/subject/30414743/) | 历史 | [已读](/reads/history/xian-wei-jing-xia-de-da-ming) | iBooks | 分析阅读 | 2024/02/18 | 2024/03/04 |
 | [太白金星有点烦](https://book.douban.com/subject/36328704/) | 小说 | [已读](/reads/fiction/tai-bai-jin-xing-you-dian-fan) | iBooks | 分析阅读 | 2024/02/14 | 2024/02/15 |
