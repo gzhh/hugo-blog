@@ -20,37 +20,50 @@ weight: 50
 | [暗淡蓝点](https://book.douban.com/subject/26214114/) | 天文学 | 想读 |  | | | |
 | [宇宙](https://book.douban.com/subject/35490038/) | 天文学 | 想读 |  | | | |
 | [原则](https://book.douban.com/subject/27608239/) | 方法论 | 想读 |  | | | |
-| [善恶的彼岸](https://book.douban.com/subject/26663535/) | 哲学 | 想读 |  | | | |
-| [NoSQL Distilled](https://www.goodreads.com/book/show/13610343-nosql-distilled) | 计算机 | 想读 | | 主题阅读 | | |
 | [Unix/Linux<br>编程实践教程](https://book.douban.com/subject/1219329/) | 计算机 | 想读 | | 主题阅读 | | |
 | [Linux/UNIX<br>系统编程手册](https://book.douban.com/subject/25809330/) | 计算机 | 想读 | | 主题阅读 | | |
-| [System Design<br>Interview: <br>Volume 2](https://goodreads.com/book/show/60631342-system-design-interview-an-insider-s-guide) | 计算机 | 想读 | PDF | 分析阅读 | |
+| [Linux内核设计<br>与实现](https://book.douban.com/subject/6097773/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/07/08 | |
 | [用Go语言自制<br>编译器](https://book.douban.com/subject/35909089/) | 计算机 | 想读 | 微信阅读 | 主题阅读 | | |
 | [用Go语言自制<br>解释器](https://book.douban.com/subject/35909085/) | 计算机 | 想读 | 微信阅读 | 主题阅读 | | |
 | [Programming<br>Kubernetes](https://book.douban.com/subject/33393681/) | 计算机 | 想读 | PDF | 分析阅读 | | |
+| [Kubernetes<br>生产化实践之路](https://book.douban.com/subject/35268764/) | 计算机 | 在读 | 实体书 | 分析阅读 | 2022/07/07 | |
 | [Software<br>Engineering at<br>Google](https://www.goodreads.com/book/show/48816586-software-engineering-at-google) | 计算机 | 想读 | PDF | 分析阅读 | | |
 | [The Staff<br>Engineer's Path](https://book.douban.com/subject/35858196/) | 计算机 | 想读 | PDF | 分析阅读 | |  |
-| [你想活出怎样<br>的人生](https://book.douban.com/subject/34659228/) | 教育 | 想读 |  | 分析阅读 | | |
-| [非暴力沟通](https://book.douban.com/subject/3533221/) | 心理 | 想读 |  | 分析阅读 | | |
-| [人月神话](https://book.douban.com/subject/1102259/) | 计算机 | 想读 |  | 分析阅读 | | |
-| [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | 分析阅读 | | |
-| [Kubernetes<br>生产化实践之路](https://book.douban.com/subject/35268764/) | 计算机 | 在读 | 实体书 | 分析阅读 | 2022/07/07 | |
+| [System Design<br>Interview: <br>Volume 2](https://goodreads.com/book/show/60631342-system-design-interview-an-insider-s-guide) | 计算机 | 想读 | PDF | 分析阅读 | |
+| [NoSQL Distilled](https://www.goodreads.com/book/show/13610343-nosql-distilled) | 计算机 | 想读 | | 主题阅读 | | |
 | [网络是怎样<br>连接的](https://book.douban.com/subject/26941639/) | 计算机 | 在读 | PDF | 分析阅读 | 2022/06/19 | |
-| [Linux内核设计<br>与实现](https://book.douban.com/subject/6097773/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/07/08 | |
-| [穷查理宝典](https://book.douban.com/subject/26831789/) | 方法论 | 想读 | PDF | 分析阅读 | 2023/06/10 | |
-| [当我谈跑步时<br>我谈些什么](https://book.douban.com/subject/3369600/) | 文学 | 想读 | 分析 | 2023/08/ | |
+| [人月神话](https://book.douban.com/subject/1102259/) | 计算机 | 想读 |  | 分析阅读 | | |
 | [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 |  |  |
-| [经济学原理-宏观](https://book.douban.com/subject/26435630/) | 经济 | 在读 | iBooks | 分析阅读 |  |  |
-| [Fluent Python,<br>2nd Edition](https://book.douban.com/subject/34990079/) | 计算机 | 在读 | PDF | 主题阅读 | 2023/09/13 |  |
+| [百年孤独](https://book.douban.com/subject/6082808/) | 小说 | 想读 |  | 分析阅读 | | |
+| [非暴力沟通](https://book.douban.com/subject/3533221/) | 心理 | 想读 |  | 分析阅读 | | |
+| [你想活出怎样<br>的人生](https://book.douban.com/subject/34659228/) | 教育 | 想读 |  | 分析阅读 | | |
+| [当我谈跑步时<br>我谈些什么](https://book.douban.com/subject/3369600/) | 文学 | 想读 |  | | |
+| [沉默的大多数](https://book.douban.com/subject/1054685/) | 文学 | 在读 | Kindle | 分析阅读 | 2024/03/09 |  |
+| [存在与虚无](https://book.douban.com/subject/26107897/) | 哲学 | 想读 |  | | | |
 | [维特根斯坦传](https://book.douban.com/subject/6152040/) | 传记 | 想读 |  | | | |
-| [百年孤独](https://book.douban.com/subject/6082808/) | 小说 | 豆瓣读书 |  | 分析阅读 | | |
-| [沉默的大多数](https://book.douban.com/subject/1054685/) | 计算机 | 在读 | Kindle | 分析阅读 | 2024/03/09 |  |
+| [昨日的世界](https://book.douban.com/subject/4238162/) | 传记 | 想读 |  | | | |
+| [Fluent Python,<br>2nd Edition](https://book.douban.com/subject/34990079/) | 计算机 | 在读 | PDF | 主题阅读 | 2023/09/13 |  |
+| [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | 分析阅读 | | |
+| [穷查理宝典](https://book.douban.com/subject/26831789/) | 方法论 | 想读 | PDF | 分析阅读 | 2023/06/10 | |
+| [经济学原理-宏观](https://book.douban.com/subject/26435630/) | 经济 | 在读 | iBooks | 分析阅读 |  |  |
 | [深入理解Linux<br>网络](https://book.douban.com/subject/35922722/) | 计算机 | 已读 | PDF | 主题阅读 | 2024/02/18 | 2024/03/31 |
 | [经济学原理-微观](https://book.douban.com/subject/26435630/) | 经济 | 已读  | iBooks | 主题阅读 | 2023/05/01 | 2024/03/24 |
 | [显微镜下的大明](https://book.douban.com/subject/30414743/) | 历史 | [已读](/reads/history/xian-wei-jing-xia-de-da-ming) | iBooks | 分析阅读 | 2024/02/18 | 2024/03/04 |
 | [太白金星有点烦](https://book.douban.com/subject/36328704/) | 小说 | [已读](/reads/fiction/tai-bai-jin-xing-you-dian-fan) | iBooks | 分析阅读 | 2024/02/14 | 2024/02/15 |
 | [长安的荔枝](https://book.douban.com/subject/36104107/) | 小说 | [已读](/reads/fiction/chang-an-de-li-zhi) | iBooks | 分析阅读 | 2024/02/07 | 2024/02/07 |
 | [大江东去](https://book.douban.com/subject/25918895/) | 小说 | 已读 | 微信读书 | 分析阅读 | 2023/04/29 | 2024/02/04 |
+<!--
+| [存在与时间](https://book.douban.com/subject/25939476/) | 哲学 | 想读 |  | | | |
+| [哲学研究](https://book.douban.com/subject/1315184/) | 哲学 | 想读 |  | | | |
+| [逻辑哲学论](https://book.douban.com/subject/1005354/) | 哲学 | 想读 |  | | | |
+| [善恶的彼岸](https://book.douban.com/subject/26663535/) | 哲学 | 想读 |  | | | |
+| [悲剧的诞生](https://book.douban.com/subject/1063852/) | 哲学 | 想读 |  | | | |
+| [查拉图斯特拉<br>如是说](https://book.douban.com/subject/2359052/) | 哲学 | 想读 |  | | | |
+| [非此即彼](https://book.douban.com/subject/3987027/) | 哲学 | 想读 |  | | | |
+| [人生的智慧](https://book.douban.com/subject/3261600/) | 哲学 | 想读 |  | | | |
+| [作为意志和<br>表象的世界](https://book.douban.com/subject/1004699/) | 哲学 | 想读 |  | | | |
+| [纯粹理性批判](https://book.douban.com/subject/1216737/) | 哲学 | 想读 |  | | | |
+-->
 
 ### 2023
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
@@ -125,6 +138,7 @@ weight: 50
 | [富爸爸，穷爸爸](https://book.douban.com/subject/1033778/) | 经济 | [已读](/reads/rich-dad-poor-dad/) | 微信读书 | 分析阅读 | 2020/09/12 | 2020/09/12 |
 | [邓小平时代](https://book.douban.com/subject/20424526/) | 历史 | [已读](/reads/dengxiaoping-and-the-transformation-of-china/) | PDF | 分析阅读 | 2020/09/10 | 2020/09/10 |
 | [动物庄园](https://book.douban.com/subject/11533585/) | 政治 | 已读 | 微信读书 | 分析阅读 | 2020/08/01 | 2020/08/01 |
+| [少年凯歌](https://book.douban.com/subject/1091203/) | 自传 | 已读 | 电子书 | 分析阅读 | 2020/05/17 | 2020/05/17 |
 
 ### 2019
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |

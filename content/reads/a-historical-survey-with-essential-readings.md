@@ -117,6 +117,8 @@ tags: [Philosophy]
 
 [海德格尔 https://zh.wikipedia.org/wiki/马丁·海德格尔](https://zh.wikipedia.org/wiki/%E9%A9%AC%E4%B8%81%C2%B7%E6%B5%B7%E5%BE%B7%E6%A0%BC%E5%B0%94)
 
+[加缪 https://zh.wikipedia.org/wiki/阿尔贝·加缪](https://zh.wikipedia.org/wiki/%E9%98%BF%E5%B0%94%E8%B4%9D%C2%B7%E5%8A%A0%E7%BC%AA)
+
 后现代主义：
 
 [福柯 https://zh.wikipedia.org/wiki/米歇尔·福柯](https://zh.wikipedia.org/wiki/%E7%B1%B3%E6%AD%87%E5%B0%94%C2%B7%E7%A6%8F%E6%9F%AF)
