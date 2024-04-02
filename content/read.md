@@ -43,6 +43,8 @@ weight: 50
 | [维特根斯坦传](https://book.douban.com/subject/6152040/) | 传记 | 想读 |  | | | |
 | [昨日的世界](https://book.douban.com/subject/4238162/) | 传记 | 想读 |  | | | |
 | [Fluent Python,<br>2nd Edition](https://book.douban.com/subject/34990079/) | 计算机 | 在读 | PDF | 主题阅读 | 2023/09/13 |  |
+| [结构性改革](https://book.douban.com/subject/35147504/) | 经济 | 想读 |  |  |  |  |
+| [分析与思考](https://book.douban.com/subject/35149551/) | 经济 | 想读 |  |  |  |  |
 | [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | 分析阅读 | | |
 | [穷查理宝典](https://book.douban.com/subject/26831789/) | 方法论 | 想读 | PDF | 分析阅读 | 2023/06/10 | |
 | [经济学原理-宏观](https://book.douban.com/subject/26435630/) | 经济 | 在读 | iBooks | 分析阅读 |  |  |
