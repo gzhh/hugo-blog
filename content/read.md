@@ -39,7 +39,6 @@ weight: 50
 | [你想活出怎样<br>的人生](https://book.douban.com/subject/34659228/) | 教育 | 想读 |  | 分析阅读 | | |
 | [当我谈跑步时<br>我谈些什么](https://book.douban.com/subject/3369600/) | 文学 | 想读 |  | | |
 | [沉默的大多数](https://book.douban.com/subject/1054685/) | 文学 | 在读 | Kindle | 分析阅读 | 2024/03/09 |  |
-| [存在与虚无](https://book.douban.com/subject/26107897/) | 哲学 | 想读 |  | | | |
 | [维特根斯坦传](https://book.douban.com/subject/6152040/) | 传记 | 想读 |  | | | |
 | [昨日的世界](https://book.douban.com/subject/4238162/) | 传记 | 想读 |  | | | |
 | [Fluent Python,<br>2nd Edition](https://book.douban.com/subject/34990079/) | 计算机 | 在读 | PDF | 主题阅读 | 2023/09/13 |  |
@@ -48,6 +47,7 @@ weight: 50
 | [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | 分析阅读 | | |
 | [穷查理宝典](https://book.douban.com/subject/26831789/) | 方法论 | 想读 | PDF | 分析阅读 | 2023/06/10 | |
 | [经济学原理-宏观](https://book.douban.com/subject/26435630/) | 经济 | 在读 | iBooks | 分析阅读 |  |  |
+| [存在与虚无](https://book.douban.com/subject/26107897/) | 哲学 | [已读](/reads/philosophy/being-and-nothingness) | 实体书 | 主题阅读 | 2024/04/14 | 2024/04/14 |
 | [深入理解Linux<br>网络](https://book.douban.com/subject/35922722/) | 计算机 | 已读 | PDF | 主题阅读 | 2024/02/18 | 2024/03/31 |
 | [经济学原理-微观](https://book.douban.com/subject/26435630/) | 经济 | 已读  | iBooks | 主题阅读 | 2023/05/01 | 2024/03/24 |
 | [显微镜下的大明](https://book.douban.com/subject/30414743/) | 历史 | [已读](/reads/history/xian-wei-jing-xia-de-da-ming) | iBooks | 分析阅读 | 2024/02/18 | 2024/03/04 |
