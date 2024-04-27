@@ -47,6 +47,7 @@ weight: 50
 | [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | 分析阅读 | | |
 | [穷查理宝典](https://book.douban.com/subject/26831789/) | 方法论 | 想读 | PDF | 分析阅读 | 2023/06/10 | |
 | [经济学原理-宏观](https://book.douban.com/subject/26435630/) | 经济 | 在读 | iBooks | 分析阅读 |  |  |
+| [汇编语言](https://book.douban.com/subject/35038473/) | 计算机 | 在读 | PDF | 主题阅读 | 2024/04/23 | |
 | [存在与虚无](https://book.douban.com/subject/26107897/) | 哲学 | [已读](/reads/philosophy/being-and-nothingness) | 实体书 | 主题阅读 | 2024/04/14 | 2024/04/14 |
 | [深入理解Linux<br>网络](https://book.douban.com/subject/35922722/) | 计算机 | 已读 | PDF | 主题阅读 | 2024/02/18 | 2024/03/31 |
 | [经济学原理-微观](https://book.douban.com/subject/26435630/) | 经济 | 已读  | iBooks | 主题阅读 | 2023/05/01 | 2024/03/24 |
