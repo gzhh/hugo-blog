@@ -48,7 +48,7 @@ weight: 50
 | [穷查理宝典](https://book.douban.com/subject/26831789/) | 方法论 | 想读 | PDF | 分析阅读 | 2023/06/10 | |
 | [经济学原理-宏观](https://book.douban.com/subject/26435630/) | 经济 | 在读 | iBooks | 分析阅读 |  |  |
 | [食南之徒](https://book.douban.com/subject/36710597/) | 小说 | [已读](/reads/fiction/shi-nan-zhi-tu) | iBooks | 分析阅读 | 2024/05/04 | 2024/05/04 |
-| [汇编语言](https://book.douban.com/subject/35038473/) | 计算机 | [已读](/reads/assembly-language-4nd-edition) | iBooks | 主题阅读 | 2024/04/23 | 2024/05/02 |
+| [汇编语言](https://book.douban.com/subject/35038473/) | 计算机 | [已读](/reads/cs/assembly-language-4nd-edition) | iBooks | 主题阅读 | 2024/04/23 | 2024/05/02 |
 | [存在与虚无](https://book.douban.com/subject/26107897/) | 哲学 | [已读](/reads/philosophy/being-and-nothingness) | 实体书 | 主题阅读 | 2024/04/14 | 2024/04/14 |
 | [深入理解Linux<br>网络](https://book.douban.com/subject/35922722/) | 计算机 | 已读 | PDF | 主题阅读 | 2024/02/18 | 2024/03/31 |
 | [经济学原理-微观](https://book.douban.com/subject/26435630/) | 经济 | 已读  | iBooks | 主题阅读 | 2023/05/01 | 2024/03/24 |
