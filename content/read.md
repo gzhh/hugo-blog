@@ -46,6 +46,7 @@ weight: 50
 | [分析与思考](https://book.douban.com/subject/35149551/) | 经济 | 想读 |  |  |  |  |
 | [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | 分析阅读 | | |
 | [穷查理宝典](https://book.douban.com/subject/26831789/) | 方法论 | 想读 | PDF | 分析阅读 | 2023/06/10 | |
+| [Atomic Habits](https://book.douban.com/subject/34326931/) | 方法论 | 想读 | iBooks | 分析阅读 | | |
 | [经济学原理-宏观](https://book.douban.com/subject/26435630/) | 经济 | 在读 | iBooks | 主题阅读 | 2024/03/24 |  |
 | [食南之徒](https://book.douban.com/subject/36710597/) | 小说 | [已读](/reads/fiction/shi-nan-zhi-tu) | iBooks | 分析阅读 | 2024/05/04 | 2024/05/04 |
 | [汇编语言](https://book.douban.com/subject/35038473/) | 计算机 | [已读](/reads/cs/assembly-language-4nd-edition) | iBooks | 主题阅读 | 2024/04/23 | 2024/05/02 |
