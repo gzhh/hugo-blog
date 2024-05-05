@@ -16,6 +16,7 @@ tags: [Philosophy]
 Ref
 - [形而上学](https://zh.wikipedia.org/zh-cn/形而上学)
 - [存在主义](https://zh.wikipedia.org/wiki/存在主义)
+- [如何克服虚无主义？丧B自救心法 - YouTube](https://www.youtube.com/watch?v=vMnQDhnGiqM)
 
 ## 存在与虚无
 
