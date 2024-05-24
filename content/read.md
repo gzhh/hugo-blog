@@ -107,6 +107,7 @@ weight: 50
 | [微服务架构设计<br>模式](https://book.douban.com/subject/33425123/) | 计算机 | [已读](/posts/microservices-patterns/) | 实体书 | 分析阅读 | 2022/06/20 | 2022/06/27 |
 | [微服务设计](https://book.douban.com/subject/26772677/) | 计算机 | 读过 | 实体书 | 检视阅读 | 2022/06/20 | 2022/06/20 |
 | [Redis开发与运维](https://book.douban.com/subject/26971561/) | 计算机 | 读过 | 实体书 | 分析阅读 | 2022/02/12 | 2022/02/12 |
+| [乡土中国](https://book.douban.com/subject/20395476/) | 社会学 | 已读 | 微信阅读 | 分析阅读 | 2022/01/15 | 2022/01/15 |
 | [小狗钱钱](https://book.douban.com/subject/3576486/) | 经济 | [已读](/reads/xiao-gou-qian-qian/) | 微信阅读 | 分析阅读 | 2022/01/09 | 2022/01/13 |
 
 ### 2021
@@ -137,7 +138,9 @@ weight: 50
 ### 2020
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
 | ----  | ---- | ---- | ---- | ---- | ---- | ---- |
-| [1984](https://book.douban.com/subject/4820710/) | 文学 | [已读](/reads/1984/) | PDF | 分析阅读 | 2020/12/05 | 2020/12/05 |
+| [Kubernetes in Action](https://book.douban.com/subject/30418855/) | 计算机 | 已读 | 实体书 | 分析阅读 | 2020/12/12 | 2020/12/12 |
+| [习惯的力量](https://book.douban.com/subject/27045616/) | 方法论 | [已读](/reads/the-power-of-habit/) | 微信读书 | 分析阅读 | 2020/12/05 | 2020/12/05 |
+| [1984](https://book.douban.com/subject/4820710/) | 文学 | [已读](/reads/1984/) | PDF | 分析阅读 | 2020/11/21 | 2020/11/21 |
 | [小王子](https://book.douban.com/subject/1091964/) | 文学 | 已读 | PDF | 分析阅读 | 2020/11/08 | 2020/11/08 |
 | [路易·波拿巴的雾月十八日](https://book.douban.com/subject/1091964/) | 政治 | 已读 | PDF | 分析阅读 | 2020/11/08 | 2020/11/08 |
 | [悉达多](https://book.douban.com/subject/3406401/) | 哲学 | 已读 | 实体书 | 分析阅读 | 2020/10/26 | 2020/10/26 |
@@ -162,6 +165,7 @@ weight: 50
 | ----  | ---- | ---- | ---- | ---- | ---- | ---- |
 | [Operating Systems<br>Three Easy Pieces](https://book.douban.com/subject/19973015/) | 计算机 | 已读 | 电子书 | 主题阅读 |  |  |
 | [C和指针](https://book.douban.com/subject/3012360/) | 计算机 | 已读 | 实体书 | 主题阅读 |  |  |
+| [C语言程序设计](https://book.douban.com/subject/4279678/) | 计算机 | 已读 | 实体书 | 主题阅读 |  |  |
 | [高性能MySQL](https://book.douban.com/subject/23008813/) | 计算机 | 已读 | 实体书 | 主题阅读 |  |  |
 | [今日简史](https://book.douban.com/subject/30259720/) | 历史、人类 | 已读 | 实体书 | 分析阅读 |  |  |
 | [月亮和六便士](https://book.douban.com/subject/1858513/) | 文学 | 已读 | 电子书 | 分析阅读 |  |  |
