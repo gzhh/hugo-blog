@@ -22,7 +22,6 @@ weight: 50
 | [原则](https://book.douban.com/subject/27608239/) | 方法论 | 想读 |  | | | |
 | [Unix/Linux<br>编程实践教程](https://book.douban.com/subject/1219329/) | 计算机 | 想读 | | 主题阅读 | | |
 | [Linux/UNIX<br>系统编程手册](https://book.douban.com/subject/25809330/) | 计算机 | 想读 | | 主题阅读 | | |
-| [Linux内核设计<br>与实现](https://book.douban.com/subject/6097773/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/07/08 | |
 | [用Go语言自制<br>编译器](https://book.douban.com/subject/35909089/) | 计算机 | 想读 | 微信阅读 | 主题阅读 | | |
 | [用Go语言自制<br>解释器](https://book.douban.com/subject/35909085/) | 计算机 | 想读 | 微信阅读 | 主题阅读 | | |
 | [Programming<br>Kubernetes](https://book.douban.com/subject/33393681/) | 计算机 | 想读 | PDF | 分析阅读 | | |
@@ -31,9 +30,7 @@ weight: 50
 | [The Staff<br>Engineer's Path](https://book.douban.com/subject/35858196/) | 计算机 | 想读 | PDF | 分析阅读 | |  |
 | [System Design<br>Interview: <br>Volume 2](https://goodreads.com/book/show/60631342-system-design-interview-an-insider-s-guide) | 计算机 | 想读 | PDF | 分析阅读 | |
 | [NoSQL Distilled](https://www.goodreads.com/book/show/13610343-nosql-distilled) | 计算机 | 想读 | | 主题阅读 | | |
-| [网络是怎样<br>连接的](https://book.douban.com/subject/26941639/) | 计算机 | 在读 | PDF | 分析阅读 | 2022/06/19 | |
 | [人月神话](https://book.douban.com/subject/1102259/) | 计算机 | 想读 |  | 分析阅读 | | |
-| [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 |  |  |
 | [百年孤独](https://book.douban.com/subject/6082808/) | 小说 | 想读 |  | 分析阅读 | | |
 | [非暴力沟通](https://book.douban.com/subject/3533221/) | 心理 | 想读 |  | 分析阅读 | | |
 | [你想活出怎样<br>的人生](https://book.douban.com/subject/34659228/) | 教育 | 想读 |  | 分析阅读 | | |
@@ -41,11 +38,14 @@ weight: 50
 | [沉默的大多数](https://book.douban.com/subject/1054685/) | 文学 | 在读 | Kindle | 分析阅读 | 2024/03/09 |  |
 | [维特根斯坦传](https://book.douban.com/subject/6152040/) | 传记 | 想读 |  | | | |
 | [昨日的世界](https://book.douban.com/subject/4238162/) | 传记 | 想读 |  | | | |
-| [Fluent Python,<br>2nd Edition](https://book.douban.com/subject/34990079/) | 计算机 | 在读 | PDF | 主题阅读 | 2023/09/13 |  |
 | [结构性改革](https://book.douban.com/subject/35147504/) | 经济 | 想读 |  |  |  |  |
 | [分析与思考](https://book.douban.com/subject/35149551/) | 经济 | 想读 |  |  |  |  |
 | [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | 分析阅读 | | |
 | [穷查理宝典](https://book.douban.com/subject/26831789/) | 方法论 | 想读 | PDF | 分析阅读 | 2023/06/10 | |
+| [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 |  |  |
+| [Linux内核设计<br>与实现](https://book.douban.com/subject/6097773/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/07/08 | |
+| [网络是怎样<br>连接的](https://book.douban.com/subject/26941639/) | 计算机 | 在读 | PDF | 分析阅读 | 2022/06/19 | |
+| [Fluent Python,<br>2nd Edition](https://book.douban.com/subject/34990079/) | 计算机 | 在读 | PDF | 主题阅读 | 2023/09/13 |  |
 | [Atomic Habits](https://book.douban.com/subject/34326931/) | 方法论 | 想读 | iBooks | 分析阅读 | | |
 | [人生的枷锁](https://book.douban.com/subject/2035171/) | 小说 | [已读](/reads/fiction/of-human-bondage) | 实体书 | 分析阅读 | 2024/05/19 | 2024/05/27 |在
 | [经济学原理-宏观](https://book.douban.com/subject/26435630/) | 经济 | 已读 | iBooks | 主题阅读 | 2024/03/24 | 2024/05/18 |

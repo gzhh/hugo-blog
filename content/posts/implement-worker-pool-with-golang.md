@@ -219,3 +219,4 @@ for i in {1..10}; do curl http://127.0.0.1:8081/do-job?id=$i ; done
 - [Go by Example: Worker Pools](https://gobyexample.com/worker-pools)
 - [Worker pool to control concurrency and collect results](https://gist.github.com/harlow/49318d54f45d29f1a77cc641faf14054)
 - [Job queues in Golang](https://gist.github.com/harlow/dbcd639cf8d396a2ab73)
+- [Mastering Concurrent Processing: A Step-by-Step Guide to Building a Scalable Worker Pool in Go](https://medium.com/@souravchoudhary0306/mastering-concurrent-processing-a-step-by-step-guide-to-building-a-scalable-worker-pool-in-go-54093074c612)
