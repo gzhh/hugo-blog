@@ -40,13 +40,14 @@ weight: 50
 | [昨日的世界](https://book.douban.com/subject/4238162/) | 传记 | 想读 |  | | | |
 | [结构性改革](https://book.douban.com/subject/35147504/) | 经济 | 想读 |  |  |  |  |
 | [分析与思考](https://book.douban.com/subject/35149551/) | 经济 | 想读 |  |  |  |  |
+| [走出戈壁](https://book.douban.com/subject//35520540) | 回忆录 | 想读 |  |  |  |  |
 | [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | 分析阅读 | | |
 | [穷查理宝典](https://book.douban.com/subject/26831789/) | 方法论 | 想读 | PDF | 分析阅读 | 2023/06/10 | |
 | [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 |  |  |
 | [Linux内核设计<br>与实现](https://book.douban.com/subject/6097773/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/07/08 | |
 | [网络是怎样<br>连接的](https://book.douban.com/subject/26941639/) | 计算机 | 在读 | PDF | 分析阅读 | 2022/06/19 | |
 | [Fluent Python,<br>2nd Edition](https://book.douban.com/subject/34990079/) | 计算机 | 在读 | PDF | 主题阅读 | 2023/09/13 |  |
-| [Atomic Habits](https://book.douban.com/subject/34326931/) | 方法论 | 想读 | iBooks | 分析阅读 | | |
+| [Atomic Habits](https://book.douban.com/subject/34326931/) | 方法论 | [已读](/reads/methodology/atomic-habits) | iBooks | 分析阅读 | 2024/06/01 | 2024/06/01 |
 | [人生的枷锁](https://book.douban.com/subject/2035171/) | 小说 | [已读](/reads/fiction/of-human-bondage) | 实体书 | 分析阅读 | 2024/05/19 | 2024/05/27 |在
 | [经济学原理-宏观](https://book.douban.com/subject/26435630/) | 经济 | 已读 | iBooks | 主题阅读 | 2024/03/24 | 2024/05/18 |
 | [食南之徒](https://book.douban.com/subject/36710597/) | 小说 | [已读](/reads/fiction/shi-nan-zhi-tu) | iBooks | 分析阅读 | 2024/05/04 | 2024/05/04 |
@@ -139,7 +140,7 @@ weight: 50
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
 | ----  | ---- | ---- | ---- | ---- | ---- | ---- |
 | [Kubernetes in Action](https://book.douban.com/subject/30418855/) | 计算机 | 已读 | 实体书 | 分析阅读 | 2020/12/12 | 2020/12/12 |
-| [习惯的力量](https://book.douban.com/subject/27045616/) | 方法论 | [已读](/reads/the-power-of-habit/) | 微信读书 | 分析阅读 | 2020/12/05 | 2020/12/05 |
+| [习惯的力量](https://book.douban.com/subject/27045616/) | 方法论 | [已读](/reads/methodology/the-power-of-habit/) | 微信读书 | 分析阅读 | 2020/12/05 | 2020/12/05 |
 | [1984](https://book.douban.com/subject/4820710/) | 文学 | [已读](/reads/1984/) | PDF | 分析阅读 | 2020/11/21 | 2020/11/21 |
 | [小王子](https://book.douban.com/subject/1091964/) | 文学 | 已读 | PDF | 分析阅读 | 2020/11/08 | 2020/11/08 |
 | [路易·波拿巴的雾月十八日](https://book.douban.com/subject/1091964/) | 政治 | 已读 | PDF | 分析阅读 | 2020/11/08 | 2020/11/08 |
