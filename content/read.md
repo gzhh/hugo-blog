@@ -40,13 +40,14 @@ weight: 50
 | [昨日的世界](https://book.douban.com/subject/4238162/) | 传记 | 想读 |  | | | |
 | [结构性改革](https://book.douban.com/subject/35147504/) | 经济 | 想读 |  |  |  |  |
 | [分析与思考](https://book.douban.com/subject/35149551/) | 经济 | 想读 |  |  |  |  |
-| [走出戈壁](https://book.douban.com/subject//35520540) | 回忆录 | 想读 |  |  |  |  |
 | [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | 分析阅读 | | |
 | [穷查理宝典](https://book.douban.com/subject/26831789/) | 方法论 | 想读 | PDF | 分析阅读 | 2023/06/10 | |
 | [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 |  |  |
 | [Linux内核设计<br>与实现](https://book.douban.com/subject/6097773/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/07/08 | |
 | [网络是怎样<br>连接的](https://book.douban.com/subject/26941639/) | 计算机 | 在读 | PDF | 分析阅读 | 2022/06/19 | |
 | [Fluent Python,<br>2nd Edition](https://book.douban.com/subject/34990079/) | 计算机 | 在读 | PDF | 主题阅读 | 2023/09/13 |  |
+| [编码](https://book.douban.com/subject/4822685/) | 计算机 | [在读](/reads/cs/code.md) | 实体书 | 主题阅读 | 2024/06/02 | |
+| [走出戈壁](https://book.douban.com/subject/35520540) | 回忆录 | 在读 | iBooks | 分析阅读 | 2024/06/08 | 2024/06/18 |
 | [Atomic Habits](https://book.douban.com/subject/34326931/) | 方法论 | [已读](/reads/methodology/atomic-habits) | iBooks | 分析阅读 | 2024/06/01 | 2024/06/01 |
 | [人生的枷锁](https://book.douban.com/subject/2035171/) | 小说 | [已读](/reads/fiction/of-human-bondage) | 实体书 | 分析阅读 | 2024/05/19 | 2024/05/27 |在
 | [经济学原理-宏观](https://book.douban.com/subject/26435630/) | 经济 | 已读 | iBooks | 主题阅读 | 2024/03/24 | 2024/05/18 |
