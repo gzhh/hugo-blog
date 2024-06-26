@@ -47,7 +47,8 @@ weight: 50
 | [网络是怎样<br>连接的](https://book.douban.com/subject/26941639/) | 计算机 | 在读 | PDF | 分析阅读 | 2022/06/19 | |
 | [Fluent Python,<br>2nd Edition](https://book.douban.com/subject/34990079/) | 计算机 | 在读 | PDF | 主题阅读 | 2023/09/13 |  |
 | [编码](https://book.douban.com/subject/4822685/) | 计算机 | [在读](/reads/cs/code.md) | 实体书 | 主题阅读 | 2024/06/02 | |
-| [走出戈壁](https://book.douban.com/subject/35520540) | 回忆录 | 在读 | iBooks | 分析阅读 | 2024/06/08 | 2024/06/18 |
+| [金钱博弈](https://book.douban.com/subject/35902211) | 回忆录 | 已读 | iBooks | 分析阅读 | 2024/06/21 | 2024/06/24 |
+| [走出戈壁](https://book.douban.com/subject/35520540) | 回忆录 | 已读 | iBooks | 分析阅读 | 2024/06/08 | 2024/06/18 |
 | [Atomic Habits](https://book.douban.com/subject/34326931/) | 方法论 | [已读](/reads/methodology/atomic-habits) | iBooks | 分析阅读 | 2024/06/01 | 2024/06/01 |
 | [人生的枷锁](https://book.douban.com/subject/2035171/) | 小说 | [已读](/reads/fiction/of-human-bondage) | 实体书 | 分析阅读 | 2024/05/19 | 2024/05/27 |在
 | [经济学原理-宏观](https://book.douban.com/subject/26435630/) | 经济 | 已读 | iBooks | 主题阅读 | 2024/03/24 | 2024/05/18 |
