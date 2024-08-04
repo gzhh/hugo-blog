@@ -40,12 +40,14 @@ weight: 50
 | [结构性改革](https://book.douban.com/subject/35147504/) | 经济 | 想读 |  |  |  |  |
 | [分析与思考](https://book.douban.com/subject/35149551/) | 经济 | 想读 |  |  |  |  |
 | [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | 分析阅读 | | |
+| [我看见的世界](https://book.douban.com/subject/36672955/) | 自传 | 想读 | iBooks | | | |
+| [金字塔原理](https://book.douban.com/subject/33391219/) | 方法论 | 想读 | iBooks | | | |
 | [穷查理宝典](https://book.douban.com/subject/26831789/) | 方法论 | 想读 | PDF | 分析阅读 | 2023/06/10 | |
 | [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 |  |  |
 | [Linux内核设计<br>与实现](https://book.douban.com/subject/6097773/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/07/08 | |
 | [网络是怎样<br>连接的](https://book.douban.com/subject/26941639/) | 计算机 | 在读 | PDF | 分析阅读 | 2022/06/19 | |
 | [Fluent Python,<br>2nd Edition](https://book.douban.com/subject/34990079/) | 计算机 | 在读 | PDF | 主题阅读 | 2023/09/13 |  |
-| [编码](https://book.douban.com/subject/4822685/) | 计算机 | [在读](/reads/cs/code) | 实体书 | 主题阅读 | 2024/06/02 | |
+| [编码](https://book.douban.com/subject/4822685/) | 计算机 | [已读](/reads/cs/code) | 实体书 | 主题阅读 | 2024/06/02 | 2024/08/04 |
 | [芯片战争](https://book.douban.com/subject/36350632/) | 科技 | [已读](/reads/ic/chip-war) | iBooks | 分析阅读 | 2024/07/20 | 2024/07/21 |
 | [奇迹的黄昏](https://www.goodreads.com/book/show/49088914) | 政经 | [已读](/reads/political-economy/qi-ji-de-huang-hun) | iBooks | 分析阅读 | 2024/06/29 | 2024/06/29 |
 | [金钱博弈](https://book.douban.com/subject/35902211) | 回忆录 | 已读 | iBooks | 分析阅读 | 2024/06/21 | 2024/06/24 |
