@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light dark">
@@ -12,24 +12,28 @@
 <meta name="description" content="gzhh&#39;s personal website">
 <meta name="keywords" content="blog,developer,personal">
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Lua 语言入门（二）"/>
-<meta name="twitter:description" content=""/>
 
-<meta property="og:title" content="Lua 语言入门（二）" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.gzhh.tech/posts/play-lua-second/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2019-10-06T09:22:54+08:00" />
-<meta property="article:modified_time" content="2019-10-06T09:22:54+08:00" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Lua 语言入门（二）">
+  <meta name="twitter:description" content="gzhh&#39;s personal website">
 
+<meta property="og:url" content="http://localhost:1313/posts/play-lua-second/">
+  <meta property="og:site_name" content="gzhh&#39;s blog">
+  <meta property="og:title" content="Lua 语言入门（二）">
+  <meta property="og:description" content="gzhh&#39;s personal website">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2019-10-06T09:22:54+08:00">
+    <meta property="article:modified_time" content="2019-10-06T09:22:54+08:00">
+    <meta property="article:tag" content="Lua">
 
 
 
   <title>gzhh&#39;s blog</title>
 
   
-  <link rel="canonical" href="https://blog.gzhh.tech/posts/play-lua-second/">
+  <link rel="canonical" href="http://localhost:1313/posts/play-lua-second/">
   
 
   <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
@@ -37,7 +41,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/coder.min.6b1a4fbc48955b72aea7913e43fabeb45e8bc120da5aa41b598dd33adcac4b59.css" integrity="sha256-axpPvEiVW3Kup5E&#43;Q/q&#43;tF6LwSDaWqQbWY3TOtysS1k=" crossorigin="anonymous" media="screen" />
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
 
 
 
@@ -47,7 +51,7 @@
   
     
     
-    <link rel="stylesheet" href="/css/coder-dark.min.39e41a7f16bdf8cb16e43cae7d714fa1016f1d2d2898a5b3f27f42c9979204e2.css" integrity="sha256-OeQafxa9&#43;MsW5DyufXFPoQFvHS0omKWz8n9CyZeSBOI=" crossorigin="anonymous" media="screen" />
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
   
 
 
@@ -67,9 +71,10 @@
 <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
 
 
-  
+  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="gzhh's blog" />
 
-  <meta name="generator" content="Hugo 0.89.4" />
+
+  <meta name="generator" content="Hugo 0.131.0">
 
 
   
@@ -106,7 +111,7 @@
         
           
             <li class="navigation-item">
-              <a class="navigation-link" href="/posts/">Blog</a>
+              <a class="navigation-link" href="/posts/">Posts</a>
             </li>
           
             <li class="navigation-item">
@@ -132,7 +137,7 @@
       <header>
         <div class="post-title">
           <h1 class="title">
-            <a class="title-link" href="https://blog.gzhh.tech/posts/play-lua-second/">
+            <a class="title-link" href="http://localhost:1313/posts/play-lua-second/">
               Lua 语言入门（二）
             </a>
           </h1>
@@ -176,219 +181,219 @@
 <ul>
 <li>
 <p>1.Closure 闭包</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lua" data-lang="lua"><span style="font-style:italic">-- 普通函数</span>
-<span style="font-weight:bold">function</span> foo (x) <span style="font-weight:bold">return</span> 2*x <span style="font-weight:bold">end</span>
-print(foo(1))
-
-<span style="font-style:italic">-- 将函数复制给一个变量</span>
-bar = <span style="font-weight:bold">function</span> (x) <span style="font-weight:bold">return</span> 3*x <span style="font-weight:bold">end</span>
-print(bar(1))
-
-<span style="font-style:italic">-- 匿名函数</span>
-network = {
-    {name = <span style="font-style:italic">&#34;grauna&#34;</span>,  IP = <span style="font-style:italic">&#34;210.26.30.34&#34;</span>},
-    {name = <span style="font-style:italic">&#34;arraial&#34;</span>, IP = <span style="font-style:italic">&#34;210.26.30.23&#34;</span>},
-    {name = <span style="font-style:italic">&#34;lua&#34;</span>,     IP = <span style="font-style:italic">&#34;210.26.23.12&#34;</span>},
-    {name = <span style="font-style:italic">&#34;derain&#34;</span>,  IP = <span style="font-style:italic">&#34;210.26.23.20&#34;</span>},
-}
-table.sort(network, <span style="font-weight:bold">function</span> (a, b) <span style="font-weight:bold">return</span> (a.name &gt; b.name) <span style="font-weight:bold">end</span>)
-<span style="font-weight:bold">for</span> _, item <span style="font-weight:bold">in</span> ipairs(network) <span style="font-weight:bold">do</span>
-    print(<span style="font-style:italic">&#34;name:&#34;</span>, item.name, <span style="font-style:italic">&#34;  &#34;</span>, <span style="font-style:italic">&#34;IP:&#34;</span>, item.IP)
-<span style="font-weight:bold">end</span>
-
-
-<span style="font-style:italic">-- 非全局函数1</span>
-<span style="font-style:italic">--[[
-</span><span style="font-style:italic">Lib = {
-</span><span style="font-style:italic">    foo = function (x,y) return x + y end,
-</span><span style="font-style:italic">    goo = function (x,y) return x - y end
-</span><span style="font-style:italic">}
-</span><span style="font-style:italic">--]]</span>
-<span style="font-style:italic">--[[
-</span><span style="font-style:italic">Lib = {}
-</span><span style="font-style:italic">function Lib.foo (x,y) return x + y end
-</span><span style="font-style:italic">function Lib.goo (x,y) return x - y end
-</span><span style="font-style:italic">--]]</span>
-Lib = {}
-Lib.foo = <span style="font-weight:bold">function</span> (x,y) <span style="font-weight:bold">return</span> x + y <span style="font-weight:bold">end</span>
-Lib.bar = <span style="font-weight:bold">function</span> (x,y) <span style="font-weight:bold">return</span> x - y <span style="font-weight:bold">end</span>
-print(Lib.foo(2, 3), Lib.bar(2, 3))
-
-<span style="font-style:italic">-- 非全局函数2</span>
-<span style="font-style:italic">-- local function fact () ... end 这样会出现递归调用全局函数的错误</span>
-<span style="font-weight:bold">local</span> fact
-fact = <span style="font-weight:bold">function</span> (n)
-    <span style="font-weight:bold">if</span> n == 0 <span style="font-weight:bold">then</span> <span style="font-weight:bold">return</span> 1
-    <span style="font-weight:bold">else</span> <span style="font-weight:bold">return</span> n*fact(n-1)
-    <span style="font-weight:bold">end</span>
-<span style="font-weight:bold">end</span>
-print(fact(5))
-
-
-<span style="font-style:italic">-- a closure is a function that accesses one or more local variables from its enclosing environment.</span>
-<span style="font-style:italic">-- 闭包是一个可以从它自身的闭合环境中访问一个或多个局部变量的函数</span>
-<span style="font-style:italic">-- 闭包(在函数中写另一个闭合函数) </span>
-<span style="font-style:italic">-- 词法作用域1</span>
-names = {<span style="font-style:italic">&#34;Peter&#34;</span>, <span style="font-style:italic">&#34;Paul&#34;</span>, <span style="font-style:italic">&#34;Mary&#34;</span>}
-grades = {Mary = 10, Paul = 7, Peter = 8}
-table.sort(names, <span style="font-weight:bold">function</span> (n1, n2)
-    <span style="font-weight:bold">return</span> grades[n1] &gt; grades[n2]
-<span style="font-weight:bold">end</span>)
-<span style="font-weight:bold">for</span> key, value <span style="font-weight:bold">in</span> pairs(grades) <span style="font-weight:bold">do</span>
-    print(<span style="font-style:italic">&#34;name:&#34;</span>, key, <span style="font-style:italic">&#34;  &#34;</span>, <span style="font-style:italic">&#34;grade:&#34;</span>, value)
-<span style="font-weight:bold">end</span>
-
-<span style="font-style:italic">-- 词法作用域2</span>
-names = {<span style="font-style:italic">&#34;Peter&#34;</span>, <span style="font-style:italic">&#34;Paul&#34;</span>, <span style="font-style:italic">&#34;Mary&#34;</span>}
-grades = {Mary = 10, Paul = 7, Peter = 8}
-<span style="font-weight:bold">function</span> sortbygrade (names, grades)
-    table.sort(names, <span style="font-weight:bold">function</span> (n1, n2)
-        <span style="font-weight:bold">return</span> grades[n1] &gt; grades[n2]
-    <span style="font-weight:bold">end</span>)
-<span style="font-weight:bold">end</span>
-sortbygrade(names, grades)
-<span style="font-weight:bold">for</span> key, value <span style="font-weight:bold">in</span> pairs(grades) <span style="font-weight:bold">do</span>
-    print(<span style="font-style:italic">&#34;name:&#34;</span>, key, <span style="font-style:italic">&#34;  &#34;</span>, <span style="font-style:italic">&#34;grade:&#34;</span>, value)
-<span style="font-weight:bold">end</span>
-
-<span style="font-style:italic">-- 词法作用域3</span>
-<span style="font-weight:bold">function</span> newCounter ()
-    <span style="font-weight:bold">local</span> count = 0
-    <span style="font-weight:bold">return</span> <span style="font-weight:bold">function</span> () <span style="font-style:italic">-- anonymous function</span>
-        count = count + 1
-        <span style="font-weight:bold">return</span> count
-    <span style="font-weight:bold">end</span>
-<span style="font-weight:bold">end</span>
-c1 = newCounter()
-print(c1()) <span style="font-style:italic">--&gt; 1</span>
-print(c1()) <span style="font-style:italic">--&gt; 2</span>
-c2 = newCounter()
-print(c2())  <span style="font-style:italic">--&gt; 1</span>
-print(c1())  <span style="font-style:italic">--&gt; 3</span>
-print(c2())  <span style="font-style:italic">--&gt; 2</span>
-<span style="font-style:italic">-- c1 和 c2 是不同的闭包</span>
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="font-style:italic">-- 普通函数</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">function</span> foo (x) <span style="font-weight:bold">return</span> 2*x <span style="font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span>print(foo(1))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">-- 将函数复制给一个变量</span>
+</span></span><span style="display:flex;"><span>bar = <span style="font-weight:bold">function</span> (x) <span style="font-weight:bold">return</span> 3*x <span style="font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span>print(bar(1))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">-- 匿名函数</span>
+</span></span><span style="display:flex;"><span>network = {
+</span></span><span style="display:flex;"><span>    {name = <span style="font-style:italic">&#34;grauna&#34;</span>,  IP = <span style="font-style:italic">&#34;210.26.30.34&#34;</span>},
+</span></span><span style="display:flex;"><span>    {name = <span style="font-style:italic">&#34;arraial&#34;</span>, IP = <span style="font-style:italic">&#34;210.26.30.23&#34;</span>},
+</span></span><span style="display:flex;"><span>    {name = <span style="font-style:italic">&#34;lua&#34;</span>,     IP = <span style="font-style:italic">&#34;210.26.23.12&#34;</span>},
+</span></span><span style="display:flex;"><span>    {name = <span style="font-style:italic">&#34;derain&#34;</span>,  IP = <span style="font-style:italic">&#34;210.26.23.20&#34;</span>},
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>table.sort(network, <span style="font-weight:bold">function</span> (a, b) <span style="font-weight:bold">return</span> (a.name &gt; b.name) <span style="font-weight:bold">end</span>)
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">for</span> _, item <span style="font-weight:bold">in</span> ipairs(network) <span style="font-weight:bold">do</span>
+</span></span><span style="display:flex;"><span>    print(<span style="font-style:italic">&#34;name:&#34;</span>, item.name, <span style="font-style:italic">&#34;  &#34;</span>, <span style="font-style:italic">&#34;IP:&#34;</span>, item.IP)
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">-- 非全局函数1</span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">--[[
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">Lib = {
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">    foo = function (x,y) return x + y end,
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">    goo = function (x,y) return x - y end
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">}
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">--]]</span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">--[[
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">Lib = {}
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">function Lib.foo (x,y) return x + y end
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">function Lib.goo (x,y) return x - y end
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">--]]</span>
+</span></span><span style="display:flex;"><span>Lib = {}
+</span></span><span style="display:flex;"><span>Lib.foo = <span style="font-weight:bold">function</span> (x,y) <span style="font-weight:bold">return</span> x + y <span style="font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span>Lib.bar = <span style="font-weight:bold">function</span> (x,y) <span style="font-weight:bold">return</span> x - y <span style="font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span>print(Lib.foo(2, 3), Lib.bar(2, 3))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">-- 非全局函数2</span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">-- local function fact () ... end 这样会出现递归调用全局函数的错误</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">local</span> fact
+</span></span><span style="display:flex;"><span>fact = <span style="font-weight:bold">function</span> (n)
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">if</span> n == 0 <span style="font-weight:bold">then</span> <span style="font-weight:bold">return</span> 1
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">else</span> <span style="font-weight:bold">return</span> n*fact(n-1)
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span>print(fact(5))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">-- a closure is a function that accesses one or more local variables from its enclosing environment.</span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">-- 闭包是一个可以从它自身的闭合环境中访问一个或多个局部变量的函数</span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">-- 闭包(在函数中写另一个闭合函数) </span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">-- 词法作用域1</span>
+</span></span><span style="display:flex;"><span>names = {<span style="font-style:italic">&#34;Peter&#34;</span>, <span style="font-style:italic">&#34;Paul&#34;</span>, <span style="font-style:italic">&#34;Mary&#34;</span>}
+</span></span><span style="display:flex;"><span>grades = {Mary = 10, Paul = 7, Peter = 8}
+</span></span><span style="display:flex;"><span>table.sort(names, <span style="font-weight:bold">function</span> (n1, n2)
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> grades[n1] &gt; grades[n2]
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">end</span>)
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">for</span> key, value <span style="font-weight:bold">in</span> pairs(grades) <span style="font-weight:bold">do</span>
+</span></span><span style="display:flex;"><span>    print(<span style="font-style:italic">&#34;name:&#34;</span>, key, <span style="font-style:italic">&#34;  &#34;</span>, <span style="font-style:italic">&#34;grade:&#34;</span>, value)
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">-- 词法作用域2</span>
+</span></span><span style="display:flex;"><span>names = {<span style="font-style:italic">&#34;Peter&#34;</span>, <span style="font-style:italic">&#34;Paul&#34;</span>, <span style="font-style:italic">&#34;Mary&#34;</span>}
+</span></span><span style="display:flex;"><span>grades = {Mary = 10, Paul = 7, Peter = 8}
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">function</span> sortbygrade (names, grades)
+</span></span><span style="display:flex;"><span>    table.sort(names, <span style="font-weight:bold">function</span> (n1, n2)
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">return</span> grades[n1] &gt; grades[n2]
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">end</span>)
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span>sortbygrade(names, grades)
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">for</span> key, value <span style="font-weight:bold">in</span> pairs(grades) <span style="font-weight:bold">do</span>
+</span></span><span style="display:flex;"><span>    print(<span style="font-style:italic">&#34;name:&#34;</span>, key, <span style="font-style:italic">&#34;  &#34;</span>, <span style="font-style:italic">&#34;grade:&#34;</span>, value)
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">-- 词法作用域3</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">function</span> newCounter ()
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">local</span> count = 0
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> <span style="font-weight:bold">function</span> () <span style="font-style:italic">-- anonymous function</span>
+</span></span><span style="display:flex;"><span>        count = count + 1
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">return</span> count
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span>c1 = newCounter()
+</span></span><span style="display:flex;"><span>print(c1()) <span style="font-style:italic">--&gt; 1</span>
+</span></span><span style="display:flex;"><span>print(c1()) <span style="font-style:italic">--&gt; 2</span>
+</span></span><span style="display:flex;"><span>c2 = newCounter()
+</span></span><span style="display:flex;"><span>print(c2())  <span style="font-style:italic">--&gt; 1</span>
+</span></span><span style="display:flex;"><span>print(c1())  <span style="font-style:italic">--&gt; 3</span>
+</span></span><span style="display:flex;"><span>print(c2())  <span style="font-style:italic">--&gt; 2</span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">-- c1 和 c2 是不同的闭包</span>
+</span></span></code></pre></div></li>
 <li>
 <p>2.模式匹配</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lua" data-lang="lua"><span style="font-style:italic">-- string.find</span>
-s = <span style="font-style:italic">&#34;hello world&#34;</span>
-i, j = string.find(s, <span style="font-style:italic">&#34;hello&#34;</span>)
-print(i, j)                         <span style="font-style:italic">--&gt; 1 5</span>
-print(string.sub(s, i, j))          <span style="font-style:italic">--&gt; hello</span>
-print(string.find(s, <span style="font-style:italic">&#34;world&#34;</span>))      <span style="font-style:italic">--&gt; 7 11</span>
-i, j = string.find(s, <span style="font-style:italic">&#34;l&#34;</span>)
-print(i, j)                         <span style="font-style:italic">--&gt; 3 3</span>
-print(string.find(s, <span style="font-style:italic">&#34;lll&#34;</span>))        <span style="font-style:italic">--&gt; nil</span>
-
-<span style="font-style:italic">-- 第三个参数表示从哪个位置开始查找</span>
-<span style="font-style:italic">-- 第四个参数表示是否是文本查找，表示第二个参数中的字符串没有其他特别的意思</span>
-i, j = string.find(<span style="font-style:italic">&#34;a [word]&#34;</span>, <span style="font-style:italic">&#34;[&#34;</span>, 1, <span style="font-weight:bold">true</span>)   <span style="font-style:italic">--&gt; 3   3</span>
-
-
-<span style="font-style:italic">-- string.match</span>
-print(string.match(<span style="font-style:italic">&#34;hello world&#34;</span>, <span style="font-style:italic">&#34;hello&#34;</span>)) <span style="font-style:italic">--&gt; hello</span>
-date = <span style="font-style:italic">&#34;Today is 17/7/1990&#34;</span>
-d = string.match(date, <span style="font-style:italic">&#34;%d+/%d+/%d&#34;</span>)
-print(d) <span style="font-style:italic">--&gt; 17/7/1990</span>
-
-
-<span style="font-style:italic">-- string.gsub</span>
-s = string.gsub(<span style="font-style:italic">&#34;Lua is cute&#34;</span>, <span style="font-style:italic">&#34;cute&#34;</span>, <span style="font-style:italic">&#34;great&#34;</span>)
-print(s)         <span style="font-style:italic">--&gt; Lua is great</span>
-s = string.gsub(<span style="font-style:italic">&#34;all lii&#34;</span>, <span style="font-style:italic">&#34;l&#34;</span>, <span style="font-style:italic">&#34;x&#34;</span>)
-print(s)         <span style="font-style:italic">--&gt; axx xii</span>
-s = string.gsub(<span style="font-style:italic">&#34;Lua is great&#34;</span>, <span style="font-style:italic">&#34;Sol&#34;</span>, <span style="font-style:italic">&#34;Sun&#34;</span>)
-print(s)         <span style="font-style:italic">--&gt; Lua is great</span>
-
-s = string.gsub(<span style="font-style:italic">&#34;all lii&#34;</span>, <span style="font-style:italic">&#34;l&#34;</span>, <span style="font-style:italic">&#34;x&#34;</span>, 1)
-print(s)          <span style="font-style:italic">--&gt; axl lii</span>
-s = string.gsub(<span style="font-style:italic">&#34;all lii&#34;</span>, <span style="font-style:italic">&#34;l&#34;</span>, <span style="font-style:italic">&#34;x&#34;</span>, 2)
-print(s)          <span style="font-style:italic">--&gt; axx lii</span>
-
-
-<span style="font-style:italic">-- string.gmatch</span>
-s = <span style="font-style:italic">&#34;some string&#34;</span>
-words = {}
-<span style="font-style:italic">-- {&#34;some&#34;, &#34;string&#34;}</span>
-<span style="font-weight:bold">for</span> w <span style="font-weight:bold">in</span> string.gmatch(s, <span style="font-style:italic">&#34;%a+&#34;</span>) <span style="font-weight:bold">do</span>
-    words[#words + 1] = w
-<span style="font-weight:bold">end</span>
-
-
-<span style="font-style:italic">--[[
-</span><span style="font-style:italic">-- 正则表达式中预定义字符所表示的意思
-</span><span style="font-style:italic">.               all characters
-</span><span style="font-style:italic">%a              letters
-</span><span style="font-style:italic">%c              control characters
-</span><span style="font-style:italic">%d              digits
-</span><span style="font-style:italic">%g              printable characters except spaces
-</span><span style="font-style:italic">%l              lower-case letters
-</span><span style="font-style:italic">%p              punctuation characters
-</span><span style="font-style:italic">%s              space characters
-</span><span style="font-style:italic">%u              upper-case letters
-</span><span style="font-style:italic">%w              alphanumeric characters
-</span><span style="font-style:italic">%x              hexadecimal digits
-</span><span style="font-style:italic">
-</span><span style="font-style:italic">-- 魔法字符
-</span><span style="font-style:italic">( ) . % + - * ? [  ] ^ $
-</span><span style="font-style:italic">]]</span>
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="font-style:italic">-- string.find</span>
+</span></span><span style="display:flex;"><span>s = <span style="font-style:italic">&#34;hello world&#34;</span>
+</span></span><span style="display:flex;"><span>i, j = string.find(s, <span style="font-style:italic">&#34;hello&#34;</span>)
+</span></span><span style="display:flex;"><span>print(i, j)                         <span style="font-style:italic">--&gt; 1 5</span>
+</span></span><span style="display:flex;"><span>print(string.sub(s, i, j))          <span style="font-style:italic">--&gt; hello</span>
+</span></span><span style="display:flex;"><span>print(string.find(s, <span style="font-style:italic">&#34;world&#34;</span>))      <span style="font-style:italic">--&gt; 7 11</span>
+</span></span><span style="display:flex;"><span>i, j = string.find(s, <span style="font-style:italic">&#34;l&#34;</span>)
+</span></span><span style="display:flex;"><span>print(i, j)                         <span style="font-style:italic">--&gt; 3 3</span>
+</span></span><span style="display:flex;"><span>print(string.find(s, <span style="font-style:italic">&#34;lll&#34;</span>))        <span style="font-style:italic">--&gt; nil</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">-- 第三个参数表示从哪个位置开始查找</span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">-- 第四个参数表示是否是文本查找，表示第二个参数中的字符串没有其他特别的意思</span>
+</span></span><span style="display:flex;"><span>i, j = string.find(<span style="font-style:italic">&#34;a [word]&#34;</span>, <span style="font-style:italic">&#34;[&#34;</span>, 1, <span style="font-weight:bold">true</span>)   <span style="font-style:italic">--&gt; 3   3</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">-- string.match</span>
+</span></span><span style="display:flex;"><span>print(string.match(<span style="font-style:italic">&#34;hello world&#34;</span>, <span style="font-style:italic">&#34;hello&#34;</span>)) <span style="font-style:italic">--&gt; hello</span>
+</span></span><span style="display:flex;"><span>date = <span style="font-style:italic">&#34;Today is 17/7/1990&#34;</span>
+</span></span><span style="display:flex;"><span>d = string.match(date, <span style="font-style:italic">&#34;%d+/%d+/%d&#34;</span>)
+</span></span><span style="display:flex;"><span>print(d) <span style="font-style:italic">--&gt; 17/7/1990</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">-- string.gsub</span>
+</span></span><span style="display:flex;"><span>s = string.gsub(<span style="font-style:italic">&#34;Lua is cute&#34;</span>, <span style="font-style:italic">&#34;cute&#34;</span>, <span style="font-style:italic">&#34;great&#34;</span>)
+</span></span><span style="display:flex;"><span>print(s)         <span style="font-style:italic">--&gt; Lua is great</span>
+</span></span><span style="display:flex;"><span>s = string.gsub(<span style="font-style:italic">&#34;all lii&#34;</span>, <span style="font-style:italic">&#34;l&#34;</span>, <span style="font-style:italic">&#34;x&#34;</span>)
+</span></span><span style="display:flex;"><span>print(s)         <span style="font-style:italic">--&gt; axx xii</span>
+</span></span><span style="display:flex;"><span>s = string.gsub(<span style="font-style:italic">&#34;Lua is great&#34;</span>, <span style="font-style:italic">&#34;Sol&#34;</span>, <span style="font-style:italic">&#34;Sun&#34;</span>)
+</span></span><span style="display:flex;"><span>print(s)         <span style="font-style:italic">--&gt; Lua is great</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>s = string.gsub(<span style="font-style:italic">&#34;all lii&#34;</span>, <span style="font-style:italic">&#34;l&#34;</span>, <span style="font-style:italic">&#34;x&#34;</span>, 1)
+</span></span><span style="display:flex;"><span>print(s)          <span style="font-style:italic">--&gt; axl lii</span>
+</span></span><span style="display:flex;"><span>s = string.gsub(<span style="font-style:italic">&#34;all lii&#34;</span>, <span style="font-style:italic">&#34;l&#34;</span>, <span style="font-style:italic">&#34;x&#34;</span>, 2)
+</span></span><span style="display:flex;"><span>print(s)          <span style="font-style:italic">--&gt; axx lii</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">-- string.gmatch</span>
+</span></span><span style="display:flex;"><span>s = <span style="font-style:italic">&#34;some string&#34;</span>
+</span></span><span style="display:flex;"><span>words = {}
+</span></span><span style="display:flex;"><span><span style="font-style:italic">-- {&#34;some&#34;, &#34;string&#34;}</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">for</span> w <span style="font-weight:bold">in</span> string.gmatch(s, <span style="font-style:italic">&#34;%a+&#34;</span>) <span style="font-weight:bold">do</span>
+</span></span><span style="display:flex;"><span>    words[#words + 1] = w
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">--[[
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">-- 正则表达式中预定义字符所表示的意思
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">.               all characters
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">%a              letters
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">%c              control characters
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">%d              digits
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">%g              printable characters except spaces
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">%l              lower-case letters
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">%p              punctuation characters
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">%s              space characters
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">%u              upper-case letters
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">%w              alphanumeric characters
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">%x              hexadecimal digits
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">-- 魔法字符
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">( ) . % + - * ? [  ] ^ $
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">]]</span>
+</span></span></code></pre></div></li>
 <li>
 <p>3.日期与时间</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lua" data-lang="lua"><span style="font-style:italic">-- os.time</span>
-os.time({year=2015, month=8, day=15, hour=12, min=45, sec=20})
-
-<span style="font-style:italic">-- os.date</span>
-os.date(<span style="font-style:italic">&#34;%d/%m/%Y&#34;</span>, 1569752320)
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="font-style:italic">-- os.time</span>
+</span></span><span style="display:flex;"><span>os.time({year=2015, month=8, day=15, hour=12, min=45, sec=20})
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">-- os.date</span>
+</span></span><span style="display:flex;"><span>os.date(<span style="font-style:italic">&#34;%d/%m/%Y&#34;</span>, 1569752320)
+</span></span></code></pre></div></li>
 <li>
 <p>4.Iterator 迭代器 和 Generic 范型</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lua" data-lang="lua"><span style="font-style:italic">-- 范型可以简化迭代器的繁琐</span>
-<span style="font-style:italic">-- iterator</span>
-<span style="font-weight:bold">function</span> values (t)
-    <span style="font-weight:bold">local</span> i = 0
-    <span style="font-weight:bold">return</span> <span style="font-weight:bold">function</span> () i = i + 1; <span style="font-weight:bold">return</span> t[i] <span style="font-weight:bold">end</span>
-<span style="font-weight:bold">end</span>
-
-t = {10, 20, 30}
-iter = values(t) <span style="font-style:italic">-- iter is a closure</span>
-<span style="font-weight:bold">while</span> <span style="font-weight:bold">true</span> <span style="font-weight:bold">do</span>
-    <span style="font-weight:bold">local</span> element = iter()
-    <span style="font-weight:bold">if</span> element == <span style="font-weight:bold">nil</span> <span style="font-weight:bold">then</span> <span style="font-weight:bold">break</span> <span style="font-weight:bold">end</span>
-    print(element)
-<span style="font-weight:bold">end</span>
-
-
-<span style="font-style:italic">-- generic</span>
-t = {10, 20, 30}
-<span style="font-weight:bold">for</span> element <span style="font-weight:bold">in</span> values(t) <span style="font-weight:bold">do</span>
-    print(element)
-<span style="font-weight:bold">end</span>
-
-
-<span style="font-style:italic">-- 使用 iterator 来遍历从终端输入的所有单词</span>
-<span style="font-weight:bold">function</span> allwords ()
-    <span style="font-weight:bold">local</span> line = io.read()
-    <span style="font-weight:bold">local</span> pos = 1
-    <span style="font-weight:bold">return</span> <span style="font-weight:bold">function</span> ()
-        <span style="font-weight:bold">while</span> line <span style="font-weight:bold">do</span>
-            <span style="font-weight:bold">local</span> w, e = string.match(line, <span style="font-style:italic">&#34;(%w+)()&#34;</span>, pos)
-            <span style="font-weight:bold">if</span> w <span style="font-weight:bold">then</span>
-                pos = e
-                <span style="font-weight:bold">return</span> w
-            <span style="font-weight:bold">else</span>
-                line = io.read()
-                pos = 1
-            <span style="font-weight:bold">end</span>
-        <span style="font-weight:bold">end</span>
-        <span style="font-weight:bold">return</span> <span style="font-weight:bold">nil</span>
-    <span style="font-weight:bold">end</span>
-<span style="font-weight:bold">end</span>
-
-<span style="font-weight:bold">for</span> word <span style="font-weight:bold">in</span> allwords() <span style="font-weight:bold">do</span>
-    print(word)
-<span style="font-weight:bold">end</span>
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="font-style:italic">-- 范型可以简化迭代器的繁琐</span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">-- iterator</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">function</span> values (t)
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">local</span> i = 0
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> <span style="font-weight:bold">function</span> () i = i + 1; <span style="font-weight:bold">return</span> t[i] <span style="font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>t = {10, 20, 30}
+</span></span><span style="display:flex;"><span>iter = values(t) <span style="font-style:italic">-- iter is a closure</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">while</span> <span style="font-weight:bold">true</span> <span style="font-weight:bold">do</span>
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">local</span> element = iter()
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">if</span> element == <span style="font-weight:bold">nil</span> <span style="font-weight:bold">then</span> <span style="font-weight:bold">break</span> <span style="font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span>    print(element)
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">-- generic</span>
+</span></span><span style="display:flex;"><span>t = {10, 20, 30}
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">for</span> element <span style="font-weight:bold">in</span> values(t) <span style="font-weight:bold">do</span>
+</span></span><span style="display:flex;"><span>    print(element)
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">-- 使用 iterator 来遍历从终端输入的所有单词</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">function</span> allwords ()
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">local</span> line = io.read()
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">local</span> pos = 1
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> <span style="font-weight:bold">function</span> ()
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">while</span> line <span style="font-weight:bold">do</span>
+</span></span><span style="display:flex;"><span>            <span style="font-weight:bold">local</span> w, e = string.match(line, <span style="font-style:italic">&#34;(%w+)()&#34;</span>, pos)
+</span></span><span style="display:flex;"><span>            <span style="font-weight:bold">if</span> w <span style="font-weight:bold">then</span>
+</span></span><span style="display:flex;"><span>                pos = e
+</span></span><span style="display:flex;"><span>                <span style="font-weight:bold">return</span> w
+</span></span><span style="display:flex;"><span>            <span style="font-weight:bold">else</span>
+</span></span><span style="display:flex;"><span>                line = io.read()
+</span></span><span style="display:flex;"><span>                pos = 1
+</span></span><span style="display:flex;"><span>            <span style="font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">return</span> <span style="font-weight:bold">nil</span>
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">for</span> word <span style="font-weight:bold">in</span> allwords() <span style="font-weight:bold">do</span>
+</span></span><span style="display:flex;"><span>    print(word)
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">end</span>
+</span></span></code></pre></div></li>
 </ul>
       </div>
 
@@ -398,8 +403,8 @@ t = {10, 20, 30}
 
 
         <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
+<script>
+    window.disqus_config = function () {
     
     
     
@@ -433,7 +438,7 @@ t = {10, 20, 30}
     
       2017 -
     
-    2022
+    2024
      gzhh 
     ·
     
@@ -446,12 +451,15 @@ t = {10, 20, 30}
 
   
   
-  <script src="/js/coder.min.08fc7a7924db1ae6786408cb68e12ff953e6329376a469f5f517f3769c19194d.js" integrity="sha256-CPx6eSTbGuZ4ZAjLaOEv&#43;VPmMpN2pGn19RfzdpwZGU0="></script>
+  <script src="/js/coder.js"></script>
   
 
   
 
   
+  
+
+
 
   
 

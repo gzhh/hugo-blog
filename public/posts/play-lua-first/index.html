@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light dark">
@@ -12,24 +12,28 @@
 <meta name="description" content="gzhh&#39;s personal website">
 <meta name="keywords" content="blog,developer,personal">
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Lua 语言入门（一）"/>
-<meta name="twitter:description" content=""/>
 
-<meta property="og:title" content="Lua 语言入门（一）" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.gzhh.tech/posts/play-lua-first/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2019-09-29T20:20:36+08:00" />
-<meta property="article:modified_time" content="2019-09-29T20:20:36+08:00" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Lua 语言入门（一）">
+  <meta name="twitter:description" content="gzhh&#39;s personal website">
 
+<meta property="og:url" content="http://localhost:1313/posts/play-lua-first/">
+  <meta property="og:site_name" content="gzhh&#39;s blog">
+  <meta property="og:title" content="Lua 语言入门（一）">
+  <meta property="og:description" content="gzhh&#39;s personal website">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2019-09-29T20:20:36+08:00">
+    <meta property="article:modified_time" content="2019-09-29T20:20:36+08:00">
+    <meta property="article:tag" content="Lua">
 
 
 
   <title>gzhh&#39;s blog</title>
 
   
-  <link rel="canonical" href="https://blog.gzhh.tech/posts/play-lua-first/">
+  <link rel="canonical" href="http://localhost:1313/posts/play-lua-first/">
   
 
   <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
@@ -37,7 +41,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/coder.min.6b1a4fbc48955b72aea7913e43fabeb45e8bc120da5aa41b598dd33adcac4b59.css" integrity="sha256-axpPvEiVW3Kup5E&#43;Q/q&#43;tF6LwSDaWqQbWY3TOtysS1k=" crossorigin="anonymous" media="screen" />
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
 
 
 
@@ -47,7 +51,7 @@
   
     
     
-    <link rel="stylesheet" href="/css/coder-dark.min.39e41a7f16bdf8cb16e43cae7d714fa1016f1d2d2898a5b3f27f42c9979204e2.css" integrity="sha256-OeQafxa9&#43;MsW5DyufXFPoQFvHS0omKWz8n9CyZeSBOI=" crossorigin="anonymous" media="screen" />
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
   
 
 
@@ -67,9 +71,10 @@
 <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
 
 
-  
+  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="gzhh's blog" />
 
-  <meta name="generator" content="Hugo 0.89.4" />
+
+  <meta name="generator" content="Hugo 0.131.0">
 
 
   
@@ -106,7 +111,7 @@
         
           
             <li class="navigation-item">
-              <a class="navigation-link" href="/posts/">Blog</a>
+              <a class="navigation-link" href="/posts/">Posts</a>
             </li>
           
             <li class="navigation-item">
@@ -132,7 +137,7 @@
       <header>
         <div class="post-title">
           <h1 class="title">
-            <a class="title-link" href="https://blog.gzhh.tech/posts/play-lua-first/">
+            <a class="title-link" href="http://localhost:1313/posts/play-lua-first/">
               Lua 语言入门（一）
             </a>
           </h1>
@@ -199,17 +204,17 @@ dofile(&ldquo;test.lua&rdquo;)</p>
 <p>4.变量和类型
 由于 Lua 是动态语言，所以变量没有类型，但是每个值都有它们自己的类型
 八个基本类型：</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">value:
-&gt; type(nil)			  --&gt; nil
-&gt; type(true)           --&gt; boolean
-&gt; type(10.4 * 3)       --&gt; number
-&gt; type(&#34;Hello world&#34;)  --&gt; string
-&gt; type(io.stdin)       --&gt; userdata
-&gt; type(print)          --&gt; function
-&gt; type(type)           --&gt; function
-&gt; type({})             --&gt; table
-&gt; type(type(X))        --&gt; string
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>value:
+</span></span><span style="display:flex;"><span>&gt; type(nil)			  --&gt; nil
+</span></span><span style="display:flex;"><span>&gt; type(true)           --&gt; boolean
+</span></span><span style="display:flex;"><span>&gt; type(10.4 * 3)       --&gt; number
+</span></span><span style="display:flex;"><span>&gt; type(&#34;Hello world&#34;)  --&gt; string
+</span></span><span style="display:flex;"><span>&gt; type(io.stdin)       --&gt; userdata
+</span></span><span style="display:flex;"><span>&gt; type(print)          --&gt; function
+</span></span><span style="display:flex;"><span>&gt; type(type)           --&gt; function
+</span></span><span style="display:flex;"><span>&gt; type({})             --&gt; table
+</span></span><span style="display:flex;"><span>&gt; type(type(X))        --&gt; string
+</span></span></code></pre></div></li>
 <li>
 <p>5.基本类型
 Boolean: 在条件判断中 false 和 nil 被当作 false，其他都被当作 ture。lua 的三元操作符和别的语言不一样</p>
@@ -271,320 +276,319 @@ tonumber(str) // 如果str可以解释为number值，返回integers或floats，�
 </li>
 <li>
 <p>13.字符串库</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">&gt; string.rep(&#34;abc&#34;, 3)				--&gt; abcabcabc
-&gt; string.reverse(&#34;A Long Line!&#34;)	--&gt; !eniL gnoL A
-&gt; string.lower(&#34;A Long Line!&#34;)		--&gt; a long line!
-&gt; string.upper(&#34;A Long Line!&#34;)		--&gt; A LONG LINE!
-&gt; string.sub(s, i, j)				--&gt; from the ith to the jth character
-
-print(string.char(97))						--&gt; a
-i = 99; print(string.char(i, i+1, i+2))		--&gt; cde
-print(string.byte(&#34;abc&#34;))					--&gt; 97
-print(string.byte(&#34;abc&#34;, 2))				--&gt; 98
-print(string.byte(&#34;abc&#34;, -1))				--&gt; 99
-
-string.format(&#34;x = %d  y = %d&#34;, 10, 20)		--&gt; x = 10  y = 20
-string.format(&#34;x = %f&#34;, 200)				--&gt; x = 200.000000
-&gt; tag, title = &#34;h1&#34;, &#34;a title&#34;
-&gt; string.format(&#34;&lt;%s&gt;%s&lt;/%s&gt;&#34;, tag, title, tag)
---&gt; &lt;h1&gt;a title&lt;/h1&gt;
-
-&gt; string.find(&#34;hello world&#34;, &#34;wor&#34;)   --&gt; 7   9
-&gt; string.find(&#34;hello world&#34;, &#34;war&#34;)   --&gt; nil
-
-&gt; string.gsub(&#34;hello world&#34;, &#34;l&#34;, &#34;.&#34;)		--&gt; he..o wor.d    3
-&gt; string.gsub(&#34;hello world&#34;, &#34;ll&#34;, &#34;..&#34;)	--&gt; he..o world    1
-&gt; string.gsub(&#34;hello world&#34;, &#34;a&#34;, &#34;.&#34;)		--&gt; hello world    0
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&gt; string.rep(&#34;abc&#34;, 3)				--&gt; abcabcabc
+</span></span><span style="display:flex;"><span>&gt; string.reverse(&#34;A Long Line!&#34;)	--&gt; !eniL gnoL A
+</span></span><span style="display:flex;"><span>&gt; string.lower(&#34;A Long Line!&#34;)		--&gt; a long line!
+</span></span><span style="display:flex;"><span>&gt; string.upper(&#34;A Long Line!&#34;)		--&gt; A LONG LINE!
+</span></span><span style="display:flex;"><span>&gt; string.sub(s, i, j)				--&gt; from the ith to the jth character
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(string.char(97))						--&gt; a
+</span></span><span style="display:flex;"><span>i = 99; print(string.char(i, i+1, i+2))		--&gt; cde
+</span></span><span style="display:flex;"><span>print(string.byte(&#34;abc&#34;))					--&gt; 97
+</span></span><span style="display:flex;"><span>print(string.byte(&#34;abc&#34;, 2))				--&gt; 98
+</span></span><span style="display:flex;"><span>print(string.byte(&#34;abc&#34;, -1))				--&gt; 99
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>string.format(&#34;x = %d  y = %d&#34;, 10, 20)		--&gt; x = 10  y = 20
+</span></span><span style="display:flex;"><span>string.format(&#34;x = %f&#34;, 200)				--&gt; x = 200.000000
+</span></span><span style="display:flex;"><span>&gt; tag, title = &#34;h1&#34;, &#34;a title&#34;
+</span></span><span style="display:flex;"><span>&gt; string.format(&#34;&lt;%s&gt;%s&lt;/%s&gt;&#34;, tag, title, tag)
+</span></span><span style="display:flex;"><span>--&gt; &lt;h1&gt;a title&lt;/h1&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&gt; string.find(&#34;hello world&#34;, &#34;wor&#34;)   --&gt; 7   9
+</span></span><span style="display:flex;"><span>&gt; string.find(&#34;hello world&#34;, &#34;war&#34;)   --&gt; nil
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&gt; string.gsub(&#34;hello world&#34;, &#34;l&#34;, &#34;.&#34;)		--&gt; he..o wor.d    3
+</span></span><span style="display:flex;"><span>&gt; string.gsub(&#34;hello world&#34;, &#34;ll&#34;, &#34;..&#34;)	--&gt; he..o world    1
+</span></span><span style="display:flex;"><span>&gt; string.gsub(&#34;hello world&#34;, &#34;a&#34;, &#34;.&#34;)		--&gt; hello world    0
+</span></span></code></pre></div></li>
 <li>
 <p>14.utf-8 支持</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">utf8.len(&#34;résumé&#34;) --&gt; 2
-utf8.char(114, 233, 115, 117, 109, 233) --&gt; résumé
-utf8.codepoint(&#34;résumé&#34;, 6, 7)          --&gt; 109    233
-
-
-&gt; s = &#34;Nähdään&#34;
-&gt; utf8.codepoint(s, utf8.offset(s, 5))  --&gt; 228
-&gt; utf8.char(228)						--&gt; ä
-
-for i, c in utf8.codes(&#34;Ação&#34;) do
-	print(i, c)
-end
-  --&gt; 1    65
-  --&gt; 2    231
-  --&gt; 4    227
-  --&gt; 6    111
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>utf8.len(&#34;résumé&#34;) --&gt; 2
+</span></span><span style="display:flex;"><span>utf8.char(114, 233, 115, 117, 109, 233) --&gt; résumé
+</span></span><span style="display:flex;"><span>utf8.codepoint(&#34;résumé&#34;, 6, 7)          --&gt; 109    233
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&gt; s = &#34;Nähdään&#34;
+</span></span><span style="display:flex;"><span>&gt; utf8.codepoint(s, utf8.offset(s, 5))  --&gt; 228
+</span></span><span style="display:flex;"><span>&gt; utf8.char(228)						--&gt; ä
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>for i, c in utf8.codes(&#34;Ação&#34;) do
+</span></span><span style="display:flex;"><span>	print(i, c)
+</span></span><span style="display:flex;"><span>end
+</span></span><span style="display:flex;"><span>  --&gt; 1    65
+</span></span><span style="display:flex;"><span>  --&gt; 2    231
+</span></span><span style="display:flex;"><span>  --&gt; 4    227
+</span></span><span style="display:flex;"><span>  --&gt; 6    111
+</span></span></code></pre></div></li>
 <li>
 <p>15.Tables</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">可以用 tables 表示 arrays, sets, structs, records
-// 数组
-a = {}
-a[&#34;x&#34;] = 10
-b = a						-- &#39;b&#39; refers to the same table as &#39;a&#39;
-b[&#34;x&#34;]
-b[&#34;x&#34;] = 20
-a[&#34;x&#34;]						-- 20
-a = nil						-- only &#39;b&#39; still refers to the table
-b = nil						-- no references left to the table
-
-// 结构体
-&gt; a = {}					-- empty table
-&gt; a.x = 10				    -- same as a[&#34;x&#34;] = 10
-&gt; a.x						-- same as a[&#34;x&#34;]
-&gt; a.y						-- same as a[&#34;y&#34;]
-
-// table constructors (可以不同形式，不同类型，可以多层嵌套)
-days = {&#34;Sunday&#34;, &#34;Monday&#34;, &#34;Tuesday&#34;, &#34;Wednesday&#34;, &#34;Thursday&#34;, &#34;Friday&#34;, &#34;Saturday&#34;}
-print(days[4])  --&gt; Wednesday
-
-a = {x = 10, y = 20}
-a = {}; a.x = 10; a.y = 20
-
-
-a = {[1] = &#34;red&#34;, [2] = &#34;green&#34;, [3] = &#34;blue&#34;,}
-
-
-// array or list
--- read 10 lines, storing them in a table
-a = {}
-for i = 1, 10 do
-	a[i] = io.read()
-end
- -- print the lines, from 1 to #a
-for i = 1, #a do
-  print(a[i])
-end
-
-// table 遍历
-// key–value pairs
-t = {10, print, x = 12, k = &#34;hi&#34;}
-for k, v in pairs(t) do
-	print(k, v)
-end
-
-// list
-t = {10, print, 12, &#34;hi&#34;}
-for k, v in ipairs(t) do
-	print(k, v)
-end
-for k = 1, #t do
-	print(k, t[k])
-end
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="">可以用</span> tables <span style="">表示</span> arrays, sets, structs, records
+</span></span><span style="display:flex;"><span>// <span style="">数组</span>
+</span></span><span style="display:flex;"><span>a = {}
+</span></span><span style="display:flex;"><span>a[<span style="font-style:italic">&#34;x&#34;</span>] = 10
+</span></span><span style="display:flex;"><span>b = a						-- <span style="font-style:italic">&#39;b&#39;</span> refers to the same table as <span style="font-style:italic">&#39;a&#39;</span>
+</span></span><span style="display:flex;"><span>b[<span style="font-style:italic">&#34;x&#34;</span>]
+</span></span><span style="display:flex;"><span>b[<span style="font-style:italic">&#34;x&#34;</span>] = 20
+</span></span><span style="display:flex;"><span>a[<span style="font-style:italic">&#34;x&#34;</span>]						-- 20
+</span></span><span style="display:flex;"><span>a = nil						-- only <span style="font-style:italic">&#39;b&#39;</span> still refers to the table
+</span></span><span style="display:flex;"><span>b = nil						-- no references left to the table
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>// <span style="">结构体</span>
+</span></span><span style="display:flex;"><span>&gt; a = {}					-- empty table
+</span></span><span style="display:flex;"><span>&gt; a.x = 10				    -- same as a[<span style="font-style:italic">&#34;x&#34;</span>] = 10
+</span></span><span style="display:flex;"><span>&gt; a.x						-- same as a[<span style="font-style:italic">&#34;x&#34;</span>]
+</span></span><span style="display:flex;"><span>&gt; a.y						-- same as a[<span style="font-style:italic">&#34;y&#34;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>// table constructors (<span style="">可以不同形式，不同类型，可以多层嵌套</span>)
+</span></span><span style="display:flex;"><span>days = {<span style="font-style:italic">&#34;Sunday&#34;</span>, <span style="font-style:italic">&#34;Monday&#34;</span>, <span style="font-style:italic">&#34;Tuesday&#34;</span>, <span style="font-style:italic">&#34;Wednesday&#34;</span>, <span style="font-style:italic">&#34;Thursday&#34;</span>, <span style="font-style:italic">&#34;Friday&#34;</span>, <span style="font-style:italic">&#34;Saturday&#34;</span>}
+</span></span><span style="display:flex;"><span>print(days[4])  --&gt; Wednesday
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>a = {x = 10, y = 20}
+</span></span><span style="display:flex;"><span>a = {}; a.x = 10; a.y = 20
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>a = {[1] = <span style="font-style:italic">&#34;red&#34;</span>, [2] = <span style="font-style:italic">&#34;green&#34;</span>, [3] = <span style="font-style:italic">&#34;blue&#34;</span>,}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>// array <span style="font-weight:bold">or</span> list
+</span></span><span style="display:flex;"><span>-- read 10 lines, storing them <span style="font-weight:bold">in</span> a table
+</span></span><span style="display:flex;"><span>a = {}
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">for</span> i = 1, 10 <span style="font-weight:bold">do</span>
+</span></span><span style="display:flex;"><span>	a[i] = io.read()
+</span></span><span style="display:flex;"><span>end
+</span></span><span style="display:flex;"><span> -- print the lines, from 1 to <span style="font-style:italic">#a</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">for</span> i = 1, <span style="font-style:italic">#a do</span>
+</span></span><span style="display:flex;"><span>  print(a[i])
+</span></span><span style="display:flex;"><span>end
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>// table <span style="">遍历</span>
+</span></span><span style="display:flex;"><span>// key<span style="">–</span>value pairs
+</span></span><span style="display:flex;"><span>t = {10, print, x = 12, k = <span style="font-style:italic">&#34;hi&#34;</span>}
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">for</span> k, v <span style="font-weight:bold">in</span> pairs(t) <span style="font-weight:bold">do</span>
+</span></span><span style="display:flex;"><span>	print(k, v)
+</span></span><span style="display:flex;"><span>end
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>// list
+</span></span><span style="display:flex;"><span>t = {10, print, 12, <span style="font-style:italic">&#34;hi&#34;</span>}
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">for</span> k, v <span style="font-weight:bold">in</span> ipairs(t) <span style="font-weight:bold">do</span>
+</span></span><span style="display:flex;"><span>	print(k, v)
+</span></span><span style="display:flex;"><span>end
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">for</span> k = 1, <span style="font-style:italic">#t do</span>
+</span></span><span style="display:flex;"><span>	print(k, t[k])
+</span></span><span style="display:flex;"><span>end
+</span></span></code></pre></div></li>
 <li>
 <p>16.table 库</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">t = {}
-for line in io.lines() do
-	table.insert(t, line)
-end
-print(#t)         --&gt; (number of lines read)
-
-table.insert(t, x)
-table.remove(t)
-table.move(a, f, e, t)	--&gt; 将索引 f 至 e 对应的元素移至 t 
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>t = {}
+</span></span><span style="display:flex;"><span>for line in io.lines() do
+</span></span><span style="display:flex;"><span>	table.insert(t, line)
+</span></span><span style="display:flex;"><span>end
+</span></span><span style="display:flex;"><span>print(#t)         --&gt; (number of lines read)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>table.insert(t, x)
+</span></span><span style="display:flex;"><span>table.remove(t)
+</span></span><span style="display:flex;"><span>table.move(a, f, e, t)	--&gt; 将索引 f 至 e 对应的元素移至 t 
+</span></span></code></pre></div></li>
 <li>
 <p>17.函数</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">// 函数例子
--- add the elements of sequence &#39;a&#39;
-function add (a)
-	local sum = 0
-	for i = 1, #a do
-		sum = sum + a[i]
-	end
-	return sum
-end
-
-function f (a, b) print(a, b) end
-f()				--&gt; nil    nil
-f(3)			--&gt; 3      nil
-f(3, 4)			--&gt; 3      4
-f(3, 4, 5)		--&gt; 3      4      (5 is discarded)
-
-
-// 多个返回值
-function maximum (a)
-  local mi = 1					-- index of the maximum value
-  local m = a[mi]				-- maximum value
-  for i = 1, #a do
-    if a[i] &gt; m then
-      mi = i; m = a[i]
-	end end
-  return m, mi					-- return the maximum and its index
-end
-
-function foo0 () end						-- returns no results
-function foo1 () return &#34;a&#34; end				-- returns 1 result
-function foo2 () return &#34;a&#34;, &#34;b&#34; end		-- returns 2 results
-
-
-// 可变函数
-function add (...)
-  local s = 0
-  for _, v in ipairs{...} do
-s=s+ v end
-return s end
-print(add(3, 4, 10, 25, 12)) --&gt; 54
-
-function nonils (...)
-  local arg = table.pack(...)
-  for i = 1, arg.n do
-  	if arg[i] == nil then return false end
-  end
-  return true
-end
-print(nonils(2,3,nil))	--&gt; false
-print(nonils(2,3))		--&gt; true
-print(nonils())			--&gt; true
-print(nonils(nil))	    --&gt; false
-
-print(select(1, &#34;a&#34;, &#34;b&#34;, &#34;c&#34;))		--&gt; a    b    c
-print(select(2, &#34;a&#34;, &#34;b&#34;, &#34;c&#34;))		--&gt; b    c
-print(select(3, &#34;a&#34;, &#34;b&#34;, &#34;c&#34;))		--&gt; c
-print(select(&#34;#&#34;, &#34;a&#34;, &#34;b&#34;, &#34;c&#34;))	--&gt; 3
-
-print(table.unpack{10,20,30})    --&gt; 10   20   30
-a,b = table.unpack{10,20,30}     -- a=10, b=20, 30 is discarded
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>// 函数例子
+</span></span><span style="display:flex;"><span>-- add the elements of sequence &#39;a&#39;
+</span></span><span style="display:flex;"><span>function add (a)
+</span></span><span style="display:flex;"><span>	local sum = 0
+</span></span><span style="display:flex;"><span>	for i = 1, #a do
+</span></span><span style="display:flex;"><span>		sum = sum + a[i]
+</span></span><span style="display:flex;"><span>	end
+</span></span><span style="display:flex;"><span>	return sum
+</span></span><span style="display:flex;"><span>end
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>function f (a, b) print(a, b) end
+</span></span><span style="display:flex;"><span>f()				--&gt; nil    nil
+</span></span><span style="display:flex;"><span>f(3)			--&gt; 3      nil
+</span></span><span style="display:flex;"><span>f(3, 4)			--&gt; 3      4
+</span></span><span style="display:flex;"><span>f(3, 4, 5)		--&gt; 3      4      (5 is discarded)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>// 多个返回值
+</span></span><span style="display:flex;"><span>function maximum (a)
+</span></span><span style="display:flex;"><span>  local mi = 1					-- index of the maximum value
+</span></span><span style="display:flex;"><span>  local m = a[mi]				-- maximum value
+</span></span><span style="display:flex;"><span>  for i = 1, #a do
+</span></span><span style="display:flex;"><span>    if a[i] &gt; m then
+</span></span><span style="display:flex;"><span>      mi = i; m = a[i]
+</span></span><span style="display:flex;"><span>	end end
+</span></span><span style="display:flex;"><span>  return m, mi					-- return the maximum and its index
+</span></span><span style="display:flex;"><span>end
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>function foo0 () end						-- returns no results
+</span></span><span style="display:flex;"><span>function foo1 () return &#34;a&#34; end				-- returns 1 result
+</span></span><span style="display:flex;"><span>function foo2 () return &#34;a&#34;, &#34;b&#34; end		-- returns 2 results
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>// 可变函数
+</span></span><span style="display:flex;"><span>function add (...)
+</span></span><span style="display:flex;"><span>  local s = 0
+</span></span><span style="display:flex;"><span>  for _, v in ipairs{...} do
+</span></span><span style="display:flex;"><span>s=s+ v end
+</span></span><span style="display:flex;"><span>return s end
+</span></span><span style="display:flex;"><span>print(add(3, 4, 10, 25, 12)) --&gt; 54
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>function nonils (...)
+</span></span><span style="display:flex;"><span>  local arg = table.pack(...)
+</span></span><span style="display:flex;"><span>  for i = 1, arg.n do
+</span></span><span style="display:flex;"><span>  	if arg[i] == nil then return false end
+</span></span><span style="display:flex;"><span>  end
+</span></span><span style="display:flex;"><span>  return true
+</span></span><span style="display:flex;"><span>end
+</span></span><span style="display:flex;"><span>print(nonils(2,3,nil))	--&gt; false
+</span></span><span style="display:flex;"><span>print(nonils(2,3))		--&gt; true
+</span></span><span style="display:flex;"><span>print(nonils())			--&gt; true
+</span></span><span style="display:flex;"><span>print(nonils(nil))	    --&gt; false
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(select(1, &#34;a&#34;, &#34;b&#34;, &#34;c&#34;))		--&gt; a    b    c
+</span></span><span style="display:flex;"><span>print(select(2, &#34;a&#34;, &#34;b&#34;, &#34;c&#34;))		--&gt; b    c
+</span></span><span style="display:flex;"><span>print(select(3, &#34;a&#34;, &#34;b&#34;, &#34;c&#34;))		--&gt; c
+</span></span><span style="display:flex;"><span>print(select(&#34;#&#34;, &#34;a&#34;, &#34;b&#34;, &#34;c&#34;))	--&gt; 3
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(table.unpack{10,20,30})    --&gt; 10   20   30
+</span></span><span style="display:flex;"><span>a,b = table.unpack{10,20,30}     -- a=10, b=20, 30 is discarded
+</span></span></code></pre></div></li>
 <li>
 <p>18.IO</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">一、简单io
-io.write(str)
-io.write(str1, str2, str3)		--&gt; 连续打印几个字符串
-
-io.read()
---[[
-&#34;a&#34; 读整个文件
-&#34;l&#34; 读下一行(舍掉新行)
-&#34;L&#34; 读下一行(保留新行)
-&#34;n&#34; 读一个数字
-num 读num个字符作为一个字符串(字符不够的就按输入字符计，字符过多的则舍掉多余的字符)
---]]
-
---[[
-例子：排序一个文件
-local lines = {}
-
--- read the lines lin table &#39;lines&#39;
-for line in io.lines() do
-    lines[#lines + 1] = line
-end
-
--- sort
-table.sort(lines)
-
--- write all the lines
-for _, l in ipairs(lines) do
-    io.write(l, &#34;\n&#34;)
-end
---]]
-
---[[
-for count = 1, math.huge do
-    local line = io.read(&#34;L&#34;)
-    if line == nil then break end
-    io.write(string.format(&#34;%6d  &#34;, count), line)
-end
---]]
-
---[[
-local count = 0
-for line in io.lines() do
-    count = count + 1
-    io.write(string.format(&#34;%6d  &#34;, count), line, &#34;\n&#34;)
-end
---]]
-
---[[
-while true do
-    local block = io.read(2^13)          -- block size is 8K
-    if not block then break end
-    io.write(block)
-end
---]]
-
---[[
-while true do
-    local n1, n2, n3 = io.read(&#34;n&#34;, &#34;n&#34;, &#34;n&#34;)
-    if not n1 then break end
-    print(math.max(n1, n2, n3))
-end
---]]
-
-
-二、完全io
-file = io.open (filename [, mode])
---[[
-r 只读
-w 只写
-a 附加写
-r+ 读写(文件必须存在)
-w+ 读写(文件不存在则可以自己创建)
-a+ 读写(附加写)
-b 二进制模式
---]]
-
-local f = assert(io.open(filename, mode))		--&gt; 使用assert检查错误
-
-local f = assert(io.open(filename, &#34;r&#34;))
-local t = f:read(&#34;a&#34;)
-f:close()
-
-预定义 C streams
-io.stdin, io.stdout, io.stderr
-t = io.stdin:read()
-io.stdout:write(t)
--- io.stderr:write(&#39;this is error stream&#39;)
-
-输入输出的几种方式
-io.read()
-io.input()
-io.stdin:read()
-
-io.write(&#39;hello world&#39;)
-io.output():write(&#39;hello world&#39;)
-io.stdout:write(&#39;hello world&#39;)
-
-
-三、其他文件操作
-io.flush() -- 把当前输出流刷新到磁盘
-f:flush() -- 刷流f到磁盘
-f:seek() -- get或set在文件中一个流的位置
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>一、简单io
+</span></span><span style="display:flex;"><span>io.write(str)
+</span></span><span style="display:flex;"><span>io.write(str1, str2, str3)		--&gt; 连续打印几个字符串
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>io.read()
+</span></span><span style="display:flex;"><span>--[[
+</span></span><span style="display:flex;"><span>&#34;a&#34; 读整个文件
+</span></span><span style="display:flex;"><span>&#34;l&#34; 读下一行(舍掉新行)
+</span></span><span style="display:flex;"><span>&#34;L&#34; 读下一行(保留新行)
+</span></span><span style="display:flex;"><span>&#34;n&#34; 读一个数字
+</span></span><span style="display:flex;"><span>num 读num个字符作为一个字符串(字符不够的就按输入字符计，字符过多的则舍掉多余的字符)
+</span></span><span style="display:flex;"><span>--]]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>--[[
+</span></span><span style="display:flex;"><span>例子：排序一个文件
+</span></span><span style="display:flex;"><span>local lines = {}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>-- read the lines lin table &#39;lines&#39;
+</span></span><span style="display:flex;"><span>for line in io.lines() do
+</span></span><span style="display:flex;"><span>    lines[#lines + 1] = line
+</span></span><span style="display:flex;"><span>end
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>-- sort
+</span></span><span style="display:flex;"><span>table.sort(lines)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>-- write all the lines
+</span></span><span style="display:flex;"><span>for _, l in ipairs(lines) do
+</span></span><span style="display:flex;"><span>    io.write(l, &#34;\n&#34;)
+</span></span><span style="display:flex;"><span>end
+</span></span><span style="display:flex;"><span>--]]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>--[[
+</span></span><span style="display:flex;"><span>for count = 1, math.huge do
+</span></span><span style="display:flex;"><span>    local line = io.read(&#34;L&#34;)
+</span></span><span style="display:flex;"><span>    if line == nil then break end
+</span></span><span style="display:flex;"><span>    io.write(string.format(&#34;%6d  &#34;, count), line)
+</span></span><span style="display:flex;"><span>end
+</span></span><span style="display:flex;"><span>--]]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>--[[
+</span></span><span style="display:flex;"><span>local count = 0
+</span></span><span style="display:flex;"><span>for line in io.lines() do
+</span></span><span style="display:flex;"><span>    count = count + 1
+</span></span><span style="display:flex;"><span>    io.write(string.format(&#34;%6d  &#34;, count), line, &#34;\n&#34;)
+</span></span><span style="display:flex;"><span>end
+</span></span><span style="display:flex;"><span>--]]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>--[[
+</span></span><span style="display:flex;"><span>while true do
+</span></span><span style="display:flex;"><span>    local block = io.read(2^13)          -- block size is 8K
+</span></span><span style="display:flex;"><span>    if not block then break end
+</span></span><span style="display:flex;"><span>    io.write(block)
+</span></span><span style="display:flex;"><span>end
+</span></span><span style="display:flex;"><span>--]]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>--[[
+</span></span><span style="display:flex;"><span>while true do
+</span></span><span style="display:flex;"><span>    local n1, n2, n3 = io.read(&#34;n&#34;, &#34;n&#34;, &#34;n&#34;)
+</span></span><span style="display:flex;"><span>    if not n1 then break end
+</span></span><span style="display:flex;"><span>    print(math.max(n1, n2, n3))
+</span></span><span style="display:flex;"><span>end
+</span></span><span style="display:flex;"><span>--]]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>二、完全io
+</span></span><span style="display:flex;"><span>file = io.open (filename [, mode])
+</span></span><span style="display:flex;"><span>--[[
+</span></span><span style="display:flex;"><span>r 只读
+</span></span><span style="display:flex;"><span>w 只写
+</span></span><span style="display:flex;"><span>a 附加写
+</span></span><span style="display:flex;"><span>r+ 读写(文件必须存在)
+</span></span><span style="display:flex;"><span>w+ 读写(文件不存在则可以自己创建)
+</span></span><span style="display:flex;"><span>a+ 读写(附加写)
+</span></span><span style="display:flex;"><span>b 二进制模式
+</span></span><span style="display:flex;"><span>--]]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>local f = assert(io.open(filename, mode))		--&gt; 使用assert检查错误
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>local f = assert(io.open(filename, &#34;r&#34;))
+</span></span><span style="display:flex;"><span>local t = f:read(&#34;a&#34;)
+</span></span><span style="display:flex;"><span>f:close()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>预定义 C streams
+</span></span><span style="display:flex;"><span>io.stdin, io.stdout, io.stderr
+</span></span><span style="display:flex;"><span>t = io.stdin:read()
+</span></span><span style="display:flex;"><span>io.stdout:write(t)
+</span></span><span style="display:flex;"><span>-- io.stderr:write(&#39;this is error stream&#39;)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>输入输出的几种方式
+</span></span><span style="display:flex;"><span>io.read()
+</span></span><span style="display:flex;"><span>io.input()
+</span></span><span style="display:flex;"><span>io.stdin:read()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>io.write(&#39;hello world&#39;)
+</span></span><span style="display:flex;"><span>io.output():write(&#39;hello world&#39;)
+</span></span><span style="display:flex;"><span>io.stdout:write(&#39;hello world&#39;)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>三、其他文件操作
+</span></span><span style="display:flex;"><span>io.flush() -- 把当前输出流刷新到磁盘
+</span></span><span style="display:flex;"><span>f:flush() -- 刷流f到磁盘
+</span></span><span style="display:flex;"><span>f:seek() -- get或set在文件中一个流的位置
+</span></span></code></pre></div></li>
 <li>
 <p>19.os 函数</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">os.rename -- 重命名文件
-os.remove -- 删除文件
-os.getenv(&#34;HOME&#34;) -- 环境变量
-os.execute -- 执行系统命令
-
-function createDir (dirname)
-	os.execute(&#34;mkdir &#34; .. dirname)
-end
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>os.rename -- 重命名文件
+</span></span><span style="display:flex;"><span>os.remove -- 删除文件
+</span></span><span style="display:flex;"><span>os.getenv(&#34;HOME&#34;) -- 环境变量
+</span></span><span style="display:flex;"><span>os.execute -- 执行系统命令
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>function createDir (dirname)
+</span></span><span style="display:flex;"><span>	os.execute(&#34;mkdir &#34; .. dirname)
+</span></span><span style="display:flex;"><span>end
+</span></span></code></pre></div></li>
 <li>
 <p>20.流程控制结构</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">if then else
-
-while
-
-repeat until
-
-for 有两种形式
-1.Numerical for
-for i = 1, #a do
-	something
-end
-2.Generic for
--- pairs, ipairs, io.lines()
-for k, v in ipairs(t) do
-	something
-end
-
-break, return, goto
-
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>if then else
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>while
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>repeat until
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>for 有两种形式
+</span></span><span style="display:flex;"><span>1.Numerical for
+</span></span><span style="display:flex;"><span>for i = 1, #a do
+</span></span><span style="display:flex;"><span>	something
+</span></span><span style="display:flex;"><span>end
+</span></span><span style="display:flex;"><span>2.Generic for
+</span></span><span style="display:flex;"><span>-- pairs, ipairs, io.lines()
+</span></span><span style="display:flex;"><span>for k, v in ipairs(t) do
+</span></span><span style="display:flex;"><span>	something
+</span></span><span style="display:flex;"><span>end
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>break, return, goto
+</span></span></code></pre></div></li>
 </ul>
       </div>
 
@@ -594,8 +598,8 @@ break, return, goto
 
 
         <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
+<script>
+    window.disqus_config = function () {
     
     
     
@@ -629,7 +633,7 @@ break, return, goto
     
       2017 -
     
-    2022
+    2024
      gzhh 
     ·
     
@@ -642,12 +646,15 @@ break, return, goto
 
   
   
-  <script src="/js/coder.min.08fc7a7924db1ae6786408cb68e12ff953e6329376a469f5f517f3769c19194d.js" integrity="sha256-CPx6eSTbGuZ4ZAjLaOEv&#43;VPmMpN2pGn19RfzdpwZGU0="></script>
+  <script src="/js/coder.js"></script>
   
 
   
 
   
+  
+
+
 
   
 

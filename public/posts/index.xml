@@ -2,208 +2,207 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on gzhh&#39;s blog</title>
-    <link>https://blog.gzhh.tech/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on gzhh&#39;s blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Aug 2022 00:30:07 +0800</lastBuildDate><atom:link href="https://blog.gzhh.tech/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Nov 2023 16:10:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang time.Time 和 MySQL datetime 互转问题</title>
+      <link>http://localhost:1313/posts/go-and-mysql-time/</link>
+      <pubDate>Sun, 05 Nov 2023 16:10:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/go-and-mysql-time/</guid>
+      <description>一、时间概念 时间标准 某个时间系统的时间标准又称时间基准，是定义如何测量时间的一种规范，具体包括测量时间间隔的尺度基准和定义起始时刻的参考基准。&#xA;UTC&#xA;https://en.wikipedia.org/wiki/Coordinated_Universal_Time 标准时间 标准时间是在同一时区内的不同地区，舍弃地区性的子午线定出的太阳时或地方平时，而共同采用的同步时间。&#xA;Time Zone&#xA;https://en.wikipedia.org/wiki/Time_zone https://en.wikipedia.org/wiki/Tz_database https://en.wikipedia.org/wiki/List_of_tz_database_time_zones 国际标准 ISO 8610 国际标准化组织的日期和时间的表示方法。&#xA;Date&#xA;2023-11-05 Time in UTC&#xA;06:50:41Z T065041Z Date and time in UTC&#xA;2023-11-05T06:50:41Z 20231105T065041Z Date and time with the offset&#xA;2023-11-04T23:50:41−07:00 UTC−07:00 2023-11-05T06:50:41+00:00 UTC+00:00 2023-11-05T13:50:41+07:00 UTC+07:00 Ref:&#xA;The T is just a literal to separate the date from the time, and the Z means &amp;ldquo;zero hour offset&amp;rdquo; also known as &amp;ldquo;Zulu time&amp;rdquo; (UTC). UTC GMT Time in China - CST Time in the United States 二、Time in Linux 查看所在时区的日期和时间</description>
+    </item>
+    <item>
+      <title>Golang json unmarshal 大整数丢失精度问题</title>
+      <link>http://localhost:1313/posts/golang-json-unmarshal-long-number/</link>
+      <pubDate>Sun, 26 Mar 2023 13:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/golang-json-unmarshal-long-number/</guid>
+      <description>问题介绍 在 Golang 中使用 json Unmarshal 将一个 json 解析为不确定的结构 interface{} 时候，会将数字的接收类型默认设置为 float64。&#xA;当原 json 结构中的整数太长，会导致转为 float64 超出精度，导致精度丢失。&#xA;例子 package main import ( &amp;#34;bytes&amp;#34; &amp;#34;encoding/json&amp;#34; &amp;#34;fmt&amp;#34; ) var jsonstring = `{ &amp;#34;id&amp;#34;: 1130839459432311551, &amp;#34;id1&amp;#34;: 113083945943231, &amp;#34;id2&amp;#34;: 12344556, &amp;#34;create_time&amp;#34;: &amp;#34;2023-03-22 16:58:38&amp;#34;, &amp;#34;labels&amp;#34;: [] }` func f1() { var data interface{} err := json.Unmarshal([]byte(jsonstring), &amp;amp;data) if err != nil { panic(err) } fmt.Printf(&amp;#34;%+v\n&amp;#34;, data) dataBytes, err := json.Marshal(data) if err != nil { panic(err) } fmt.</description>
+    </item>
+    <item>
+      <title>使用 Golang 实现 worker pool</title>
+      <link>http://localhost:1313/posts/implement-worker-pool-with-golang/</link>
+      <pubDate>Wed, 08 Feb 2023 16:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/implement-worker-pool-with-golang/</guid>
+      <description>介绍 Golang 中的 Channel 可以用来处理并发，下面我们就使用 Channel 来实现一个并发异步任务 worker pool。&#xA;简单实现 package main import ( &amp;#34;fmt&amp;#34; &amp;#34;time&amp;#34; &amp;#34;github.com/gin-gonic/gin&amp;#34; ) var mq chan int64 func init() { mq = make(chan int64, 10) } func produce(i int64) { time.Sleep(time.Second) mq &amp;lt;- i } func consume() { for { i := &amp;lt;-mq time.Sleep(time.Second) fmt.Printf(&amp;#34;get i %d\n&amp;#34;, i) } } func main() { go consume() r := gin.Default() r.GET(&amp;#34;/ping&amp;#34;, func(c *gin.Context) { go produce(time.Now().UnixMilli()) c.</description>
+    </item>
+    <item>
+      <title>2023新年计划</title>
+      <link>http://localhost:1313/posts/the-purpose-of-2023/</link>
+      <pubDate>Sat, 28 Jan 2023 23:59:30 +0800</pubDate>
+      <guid>http://localhost:1313/posts/the-purpose-of-2023/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>使用 Hugo 和 Github Actions 部署静态网站</title>
+      <link>http://localhost:1313/posts/deploy-static-site-with-hugo-and-github-actions/</link>
+      <pubDate>Sat, 17 Sep 2022 02:43:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/deploy-static-site-with-hugo-and-github-actions/</guid>
+      <description>Table Of Contents 说在前面 博客搭建 首先跟着 Hugo 官方教程一步步操作 再将静态内容发布到 Github Page 使用 Github Action 优化部署 将本地博客项目同步到远程 Github 仓库 新建 workflow 配置域名及域名解析 博客图片 博客评论 参考 说在前面 年初将自己个人博客的部署方式改为 Github Actions 自动部署，其中碰到的坑一直没有空整理成文章输出出来，今天统一将内容整理到这篇文章。&#xA;写之前顺便提下自己写技术博客的历程吧，最开始写博客的时候差不多是在大二的样子，当时主要是在 CSDN 上面写，内容差不多都是记录总结学习各个技术栈碰到的坑；后来大三快出来实习的时候，买了台阿里云的低配 ECS，使用 Wordpress 将自己的个人博客部署在上面；再后来觉得 Wordpress 需要数据库存储内容、且不太好能结合 Markdown 写博客、还有没有太好看的主题等原因，然后就换成在 Jekyll 和 Hexo 对比中选择了后者；Hexo 还是部署在阿里云的，部署方式是通过在 ECS 上搭建 Git 仓库，通过 Git 钩子将 Hexo 生成的博客静态页面文件，推送到 Nginx 服务的托管目录，完成部署。&#xA;到了去年年底，用了几年的阿里云 ECS 到期了，由于续费太贵就没续费，于是就买了腾讯云的 Lighthouse 服务器，打算把博客也迁移过来。但是之前使用 Hexo 的那套部署方式比较麻烦，所以搜索了一番就决定使用 Hugo 和 Github Page 来部署静态博客。&#xA;博客搭建 首先跟着 Hugo 官方教程一步步操作 Hugo quick-start</description>
+    </item>
     <item>
       <title>【阅读笔记】Understanding Distributed Systems</title>
-      <link>https://blog.gzhh.tech/posts/understanding-distributed-systems/</link>
+      <link>http://localhost:1313/posts/understanding-distributed-systems/</link>
       <pubDate>Mon, 15 Aug 2022 00:30:07 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/understanding-distributed-systems/</guid>
-      <description>Table Of Contents  1. Introduction Part I: Communication  2. Reliable links 3. Secure links 4. Discovery 5. APIs   Part II: Coordination  8. Time 9. Leader election 10. Replication 11. Coordination avoidance 12 . Transactions 13. Asynchronous transactions   Part III: Scalability  14. HTTP caching 15. Content delivery networks 16. Partitioning 17. File storage 18. Network load balancing 19. Data storage 20. Caching 21.</description>
+      <guid>http://localhost:1313/posts/understanding-distributed-systems/</guid>
+      <description>Table Of Contents 1. Introduction Part I: Communication 2. Reliable links 3. Secure links 4. Discovery 5. APIs Part II: Coordination 8. Time 9. Leader election 10. Replication 11. Coordination avoidance 12 . Transactions 13. Asynchronous transactions Part III: Scalability 14. HTTP caching 15. Content delivery networks 16. Partitioning 17. File storage 18. Network load balancing 19. Data storage 20. Caching 21. Microservices 22. Control planes and data planes 23.</description>
     </item>
-    
     <item>
       <title>【阅读笔记】The Effective Engineer</title>
-      <link>https://blog.gzhh.tech/posts/the-effective-engineer/</link>
+      <link>http://localhost:1313/posts/the-effective-engineer/</link>
       <pubDate>Sat, 16 Jul 2022 18:30:07 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/the-effective-engineer/</guid>
-      <description>Table Of Contents  Part 1: Adopt the Right Mindsets  1. Focus on High-Leverage Activities 2. Optimize for Learning 3. Prioritize Regularly   Part 2: Execute, Execute, Execute  4. Invest in Iteration Speed 5. Measure What You Want to Improve 6. Validate Your Ideas Early and Often 7. Improve Your Project Estimation Skills   Part 3: Build Long-Term Value  8. Balance Quality with Pragmatism 9.</description>
+      <guid>http://localhost:1313/posts/the-effective-engineer/</guid>
+      <description>Table Of Contents Part 1: Adopt the Right Mindsets 1. Focus on High-Leverage Activities 2. Optimize for Learning 3. Prioritize Regularly Part 2: Execute, Execute, Execute 4. Invest in Iteration Speed 5. Measure What You Want to Improve 6. Validate Your Ideas Early and Often 7. Improve Your Project Estimation Skills Part 3: Build Long-Term Value 8. Balance Quality with Pragmatism 9. Minimize Operational Burden 10. Invest in Your Team’s Growth Reference Part 1: Adopt the Right Mindsets 1.</description>
     </item>
-    
     <item>
-      <title>Gin生命周期</title>
-      <link>https://blog.gzhh.tech/posts/lifecycle-of-gin-framework/</link>
-      <pubDate>Tue, 05 Jul 2022 17:38:50 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/lifecycle-of-gin-framework/</guid>
-      <description></description>
+      <title>【阅读笔记】微服务架构设计模式</title>
+      <link>http://localhost:1313/posts/microservices-patterns/</link>
+      <pubDate>Mon, 20 Jun 2022 17:58:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/microservices-patterns/</guid>
+      <description>Table Of Contents 一、系统架构设计介绍 单体架构 微服务架构 二、服务的拆分策略 拆分规范 拆分策略 拆分难点 三、微服务架构中的进程间通信 RPC（同步通信机制） 同步通信机制局部故障问题 服务发现 消息代理 MQ（异步消息通信机制） 四、管理事务 Saga 五、微服务架构中的业务逻辑设计 业务逻辑组织模式 领域驱动设计 DDD 六、使用事件溯源开发业务逻辑 七、在微服务架构中实现查询 使用API组合模式进行查询 使用CQRS模式 八、外部API模式 九 &amp;amp; 十、微服务架构中的测试策略 自动化测试的四个阶段 测试的不同类型 测试金字塔 使用测试象限进行分类 十一、开发面向生产环境的微服务应用 安全性 可配置 设计可观测的服务 使用微服务基底模式开发服务 服务网格 十二：部署微服务应用 虚拟机 docker k8s 容器部署 Serverless 部署 十三、微服务架构的重构策略 需要考虑的问题 重构策略 设计服务与单体的协作方式 将新功能实现为服务 从单体中提取功能到独立服务 参考 一、系统架构设计介绍 单体架构 定义：一个系统的所有子模块都被部署在同一台服务器上。&#xA;单体架构的好处&#xA;应用的开发简单 易于对应用程序进行大规模的更改 测试相对简单直观 部署简单 横向扩展容易 单体地狱&#xA;随着不断的在单体架构的基础上扩展，每一次实现更多功能的时候，就会导致代码库膨胀。并且随着研发团队规模的不断壮大，团队的管理成本也不断提高，开发变得缓慢和痛苦。&#xA;单体架构的弊端&#xA;过度的复杂性会吓退开发者 开发速度缓慢 从代码提交到实际部署的周期很长，而且容易出问题 难以扩展 交付可靠的单体应用是一项挑战 需要长期依赖某个可能过时的技术栈 微服务架构 定义：将一个单体应用按照不同的功能模块进行分解，拆分成一个个小的服务，每个服务实现了一组相关的功能。</description>
     </item>
-    
-    <item>
-      <title>理解Go函数中的切片传参</title>
-      <link>https://blog.gzhh.tech/posts/understand-slice-param-in-go-function/</link>
-      <pubDate>Sun, 19 Jun 2022 17:00:00 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/understand-slice-param-in-go-function/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>2022新年计划</title>
-      <link>https://blog.gzhh.tech/posts/the-purpose-of-2022/</link>
+      <link>http://localhost:1313/posts/the-purpose-of-2022/</link>
       <pubDate>Fri, 31 Dec 2021 23:55:50 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/the-purpose-of-2022/</guid>
+      <guid>http://localhost:1313/posts/the-purpose-of-2022/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Gin 生命周期</title>
+      <link>http://localhost:1313/posts/lifecycle-of-gin-framework/</link>
+      <pubDate>Mon, 05 Jul 2021 17:38:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/lifecycle-of-gin-framework/</guid>
+      <description></description>
+    </item>
     <item>
       <title>2021新年计划</title>
-      <link>https://blog.gzhh.tech/posts/the-purpose-of-2021/</link>
+      <link>http://localhost:1313/posts/the-purpose-of-2021/</link>
       <pubDate>Fri, 01 Jan 2021 01:10:50 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/the-purpose-of-2021/</guid>
+      <guid>http://localhost:1313/posts/the-purpose-of-2021/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>理解 Go 函数中的切片传参</title>
+      <link>http://localhost:1313/posts/understand-slice-param-in-go-function/</link>
+      <pubDate>Fri, 19 Jun 2020 17:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/understand-slice-param-in-go-function/</guid>
+      <description></description>
+    </item>
     <item>
       <title>MySQL 锁</title>
-      <link>https://blog.gzhh.tech/posts/know_mysql_lock/</link>
+      <link>http://localhost:1313/posts/know_mysql_lock/</link>
       <pubDate>Sun, 23 Feb 2020 09:43:53 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/know_mysql_lock/</guid>
-      <description></description>
+      <guid>http://localhost:1313/posts/know_mysql_lock/</guid>
+      <description>锁介绍 假设我们有一个商品表 item，里面有两个字段 id 和 store&#xA;+----+-------+ | id | store | +----+-------+ | 1 | 1 | +----+-------+ 一般我们在生成订单之前会先确定 store 商品库存是否大于你要购买的数量，然后更新库存&#xA;-- 查询 SELECT store FROM item WHERE id = 1; -- 更新 UPDATE item SET store = store - 1 WHERE id = 1; 但是这样在用户大量并发操作的时候会是不安全的，比如第一个用户 SELECT 到的 store 是 1，但是当他准备 UPDATE 的时候，可能已经有人把库存 store 扣成了 0，那么第一个用户再去 UPDATE 的时候，就可能出现负库存的情况，因此我们必须通过事务和锁机制来确保读取及提交的数据都是正确的。&#xA;在 MySQL 终端我们可以这样测试&#xA;SET AUTOCOMMIT=0; BEGIN; SELECT store FROM item WHERE id=1 FOR UPDATE; 此时 item 表中 id=1 的这行数据被锁住（InnoDB 的 Row Lock 或 Table Lock）其他事务必须等待此次事务提交后才能执行； SELECT store FROM item WHERE id=1 FOR UPDATE; 可以确保库存 store 在别的事务读取到的数字是正确的； 然后我们修改库存，提交数据写入数据库，item 表中 id=1 的这行数据解锁。</description>
     </item>
-    
     <item>
-      <title>LaTeX学习记录</title>
-      <link>https://blog.gzhh.tech/posts/latex-usage-notes/</link>
+      <title>LaTeX 学习记录</title>
+      <link>http://localhost:1313/posts/latex-usage-notes/</link>
       <pubDate>Sun, 20 Oct 2019 17:23:05 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/latex-usage-notes/</guid>
+      <guid>http://localhost:1313/posts/latex-usage-notes/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lua 语言入门（二）</title>
-      <link>https://blog.gzhh.tech/posts/play-lua-second/</link>
+      <link>http://localhost:1313/posts/play-lua-second/</link>
       <pubDate>Sun, 06 Oct 2019 09:22:54 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/play-lua-second/</guid>
+      <guid>http://localhost:1313/posts/play-lua-second/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lua 语言入门（一）</title>
-      <link>https://blog.gzhh.tech/posts/play-lua-first/</link>
+      <link>http://localhost:1313/posts/play-lua-first/</link>
       <pubDate>Sun, 29 Sep 2019 20:20:36 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/play-lua-first/</guid>
+      <guid>http://localhost:1313/posts/play-lua-first/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>【操作系统】3.内存memory(抽象的地址空间)</title>
-      <link>https://blog.gzhh.tech/posts/operating-system-3.memory/</link>
+      <link>http://localhost:1313/posts/operating-system-3.memory/</link>
       <pubDate>Mon, 11 Mar 2019 01:08:00 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/operating-system-3.memory/</guid>
+      <guid>http://localhost:1313/posts/operating-system-3.memory/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>【操作系统】2.调度scheduling</title>
-      <link>https://blog.gzhh.tech/posts/operating-system-2.scheduling/</link>
+      <link>http://localhost:1313/posts/operating-system-2.scheduling/</link>
       <pubDate>Wed, 27 Feb 2019 16:37:33 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/operating-system-2.scheduling/</guid>
+      <guid>http://localhost:1313/posts/operating-system-2.scheduling/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>【操作系统】1.进程process</title>
-      <link>https://blog.gzhh.tech/posts/operating-system-1.process/</link>
+      <link>http://localhost:1313/posts/operating-system-1.process/</link>
       <pubDate>Mon, 25 Feb 2019 23:00:39 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/operating-system-1.process/</guid>
+      <guid>http://localhost:1313/posts/operating-system-1.process/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>【操作系统】基础概念介绍</title>
-      <link>https://blog.gzhh.tech/posts/operating-system-0.basic-info/</link>
+      <link>http://localhost:1313/posts/operating-system-0.basic-info/</link>
       <pubDate>Sat, 23 Feb 2019 09:43:53 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/operating-system-0.basic-info/</guid>
+      <guid>http://localhost:1313/posts/operating-system-0.basic-info/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>2019新年计划</title>
-      <link>https://blog.gzhh.tech/posts/the-purpose-of-2019/</link>
+      <link>http://localhost:1313/posts/the-purpose-of-2019/</link>
       <pubDate>Tue, 01 Jan 2019 22:10:51 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/the-purpose-of-2019/</guid>
+      <guid>http://localhost:1313/posts/the-purpose-of-2019/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>对于如何提升能力的一些思考</title>
-      <link>https://blog.gzhh.tech/posts/how-to-improve-yourself/</link>
+      <link>http://localhost:1313/posts/how-to-improve-yourself/</link>
       <pubDate>Thu, 06 Sep 2018 00:53:07 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/how-to-improve-yourself/</guid>
+      <guid>http://localhost:1313/posts/how-to-improve-yourself/</guid>
       <description>&lt;p&gt;如何在技术快速发展的时代成为逐浪者？随着接触越来越多的新技术新名词，内心就越会感觉到知识的空虚，恨不得一下子就多学一门新技术，但是对每个技术都是浅尝即止，很难深入．最近思来想去只能把问题集中在基础不扎实上．如果技术扎实，那么在尝试新技术的时候心里底气就会足一点，学起来也就不会那么吃力了．&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>SSO 单点登录</title>
-      <link>https://blog.gzhh.tech/posts/sso/</link>
+      <link>http://localhost:1313/posts/sso/</link>
       <pubDate>Sun, 01 Apr 2018 23:24:03 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/sso/</guid>
-      <description></description>
+      <guid>http://localhost:1313/posts/sso/</guid>
+      <description>说在前面 由于公司要开发几套系统，并且需要几套系统使用统一的用户管理功能，TM让我研究如何实现多系统的单点登录，这周零零碎碎研究了下，所以写下这篇文章，加深下理解，也方便以后回顾。&#xA;介绍 Single sign-on(SSO) 是多个相关但彼此独立的软件系统访问控制的一个属性，也就是用户只使用一个账号和密码来访问多个系统。 单点登录在大型的系统中经常用到，例如：刚开始你的百度搜索 www.baidu.com 和百度云盘都是没有登录的，现在当你登录了百度搜索的系统后，再去刷新一下百度云盘的系统时，这时你会发现百度云盘这边也是显示登录的，这种情况就是使用 SSO 技术实现的。 CAS(Central Authentication Service) 旨在为 Web 应用系统提供一种可靠的单点登录解决方法（属于 Web SSO ）。&#xA;HTTP 知识介绍 由于 HTTP 是无状态的协议，所以我们需要使用某些机制来保存web用户浏览的状态。Cookie 和 Session 都是用来保存web状态的两种技术，区别是 Cookie 是在客户端来保存用户状态，Session 是在服务端来保存用户状态。&#xA;SSO 的几种情况 1.同域下的不同服务 例如我们有两个服务 test.com/site1 test.com/site2 这是最简单的一种情况(不过一般大型系统会用域来区分两个服务)，两个服务共享一个主机地址，且在同一个域下。这种情况下两个业务共享一 个 Cookie 和 Session，所以不用做特别的处理，按照常规的验证方式即可，当你在 site1 上登录了，在 site2 上自然而然也是登录的。&#xA;2.同父域不同子域的服务 例如 site1.x.com site2.x.com 这种情况两个服务的主机是不相同的(父域相同，子域不同)，这种情况我们一般可以设置两个服务的 Cookie 都是在当前域的顶级域下的，也就是 x.com 域下。 cas.x.com 设置一个 CAS(Central Authentication Service)，所有的与登录和验证token和设置 Cookie 的 操作我们都放在 CAS 上面&#xA;3.完全不同域的服务 例如 site1.com site2.com</description>
     </item>
-    
     <item>
       <title>常见排序算法</title>
-      <link>https://blog.gzhh.tech/posts/sort-algorithm/</link>
+      <link>http://localhost:1313/posts/sort-algorithm/</link>
       <pubDate>Sun, 01 Apr 2018 23:24:03 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/sort-algorithm/</guid>
+      <guid>http://localhost:1313/posts/sort-algorithm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>【VIM】vim常用操作</title>
-      <link>https://blog.gzhh.tech/posts/vim-skill/</link>
+      <link>http://localhost:1313/posts/vim-skill/</link>
       <pubDate>Fri, 23 Mar 2018 09:22:30 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/vim-skill/</guid>
+      <guid>http://localhost:1313/posts/vim-skill/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>2018新年计划</title>
-      <link>https://blog.gzhh.tech/posts/the-purpose-of-2018/</link>
+      <link>http://localhost:1313/posts/the-purpose-of-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:43:02 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/the-purpose-of-2018/</guid>
+      <guid>http://localhost:1313/posts/the-purpose-of-2018/</guid>
       <description>&lt;p&gt;2018要来了，回想2017年出校门实习的这半年来，学到了挺多职场的知识，但是对自己还是不够满意，比自己的期望也低了好多，而且人也变得懒惰了，希望2018能改掉这些毛病，努力争取获取的一个更好的机会。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>玩转sed操作文本-基础篇</title>
-      <link>https://blog.gzhh.tech/posts/play-sed-first/</link>
+      <link>http://localhost:1313/posts/play-sed-first/</link>
       <pubDate>Fri, 17 Nov 2017 18:42:35 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/play-sed-first/</guid>
-      <description></description>
+      <guid>http://localhost:1313/posts/play-sed-first/</guid>
+      <description>介绍 sed 全名是 stream editor，是文本流处理方面的强大工具，和另一个文本处理工具 awk 工具有的一比，接下来就让我们简单介绍下它的基本使用和适用场景。 我们这篇主要讲的是 Gnu sed，还有一个常用的是 BSD sed（Mac OS就是源自 BSD 的），两者略微有点不同，不过他们俩都是由 Posix sed 演化而来。&#xA;基本格式 sed 命令的执行有两种基本格式 sed [-参数] command [file &amp;hellip;] sed [-参数] [-e command] [-f command_file] [-i extension]&#xA;参数 默认情况下，sed 不会操作原来的文本，加上 -i 参数则会改变原文件的内容 sed -i command [file &amp;hellip;]&#xA;替换 1.将文件中每行所有的字符 , 都替换为空字符(不加 g 标记则只替换每行第一个匹配) sed &#39;s/,/ /g&#39; file.txt 2.从第 N 处匹配开始替换 /ng sed &#39;s/,/ /2g&#39; file.txt 3.将字符 , 替换为空字符并保存替换后的内容 sed -i &#39;s/,/ /g&#39; file.</description>
     </item>
-    
     <item>
       <title>2017新年计划</title>
-      <link>https://blog.gzhh.tech/posts/the-purpose-of-2017/</link>
+      <link>http://localhost:1313/posts/the-purpose-of-2017/</link>
       <pubDate>Sun, 01 Jan 2017 23:26:25 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/the-purpose-of-2017/</guid>
+      <guid>http://localhost:1313/posts/the-purpose-of-2017/</guid>
       <description>&lt;p&gt;今天是2017年的第一天，度过了有很过欢笑也有很多悲伤的2016年，不管怎样，2016年都过去了，新生活还要继续，写点新年的计划吧，虽然知道很大部分很难完成，但还是写一下吧，万一完成了呢。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

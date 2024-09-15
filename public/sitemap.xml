@@ -2,230 +2,380 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.gzhh.tech/about/</loc>
+    <loc>http://localhost:1313/work/</loc>
+    <lastmod>2024-08-18T16:41:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2021-12-06T16:41:52+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/read/</loc>
+    <loc>http://localhost:1313/read/</loc>
     <lastmod>2021-12-06T16:41:52+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-09-15T20:51:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-09-15T20:51:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/philosophy/</loc>
+    <lastmod>2024-09-15T20:51:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/read/</loc>
+    <lastmod>2024-09-15T20:51:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/</loc>
+    <lastmod>2024-09-15T20:51:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-09-15T20:51:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/philosophy/the-conquest-of-happiness/</loc>
+    <lastmod>2024-09-15T20:51:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/works/being-glue/</loc>
+    <lastmod>2024-08-18T16:41:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/work/</loc>
+    <lastmod>2024-08-18T16:41:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/works/</loc>
+    <lastmod>2024-08-18T16:41:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/history/</loc>
+    <lastmod>2024-08-12T00:00:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/history/zizhi-tongjian/</loc>
+    <lastmod>2024-08-12T00:00:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/methodology/</loc>
+    <lastmod>2024-08-11T20:44:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/methodology/the-pyramid-principle/</loc>
+    <lastmod>2024-08-11T20:44:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cs/</loc>
+    <lastmod>2024-08-04T17:52:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/cs/code/</loc>
+    <lastmod>2024-08-04T17:52:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ic/</loc>
+    <lastmod>2024-07-21T23:41:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/ic/chip-war/</loc>
+    <lastmod>2024-07-21T23:41:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/economics/</loc>
+    <lastmod>2024-06-29T21:50:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/politics/</loc>
+    <lastmod>2024-06-29T21:50:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/political-economy/qi-ji-de-huang-hun/</loc>
+    <lastmod>2024-06-29T21:50:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/methodology/atomic-habits/</loc>
+    <lastmod>2024-06-01T13:30:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/fiction/</loc>
+    <lastmod>2024-05-27T23:23:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/fiction/of-human-bondage/</loc>
+    <lastmod>2024-05-27T23:23:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/fiction/shi-nan-zhi-tu/</loc>
+    <lastmod>2024-05-04T19:10:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/assembler/</loc>
+    <lastmod>2024-05-02T16:41:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/cs/assembly-language-4nd-edition/</loc>
+    <lastmod>2024-05-02T16:41:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/philosophy/being-and-nothingness/</loc>
+    <lastmod>2024-04-14T17:21:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/history/xian-wei-jing-xia-de-da-ming/</loc>
+    <lastmod>2024-03-04T22:05:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/fiction/tai-bai-jin-xing-you-dian-fan/</loc>
+    <lastmod>2024-02-15T15:30:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/fiction/chang-an-de-li-zhi/</loc>
+    <lastmod>2024-02-07T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/work/</loc>
+    <lastmod>2024-02-06T16:48:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/life/the-almanack-of-naval-ravikant/</loc>
+    <lastmod>2024-02-06T16:48:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/history/dong-jin-men-fa-zheng-zhi/</loc>
+    <lastmod>2023-12-19T23:10:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/golang/</loc>
+    <lastmod>2023-11-05T16:10:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/go-and-mysql-time/</loc>
+    <lastmod>2023-11-05T16:10:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mysql/</loc>
+    <lastmod>2023-11-05T16:10:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2023-11-05T16:10:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/history/jian-shang/</loc>
+    <lastmod>2023-11-05T13:10:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/political-economy/zhi-shen-shi-nei/</loc>
+    <lastmod>2023-10-04T21:50:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/economics/zhong-yang-di-guo-de-cai-zheng-mi-ma/</loc>
+    <lastmod>2023-09-21T09:50:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/psychology/</loc>
+    <lastmod>2023-08-12T16:48:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/psychology/the-courage-to-be-disliked/</loc>
+    <lastmod>2023-08-12T16:48:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/python/</loc>
+    <lastmod>2023-08-07T16:41:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/cs/python-crash-course-2nd-edition/</loc>
+    <lastmod>2023-08-07T16:41:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/golang-json-unmarshal-long-number/</loc>
+    <lastmod>2023-03-26T13:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/json/</loc>
+    <lastmod>2023-03-26T13:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/channel/</loc>
+    <lastmod>2023-02-08T16:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/concurrency/</loc>
+    <lastmod>2023-02-08T16:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/golang/</loc>
+    <lastmod>2023-02-08T16:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/implement-worker-pool-with-golang/</loc>
+    <lastmod>2023-02-08T16:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/the-purpose-of-2023/</loc>
+    <lastmod>2023-01-28T23:59:30+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/misc/</loc>
+    <lastmod>2023-01-28T23:59:30+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/summary/</loc>
+    <lastmod>2023-01-28T23:59:30+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/okr/</loc>
+    <lastmod>2022-11-06T20:00:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/logic/</loc>
+    <lastmod>2022-11-06T20:00:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/blog/</loc>
+    <lastmod>2022-09-17T02:43:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/blog/</loc>
+    <lastmod>2022-09-17T02:43:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hugo/</loc>
+    <lastmod>2022-09-17T02:43:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/deploy-static-site-with-hugo-and-github-actions/</loc>
+    <lastmod>2022-09-17T02:43:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/psycholog/</loc>
+    <lastmod>2022-08-30T22:18:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/soulstealers/</loc>
+    <lastmod>2022-08-30T22:18:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/nonviolent-communication/</loc>
+    <lastmod>2022-08-30T22:18:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/understanding-distributed-systems/</loc>
     <lastmod>2022-08-15T00:30:07+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/tags/distributedsystems/</loc>
+    <loc>http://localhost:1313/tags/distributedsystems/</loc>
     <lastmod>2022-08-15T00:30:07+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/categories/distributedsystems/</loc>
+    <loc>http://localhost:1313/categories/distributedsystems/</loc>
     <lastmod>2022-08-15T00:30:07+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/</loc>
-    <lastmod>2022-08-15T00:30:07+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.gzhh.tech/posts/</loc>
-    <lastmod>2022-08-15T00:30:07+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.gzhh.tech/categories/read/</loc>
-    <lastmod>2022-08-15T00:30:07+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.gzhh.tech/tags/</loc>
-    <lastmod>2022-08-15T00:30:07+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.gzhh.tech/posts/understanding-distributed-systems/</loc>
-    <lastmod>2022-08-15T00:30:07+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.gzhh.tech/tags/methodology/</loc>
+    <loc>http://localhost:1313/posts/the-effective-engineer/</loc>
     <lastmod>2022-07-16T18:30:07+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/categories/methodology/</loc>
+    <loc>http://localhost:1313/categories/methodology/</loc>
     <lastmod>2022-07-16T18:30:07+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/posts/the-effective-engineer/</loc>
-    <lastmod>2022-07-16T18:30:07+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.gzhh.tech/tags/gin/</loc>
-    <lastmod>2022-07-05T17:38:50+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.gzhh.tech/posts/lifecycle-of-gin-framework/</loc>
-    <lastmod>2022-07-05T17:38:50+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.gzhh.tech/categories/go/</loc>
-    <lastmod>2022-07-05T17:38:50+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.gzhh.tech/tags/microservices/</loc>
+    <loc>http://localhost:1313/posts/microservices-patterns/</loc>
     <lastmod>2022-06-20T17:58:50+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/reads/</loc>
+    <loc>http://localhost:1313/tags/microservices/</loc>
     <lastmod>2022-06-20T17:58:50+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/reads/microservices-patterns/</loc>
+    <loc>http://localhost:1313/categories/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/</loc>
     <lastmod>2022-06-20T17:58:50+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/categories/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/</loc>
-    <lastmod>2022-06-20T17:58:50+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.gzhh.tech/categories/golang/</loc>
-    <lastmod>2022-06-19T17:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.gzhh.tech/tags/slice/</loc>
-    <lastmod>2022-06-19T17:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.gzhh.tech/posts/understand-slice-param-in-go-function/</loc>
-    <lastmod>2022-06-19T17:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.gzhh.tech/tags/economics/</loc>
+    <loc>http://localhost:1313/reads/xiao-gou-qian-qian/</loc>
     <lastmod>2022-01-13T16:41:52+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/reads/xiao-gou-qian-qian/</loc>
-    <lastmod>2022-01-13T16:41:52+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.gzhh.tech/tags/history/</loc>
+    <loc>http://localhost:1313/reads/the-rise-of-modern-china/</loc>
     <lastmod>2022-01-03T20:41:52+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/reads/the-rise-of-modern-china/</loc>
-    <lastmod>2022-01-03T20:41:52+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.gzhh.tech/posts/the-purpose-of-2022/</loc>
+    <loc>http://localhost:1313/posts/the-purpose-of-2022/</loc>
     <lastmod>2021-12-31T23:55:50+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/categories/misc/</loc>
-    <lastmod>2021-12-31T23:55:50+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.gzhh.tech/tags/summary/</loc>
-    <lastmod>2021-12-31T23:55:50+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.gzhh.tech/tags/logic/</loc>
+    <loc>http://localhost:1313/tags/thinking/</loc>
     <lastmod>2021-12-18T16:41:52+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/tags/thinking/</loc>
+    <loc>http://localhost:1313/reads/a-mind-for-numbers/</loc>
     <lastmod>2021-12-18T16:41:52+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/reads/a-mind-for-numbers/</loc>
-    <lastmod>2021-12-18T16:41:52+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.gzhh.tech/reads/thinking-fast-and-slow/</loc>
+    <loc>http://localhost:1313/reads/thinking-fast-and-slow/</loc>
     <lastmod>2021-11-27T16:41:52+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/tags/read/</loc>
+    <loc>http://localhost:1313/tags/gin/</loc>
+    <lastmod>2021-07-05T17:38:50+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/lifecycle-of-gin-framework/</loc>
+    <lastmod>2021-07-05T17:38:50+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/go/</loc>
+    <lastmod>2021-07-05T17:38:50+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/read/</loc>
     <lastmod>2021-03-06T16:41:52+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/reads/how-to-read-a-book/</loc>
+    <loc>http://localhost:1313/reads/how-to-read-a-book/</loc>
     <lastmod>2021-03-06T16:41:52+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/posts/the-purpose-of-2021/</loc>
+    <loc>http://localhost:1313/posts/the-purpose-of-2021/</loc>
     <lastmod>2021-01-01T01:10:50+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/reads/1984/</loc>
+    <loc>http://localhost:1313/reads/1984/</loc>
     <lastmod>2020-12-05T16:41:52+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/tags/utopia/</loc>
+    <loc>http://localhost:1313/tags/utopia/</loc>
     <lastmod>2020-12-05T16:41:52+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/reads/rich-dad-poor-dad/</loc>
+    <loc>http://localhost:1313/reads/methodology/the-power-of-habit/</loc>
+    <lastmod>2020-12-05T16:41:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/rich-dad-poor-dad/</loc>
     <lastmod>2020-09-12T16:41:52+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/reads/dengxiaoping-and-the-transformation-of-china/</loc>
+    <loc>http://localhost:1313/reads/dengxiaoping-and-the-transformation-of-china/</loc>
     <lastmod>2020-09-10T16:41:52+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/categories/database/</loc>
+    <loc>http://localhost:1313/tags/slice/</loc>
+    <lastmod>2020-06-19T17:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/understand-slice-param-in-go-function/</loc>
+    <lastmod>2020-06-19T17:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/database/</loc>
     <lastmod>2020-02-23T09:43:53+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/tags/mysql/</loc>
+    <loc>http://localhost:1313/posts/know_mysql_lock/</loc>
     <lastmod>2020-02-23T09:43:53+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/posts/know_mysql_lock/</loc>
-    <lastmod>2020-02-23T09:43:53+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.gzhh.tech/tags/philosophy/</loc>
+    <loc>http://localhost:1313/reads/a-historical-survey-with-essential-readings/</loc>
     <lastmod>2019-11-10T16:41:52+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/reads/a-historical-survey-with-essential-readings/</loc>
-    <lastmod>2019-11-10T16:41:52+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.gzhh.tech/tags/latex/</loc>
+    <loc>http://localhost:1313/tags/latex/</loc>
     <lastmod>2019-10-20T17:23:05+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/posts/latex-usage-notes/</loc>
+    <loc>http://localhost:1313/posts/latex-usage-notes/</loc>
     <lastmod>2019-10-20T17:23:05+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/categories/write/</loc>
+    <loc>http://localhost:1313/categories/write/</loc>
     <lastmod>2019-10-20T17:23:05+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/tags/lua/</loc>
+    <loc>http://localhost:1313/tags/lua/</loc>
     <lastmod>2019-10-06T09:22:54+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/categories/lua/</loc>
+    <loc>http://localhost:1313/categories/lua/</loc>
     <lastmod>2019-10-06T09:22:54+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/posts/play-lua-second/</loc>
+    <loc>http://localhost:1313/posts/play-lua-second/</loc>
     <lastmod>2019-10-06T09:22:54+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/posts/play-lua-first/</loc>
+    <loc>http://localhost:1313/posts/play-lua-first/</loc>
     <lastmod>2019-09-29T20:20:36+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/categories/operatingsystem/</loc>
+    <loc>http://localhost:1313/posts/operating-system-3.memory/</loc>
     <lastmod>2019-03-11T01:08:00+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/tags/os/</loc>
+    <loc>http://localhost:1313/categories/operatingsystem/</loc>
     <lastmod>2019-03-11T01:08:00+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/posts/operating-system-3.memory/</loc>
+    <loc>http://localhost:1313/tags/os/</loc>
     <lastmod>2019-03-11T01:08:00+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/posts/operating-system-2.scheduling/</loc>
+    <loc>http://localhost:1313/posts/operating-system-2.scheduling/</loc>
     <lastmod>2019-02-27T16:37:33+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/posts/operating-system-1.process/</loc>
+    <loc>http://localhost:1313/posts/operating-system-1.process/</loc>
     <lastmod>2019-02-25T23:00:39+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/posts/operating-system-0.basic-info/</loc>
+    <loc>http://localhost:1313/posts/operating-system-0.basic-info/</loc>
     <lastmod>2019-02-23T09:43:53+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/posts/the-purpose-of-2019/</loc>
+    <loc>http://localhost:1313/posts/the-purpose-of-2019/</loc>
     <lastmod>2019-01-01T22:10:51+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/posts/how-to-improve-yourself/</loc>
+    <loc>http://localhost:1313/posts/how-to-improve-yourself/</loc>
     <lastmod>2018-09-06T00:53:07+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/categories/algorithm/</loc>
+    <loc>http://localhost:1313/categories/algorithm/</loc>
     <lastmod>2018-04-01T23:24:03+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/categories/architecture/</loc>
+    <loc>http://localhost:1313/categories/architecture/</loc>
     <lastmod>2018-04-01T23:24:03+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/tags/quick-sort/</loc>
+    <loc>http://localhost:1313/tags/quick-sort/</loc>
     <lastmod>2018-04-01T23:24:03+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/tags/sso/</loc>
+    <loc>http://localhost:1313/tags/sso/</loc>
     <lastmod>2018-04-01T23:24:03+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/posts/sso/</loc>
+    <loc>http://localhost:1313/posts/sso/</loc>
     <lastmod>2018-04-01T23:24:03+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/posts/sort-algorithm/</loc>
+    <loc>http://localhost:1313/posts/sort-algorithm/</loc>
     <lastmod>2018-04-01T23:24:03+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/categories/linux/</loc>
+    <loc>http://localhost:1313/posts/vim-skill/</loc>
     <lastmod>2018-03-23T09:22:30+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/tags/vim/</loc>
+    <loc>http://localhost:1313/categories/linux/</loc>
     <lastmod>2018-03-23T09:22:30+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/posts/vim-skill/</loc>
+    <loc>http://localhost:1313/tags/vim/</loc>
     <lastmod>2018-03-23T09:22:30+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/posts/the-purpose-of-2018/</loc>
+    <loc>http://localhost:1313/posts/the-purpose-of-2018/</loc>
     <lastmod>2018-01-01T00:43:02+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/tags/sed/</loc>
+    <loc>http://localhost:1313/tags/sed/</loc>
     <lastmod>2017-11-17T18:42:35+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/posts/play-sed-first/</loc>
+    <loc>http://localhost:1313/posts/play-sed-first/</loc>
     <lastmod>2017-11-17T18:42:35+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/posts/the-purpose-of-2017/</loc>
+    <loc>http://localhost:1313/posts/the-purpose-of-2017/</loc>
     <lastmod>2017-01-01T23:26:25+08:00</lastmod>
   </url><url>
-    <loc>https://blog.gzhh.tech/authors/</loc>
+    <loc>http://localhost:1313/authors/</loc>
   </url><url>
-    <loc>https://blog.gzhh.tech/series/</loc>
+    <loc>http://localhost:1313/series/</loc>
   </url>
 </urlset>

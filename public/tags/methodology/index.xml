@@ -2,28 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Methodology on gzhh&#39;s blog</title>
-    <link>https://blog.gzhh.tech/tags/methodology/</link>
+    <link>http://localhost:1313/tags/methodology/</link>
     <description>Recent content in Methodology on gzhh&#39;s blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 16 Jul 2022 18:30:07 +0800</lastBuildDate><atom:link href="https://blog.gzhh.tech/tags/methodology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Aug 2024 20:44:52 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/methodology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>金字塔原理</title>
+      <link>http://localhost:1313/reads/methodology/the-pyramid-principle/</link>
+      <pubDate>Sun, 11 Aug 2024 20:44:52 +0800</pubDate>
+      <guid>http://localhost:1313/reads/methodology/the-pyramid-principle/</guid>
+      <description>总结 金字塔原理&#xA;表达的逻辑 金字塔逻辑 ✅ 归类分组 自上而下，结论先行 自下而上，总结概括 金字塔结构 纵向关系 横向关系 序言结构 演绎推理与归纳推理 思考的逻辑 ✅ 逻辑顺序（时间、结构、程度） 概括思想 解决问题的逻辑 界定问题 结构化分析问题 ✅ 标准流程：收集信息 -&amp;gt; 描述发现 -&amp;gt; 得出结论 -&amp;gt; 提出方案 演示的逻辑 书面 PPT 图片 笔记 第1章　为什么要用金字塔结构 1.为了交流方便，必须将思想（观点、结论、要点、论点、论据、建议、行动、步骤等）归类分组。 2.将分组后的思想，按照不同层次，进行抽象提炼、总结概括，搭建金字塔。 3.向读者介绍（传递、阐述、论证）思想最有效的途径，是结论先行，自上而下表达。 4.金字塔中的思想，应遵守4个基本原则（见右图）。 5.条理清晰的关键，是把你的思想组织成金字塔结构，并在写作前用金字塔原理检查。 关键概念 金字塔原理的4个基本原则 ●结论先行：每篇文章只有一个中心思想，并放在文章的最前面。 ●以上统下：每一层次上的思想必须是对下一层次思想的总结概括。 ●归类分组：每一组中的思想必须属于同一逻辑范畴。 ●逻辑递进：每一组中的思想必须按照逻辑顺序排列。 第2章　金字塔内部的结构 1.金字塔结构的各个层级上包括各种思想；思想使受众（包括读者、听众、观众或学员）产生疑问。 2.在纵向方向上，各分支、各层级上的思想，与读者进行疑问/回答式对话。 3.在横向方向上，各种思想以演绎推理或归纳推理方式回答读者的疑问，但两种方式不可同时使用。 4.序言的讲故事形式是为了提醒读者，文章将回答的读者最初的疑问。 5.序言包括背景、冲突、读者的疑问和作者的回答。冲突因背景而产生，背景和冲突都是读者已知的事实。 6.冲突导致读者提出疑问，而文章将回答读者的疑问。 关键概念 金字塔结构中的逻辑关系 ●各种思想纵向相关（疑问/回答式对话） ●各种思想横向相关（演绎/归纳，MECE原则） ●金字塔顶端思想回答的疑问，来自读者已知的事实 ●序言引出读者最初的疑问 第3章　如何构建金字塔 1.自上而下法 －确定作者想论述的主题 －设想读者的疑问 －给出答案 －检查背景和冲突是否引发读者提出疑问 －证实答案 －填写关键句要点 2.</description>
+    </item>
+    <item>
+      <title>原子习惯</title>
+      <link>http://localhost:1313/reads/methodology/atomic-habits/</link>
+      <pubDate>Sat, 01 Jun 2024 10:30:52 +0800</pubDate>
+      <guid>http://localhost:1313/reads/methodology/atomic-habits/</guid>
+      <description>读完这本书让我想到了一个成语“厚积薄发”，很适合这本书的主题。&#xA;笔记 “习惯是自我提高的复利”&#xA;“成功是日常习惯累积的产物，而不是一生仅有一次的重大转变的结果。”&#xA;忘记目标，专注于体系 目标的意义在于确定大方向，但体系会促进你的进步。假如你为目标绞尽脑汁，却对体系设计关注不足的话，就会出现一些问题。&#xA;“问题1：赢家和输家心怀相同的目标。”&#xA;“问题2：实现一个目标只是短暂的改变。”&#xA;“问题3：目标束缚了你的幸福感。”&#xA;“问题4：目标与长远改进的大方向不一致。”&#xA;你要做到 “不求拔高你的目标，但求落实你的体系。”&#xA;行为转变的三个层次 “行为转变有三层——结果的变化、流程的变化或身份的变化”&#xA;“对于基于结果的习惯，重点是你想要达到的目标。对于基于身份的习惯，重点是你想成为谁”&#xA;“真正的行为上的改变是身份的改变。”&#xA;习惯发挥作用的原理 所有习惯的形成都会经历相同顺序的四个阶段：提示、渴求、反应和奖励。&#xA;习惯是一种行为，因为重复的次数已经足够多，便可以自然而然地出现。&#xA;习惯的最终目的是用尽可能少的精力和努力来解决生活中的问题。&#xA;任何习惯都可以分解成一个反馈循环，它包括四个步骤：提示、渴求、反应和奖励。&#xA;行为转变的四大定律是一套我们可以用来培养好习惯的简单规则。它们是：（1）让它显而易见；（2）让它有吸引力；（3）让它简便易行；（4）让它令人愉悦。”&#xA;怎样养成好习惯 怎样戒除坏习惯 高级战术 基因个性 经科学分析验证的“五大”性格特征是目前得到公认的性格类别图谱。&#xA;1.开放性：从好奇和创造性的一端到谨慎和一丝不苟的另一端。 2.自觉性：从有条理和效率高到随意性和自发性。 3.外向性：从活泼开朗、活力十足到孤独和保守（也就是外向型人格和内向性人格的区别）。 4.亲和性：从待人友好并富于同情心到挑剔和淡漠。 5.神经质：从焦虑不安和敏感多疑到自信、冷静和心态平和。 金发女孩准则：如何在生活和工作中保持充沛动力 “金发女孩准则指出，人们在处理其能力可及的事务时积极性最高。难易程度适中，刚刚好。”&#xA;“在现实生活中，用这种方式量化一个行动的难度通常是不可行的，但金发女孩准则的核心思想仍然存在：做力所能及、难易适中的事，似乎是保持激励水平居高不下的关键所在。”&#xA;培养好习惯的负面影响 “习惯动作+刻意练习=精通”&#xA;“缺乏自我意识是毒药，反思和回顾是解药。”</description>
+    </item>
     <item>
       <title>【阅读笔记】The Effective Engineer</title>
-      <link>https://blog.gzhh.tech/posts/the-effective-engineer/</link>
+      <link>http://localhost:1313/posts/the-effective-engineer/</link>
       <pubDate>Sat, 16 Jul 2022 18:30:07 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/the-effective-engineer/</guid>
-      <description>Table Of Contents  Part 1: Adopt the Right Mindsets  1. Focus on High-Leverage Activities 2. Optimize for Learning 3. Prioritize Regularly   Part 2: Execute, Execute, Execute  4. Invest in Iteration Speed 5. Measure What You Want to Improve 6. Validate Your Ideas Early and Often 7. Improve Your Project Estimation Skills   Part 3: Build Long-Term Value  8. Balance Quality with Pragmatism 9.</description>
+      <guid>http://localhost:1313/posts/the-effective-engineer/</guid>
+      <description>Table Of Contents Part 1: Adopt the Right Mindsets 1. Focus on High-Leverage Activities 2. Optimize for Learning 3. Prioritize Regularly Part 2: Execute, Execute, Execute 4. Invest in Iteration Speed 5. Measure What You Want to Improve 6. Validate Your Ideas Early and Often 7. Improve Your Project Estimation Skills Part 3: Build Long-Term Value 8. Balance Quality with Pragmatism 9. Minimize Operational Burden 10. Invest in Your Team’s Growth Reference Part 1: Adopt the Right Mindsets 1.</description>
     </item>
-    
+    <item>
+      <title>习惯的力量</title>
+      <link>http://localhost:1313/reads/methodology/the-power-of-habit/</link>
+      <pubDate>Sat, 05 Dec 2020 16:38:52 +0800</pubDate>
+      <guid>http://localhost:1313/reads/methodology/the-power-of-habit/</guid>
+      <description>习惯在很多方面都影响者人：例如饮食、工作、睡眠、理财、计划等方面&#xA;这本书主要分为三个部分：&#xA;个人习惯 群体组织习惯 社会习惯 个人习惯 习惯回路：&#xA;→ 暗示 → 惯常行为 → 奖赏 →&#xA;坏习惯基本都是通过习惯回路养成的，可以通过好的新习惯来压制旧的坏习惯来调整。&#xA;坏习惯例子：&#xA;（对短暂分心的渴求）&#xA;→ 手机震动(暗示) → 看信息(惯常行为) → 分心(奖赏) →&#xA;培养新习惯：&#xA;（代替法、相信能改变、团体中一般才会形成信仰）&#xA;改变习惯，用同样的暗示，提供同样的奖赏，改变中间的惯常行为&#xA;团队组织习惯 主要是管理者进行管理的手段&#xA;核心习惯：&#xA;培养所有人都认同的习惯、但是不容易发现，先从小的习惯出发&#xA;意志力 → 自发意识：&#xA;提前想好应对办法&#xA;危机就是转机：&#xA;通过食物创造新习惯&#xA;预测习惯：&#xA;商家预测客户的习惯&#xA;社会习惯 社会学，水是习惯&#xA;总结 本书列举了一系列例子来讲习惯&#xA;习惯框架：&#xA;找出惯常行为 → 用各种奖赏进行实验 → 将暗示隔离出来 → 指定计划</description>
+    </item>
     <item>
       <title>对于如何提升能力的一些思考</title>
-      <link>https://blog.gzhh.tech/posts/how-to-improve-yourself/</link>
+      <link>http://localhost:1313/posts/how-to-improve-yourself/</link>
       <pubDate>Thu, 06 Sep 2018 00:53:07 +0800</pubDate>
-      
-      <guid>https://blog.gzhh.tech/posts/how-to-improve-yourself/</guid>
+      <guid>http://localhost:1313/posts/how-to-improve-yourself/</guid>
       <description>&lt;p&gt;如何在技术快速发展的时代成为逐浪者？随着接触越来越多的新技术新名词，内心就越会感觉到知识的空虚，恨不得一下子就多学一门新技术，但是对每个技术都是浅尝即止，很难深入．最近思来想去只能把问题集中在基础不扎实上．如果技术扎实，那么在尝试新技术的时候心里底气就会足一点，学起来也就不会那么吃力了．&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
