@@ -24,7 +24,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          # hugo-version: 'latest'
+          hugo-version: '0.131.0' # 固定 hugo 版本，之后的版本会不兼容 hugo-code 主题。
           extended: true
 
       # 编译生成静态文件
