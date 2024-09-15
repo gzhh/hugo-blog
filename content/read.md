@@ -38,16 +38,24 @@ weight: 50
 | [沉默的大多数](https://book.douban.com/subject/1054685/) | 文学 | 在读 | Kindle | 分析阅读 | 2024/03/09 |  |
 | [维特根斯坦传](https://book.douban.com/subject/6152040/) | 传记 | 想读 |  | | | |
 | [昨日的世界](https://book.douban.com/subject/4238162/) | 传记 | 想读 |  | | | |
-| [结构性改革](https://book.douban.com/subject/35147504/) | 经济 | 想读 |  |  |  |  |
-| [分析与思考](https://book.douban.com/subject/35149551/) | 经济 | 想读 |  |  |  |  |
-| [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | 分析阅读 | | |
+| [结构性改革](https://book.douban.com/subject/35147504/) | 经济 | 想读 |  | |  |  |
+| [分析与思考](https://book.douban.com/subject/35149551/) | 经济 | 想读 |  | |  |  |
+| [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | | | |
+| [深度工作](https://book.douban.com/subject/27056409/) | 方法论 | 想读 |  | | | |
+| [福格行为模型](https://book.douban.com/subject/35594496/) | 方法论 | 想读 |  |  |  | |
+| [高效能人士的<br>七个习惯](https://book.douban.com/subject/5325618/) | 方法论 | 想读 |  | | | |
+| [如何赢得友谊<br>并影响他人](https://book.douban.com/subject/26954744/) | 人际关系 | 想读 |  | | | |
 | [穷查理宝典](https://book.douban.com/subject/26831789/) | 方法论 | 想读 | PDF | 分析阅读 | 2023/06/10 | |
-| [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 |  |  |
 | [Linux内核设计<br>与实现](https://book.douban.com/subject/6097773/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/07/08 | |
 | [网络是怎样<br>连接的](https://book.douban.com/subject/26941639/) | 计算机 | 在读 | PDF | 分析阅读 | 2022/06/19 | |
 | [Fluent Python,<br>2nd Edition](https://book.douban.com/subject/34990079/) | 计算机 | 在读 | PDF | 主题阅读 | 2023/09/13 |  |
-| [金字塔原理](https://book.douban.com/subject/33391219/) | 方法论 | [已读](/reads/methodology/the-pyramid-principle/) | iBooks | 主题阅读 | 2024/08/11 | 2024/08/11 |
-| [我看见的世界](https://book.douban.com/subject/36672955/) | 传记 | 已读| iBooks | 检视阅读 | 2024/08/11 | 2024/08/11 |
+| [A Philosophy of<br>Software Design](https://book.douban.com/subject/30218046/) | 计算机 | 在读 | iBooks | 主题阅读 | 2024/08/24 |  |
+| [代码大全](https://book.douban.com/subject/1477390/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2024/08/21 |  |
+| [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2024/08/21 |  |
+| [幸福之路](https://book.douban.com/subject/3633588/) | 哲学 | [已读](/reads/philosophy/the-conquest-of-happiness/) | iBooks | 分析阅读 | 2024/09/07 | 2024/09/15 |
+| [资治通鉴](https://book.douban.com/subject/6790302/) | 历史 | [在读](/reads/history/zizhi-tongjian) | iBooks | 主题阅读 | 2024/08/11 | |
+| [金字塔原理](https://book.douban.com/subject/33391219/) | 方法论 | [已读](/reads/methodology/the-pyramid-principle/) | iBooks | 分析阅读 | 2024/08/11 | 2024/08/11 |
+| [我看见的世界](https://book.douban.com/subject/36672955/) | 传记 | 已读| iBooks | 分析阅读 | 2024/08/11 | 2024/08/11 |
 | [编码](https://book.douban.com/subject/4822685/) | 计算机 | [已读](/reads/cs/code) | 实体书 | 主题阅读 | 2024/06/02 | 2024/08/04 |
 | [芯片战争](https://book.douban.com/subject/36350632/) | 科技 | [已读](/reads/ic/chip-war) | iBooks | 分析阅读 | 2024/07/20 | 2024/07/21 |
 | [奇迹的黄昏](https://www.goodreads.com/book/show/49088914) | 政经 | [已读](/reads/political-economy/qi-ji-de-huang-hun) | iBooks | 分析阅读 | 2024/06/29 | 2024/06/29 |

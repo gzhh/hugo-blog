@@ -67,13 +67,17 @@ disqusShortname = "gzhh-tech"
   name = "Posts"
   weight = 1
   url  = "posts/"
+# [[menu.main]]
+#   name = "Work"
+#   weight = 2
+#   url  = "work/"
 [[menu.main]]
   name = "Read"
-  weight = 2
+  weight = 3 
   url  = "read/"
 [[menu.main]]
   name = "About"
-  weight = 3
+  weight = 4
   url = "about/"
 # [[menu.main]]
 #  name = "Logseq"
