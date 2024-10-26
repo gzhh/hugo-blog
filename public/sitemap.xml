@@ -12,21 +12,33 @@
     <lastmod>2021-12-06T16:41:52+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-10-04T22:51:52+08:00</lastmod>
+    <lastmod>2024-10-26T19:41:52+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-10-04T22:51:52+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/philosophy/</loc>
-    <lastmod>2024-10-04T22:51:52+08:00</lastmod>
+    <lastmod>2024-10-26T19:41:52+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/read/</loc>
-    <lastmod>2024-10-04T22:51:52+08:00</lastmod>
+    <lastmod>2024-10-26T19:41:52+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/reads/</loc>
-    <lastmod>2024-10-04T22:51:52+08:00</lastmod>
+    <lastmod>2024-10-26T19:41:52+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-10-26T19:41:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/utopia/</loc>
+    <lastmod>2024-10-26T19:41:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/brave-new-world/</loc>
+    <lastmod>2024-10-26T19:41:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/history/</loc>
+    <lastmod>2024-10-12T00:00:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reads/history/the-shortest-history-of-europe/</loc>
+    <lastmod>2024-10-12T00:00:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/philosophy/</loc>
     <lastmod>2024-10-04T22:51:52+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/reads/philosophy/der-steppenwolf/</loc>
@@ -43,9 +55,6 @@
   </url><url>
     <loc>http://localhost:1313/works/</loc>
     <lastmod>2024-08-18T16:41:52+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/history/</loc>
-    <lastmod>2024-08-12T00:00:52+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/reads/history/zizhi-tongjian/</loc>
     <lastmod>2024-08-12T00:00:52+08:00</lastmod>
@@ -264,9 +273,6 @@
     <lastmod>2021-01-01T01:10:50+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/reads/1984/</loc>
-    <lastmod>2020-12-05T16:41:52+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/utopia/</loc>
     <lastmod>2020-12-05T16:41:52+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/reads/methodology/the-power-of-habit/</loc>

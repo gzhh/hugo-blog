@@ -55,6 +55,7 @@ weight: 50
 | [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2024/08/21 |  |
 | [西游记](https://book.douban.com/subject/1321544/) | 小说 | [在读](/reads/history/journey-to-the-west) | 实体书 | 分析阅读 | 2024/09/21 | |
 | [资治通鉴](https://book.douban.com/subject/6790302/) | 历史 | [在读](/reads/history/zizhi-tongjian) | iBooks | 主题阅读 | 2024/08/11 | |
+| [美丽新世界](https://book.douban.com/subject/27002046/) | 文学 | [已读](/reads/brave-new-world/) | 实体书 | 分析阅读 | 2024/10/26 | 2024/10/26 |
 | [荒原狼](https://book.douban.com/subject/24744381/) | 哲学 | [已读](/reads/philosophy/der-steppenwolf/) | iBooks | 分析阅读 | 2024/10/04 | 2024/10/04 |
 | [幸福之路](https://book.douban.com/subject/3633588/) | 哲学 | [已读](/reads/philosophy/the-conquest-of-happiness/) | iBooks | 分析阅读 | 2024/09/07 | 2024/09/15 |
 | [金字塔原理](https://book.douban.com/subject/33391219/) | 方法论 | [已读](/reads/methodology/the-pyramid-principle/) | iBooks | 分析阅读 | 2024/08/11 | 2024/08/11 |
