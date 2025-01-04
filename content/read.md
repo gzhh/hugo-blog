@@ -14,7 +14,20 @@ weight: 50
 
 
 ## 阅读记录
-### 2024
+<!--
+| [存在与时间](https://book.douban.com/subject/25939476/) | 哲学 | 想读 |  | | | |
+| [哲学研究](https://book.douban.com/subject/1315184/) | 哲学 | 想读 |  | | | |
+| [逻辑哲学论](https://book.douban.com/subject/1005354/) | 哲学 | 想读 |  | | | |
+| [善恶的彼岸](https://book.douban.com/subject/26663535/) | 哲学 | 想读 |  | | | |
+| [悲剧的诞生](https://book.douban.com/subject/1063852/) | 哲学 | 想读 |  | | | |
+| [查拉图斯特拉<br>如是说](https://book.douban.com/subject/2359052/) | 哲学 | 想读 |  | | | |
+| [非此即彼](https://book.douban.com/subject/3987027/) | 哲学 | 想读 |  | | | |
+| [人生的智慧](https://book.douban.com/subject/3261600/) | 哲学 | 想读 |  | | | |
+| [作为意志和<br>表象的世界](https://book.douban.com/subject/1004699/) | 哲学 | 想读 |  | | | |
+| [纯粹理性批判](https://book.douban.com/subject/1216737/) | 哲学 | 想读 |  | | | |
+-->
+
+### 2025
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
 | ----  | ---- | ---- | ---- | ---- | ---- | ---- |
 | [暗淡蓝点](https://book.douban.com/subject/26214114/) | 天文学 | 想读 |  | | | |
@@ -53,8 +66,14 @@ weight: 50
 | [A Philosophy of<br>Software Design](https://book.douban.com/subject/30218046/) | 计算机 | 在读 | iBooks | 主题阅读 | 2024/08/24 |  |
 | [代码大全](https://book.douban.com/subject/1477390/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2024/08/21 |  |
 | [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2024/08/21 |  |
+| [百年孤独](https://book.douban.com/subject/6082808/) | 小说 | 想读 | iBooks | 分析阅读 | | |
 | [西游记](https://book.douban.com/subject/1321544/) | 小说 | [在读](/reads/history/journey-to-the-west) | 实体书 | 分析阅读 | 2024/09/21 | |
 | [资治通鉴](https://book.douban.com/subject/6790302/) | 历史 | [在读](/reads/history/zizhi-tongjian) | iBooks | 主题阅读 | 2024/08/11 | |
+
+### 2024
+| 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
+| ----  | ---- | ---- | ---- | ---- | ---- | ---- |
+| [DevOps实践指南](https://book.douban.com/subject/30186150/) | 计算机 | 已读 | PDF | 检视阅读 | 2024/12/15 | 2024/12/15 |
 | [美丽新世界](https://book.douban.com/subject/27002046/) | 文学 | [已读](/reads/brave-new-world/) | 实体书 | 分析阅读 | 2024/10/26 | 2024/10/26 |
 | [荒原狼](https://book.douban.com/subject/24744381/) | 哲学 | [已读](/reads/philosophy/der-steppenwolf/) | iBooks | 分析阅读 | 2024/10/04 | 2024/10/04 |
 | [幸福之路](https://book.douban.com/subject/3633588/) | 哲学 | [已读](/reads/philosophy/the-conquest-of-happiness/) | iBooks | 分析阅读 | 2024/09/07 | 2024/09/15 |
@@ -77,18 +96,6 @@ weight: 50
 | [太白金星有点烦](https://book.douban.com/subject/36328704/) | 小说 | [已读](/reads/fiction/tai-bai-jin-xing-you-dian-fan) | iBooks | 分析阅读 | 2024/02/14 | 2024/02/15 |
 | [长安的荔枝](https://book.douban.com/subject/36104107/) | 小说 | [已读](/reads/fiction/chang-an-de-li-zhi) | iBooks | 分析阅读 | 2024/02/07 | 2024/02/07 |
 | [大江东去](https://book.douban.com/subject/25918895/) | 小说 | 已读 | 微信读书 | 分析阅读 | 2023/04/29 | 2024/02/04 |
-<!--
-| [存在与时间](https://book.douban.com/subject/25939476/) | 哲学 | 想读 |  | | | |
-| [哲学研究](https://book.douban.com/subject/1315184/) | 哲学 | 想读 |  | | | |
-| [逻辑哲学论](https://book.douban.com/subject/1005354/) | 哲学 | 想读 |  | | | |
-| [善恶的彼岸](https://book.douban.com/subject/26663535/) | 哲学 | 想读 |  | | | |
-| [悲剧的诞生](https://book.douban.com/subject/1063852/) | 哲学 | 想读 |  | | | |
-| [查拉图斯特拉<br>如是说](https://book.douban.com/subject/2359052/) | 哲学 | 想读 |  | | | |
-| [非此即彼](https://book.douban.com/subject/3987027/) | 哲学 | 想读 |  | | | |
-| [人生的智慧](https://book.douban.com/subject/3261600/) | 哲学 | 想读 |  | | | |
-| [作为意志和<br>表象的世界](https://book.douban.com/subject/1004699/) | 哲学 | 想读 |  | | | |
-| [纯粹理性批判](https://book.douban.com/subject/1216737/) | 哲学 | 想读 |  | | | |
--->
 
 ### 2023
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |

@@ -48,6 +48,7 @@ Ref:
 - [GMT](https://en.wikipedia.org/wiki/Greenwich_Mean_Time)
 - [Time in China - CST](https://en.wikipedia.org/wiki/Time_in_China)
 - [Time in the United States](https://en.wikipedia.org/wiki/Time_in_the_United_States)
+- How to Think About Time https://errorprone.info/docs/time
 
 
 ## 二、Time in Linux

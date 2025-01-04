@@ -27,7 +27,7 @@
       <link>http://localhost:1313/read/</link>
       <pubDate>Mon, 06 Dec 2021 16:38:52 +0800</pubDate>
       <guid>http://localhost:1313/read/</guid>
-      <description>阅读媒介 非技术书主要是电子书，很小一部分是实体书；技术书大半是 PDF，小半是纸质书。经典反复看的会买纸质书，现在因为已经有了蛮多的纸质书，搬家不方便，后续会等有条件再买纸质书。&#xA;阅读方式主要是通过 iPad 上的 Books 和 微信读书 APP 来阅读；Mac 也会用预览 APP 来看一些 PDF 形式的技术书；Kindle 偶尔拿出来擦擦灰，有时候出去玩户外多天会带上。&#xA;阅读记录 2024 书名 标签 状态 媒介 方式 开始日期 结束日期 暗淡蓝点 天文学 想读 宇宙 天文学 想读 原则 方法论 想读 Unix/Linux&#xA;编程实践教程 计算机 想读 主题阅读 Linux/UNIX&#xA;系统编程手册 计算机 想读 主题阅读 用Go语言自制&#xA;编译器 计算机 想读 微信阅读 主题阅读 用Go语言自制&#xA;解释器 计算机 想读 微信阅读 主题阅读 Programming&#xA;Kubernetes 计算机 想读 PDF 分析阅读 Kubernetes&#xA;生产化实践之路 计算机 在读 实体书 分析阅读 2022/07/07 Software</description>
+      <description>阅读媒介 非技术书主要是电子书，很小一部分是实体书；技术书大半是 PDF，小半是纸质书。经典反复看的会买纸质书，现在因为已经有了蛮多的纸质书，搬家不方便，后续会等有条件再买纸质书。&#xA;阅读方式主要是通过 iPad 上的 Books 和 微信读书 APP 来阅读；Mac 也会用预览 APP 来看一些 PDF 形式的技术书；Kindle 偶尔拿出来擦擦灰，有时候出去玩户外多天会带上。&#xA;阅读记录 2025 书名 标签 状态 媒介 方式 开始日期 结束日期 暗淡蓝点 天文学 想读 宇宙 天文学 想读 原则 方法论 想读 Unix/Linux&#xA;编程实践教程 计算机 想读 主题阅读 Linux/UNIX&#xA;系统编程手册 计算机 想读 主题阅读 用Go语言自制&#xA;编译器 计算机 想读 微信阅读 主题阅读 用Go语言自制&#xA;解释器 计算机 想读 微信阅读 主题阅读 Programming&#xA;Kubernetes 计算机 想读 PDF 分析阅读 Kubernetes&#xA;生产化实践之路 计算机 在读 实体书 分析阅读 2022/07/07 Software</description>
     </item>
     <item>
       <title>美丽新世界</title>
@@ -174,7 +174,7 @@
       <link>http://localhost:1313/posts/go-and-mysql-time/</link>
       <pubDate>Sun, 05 Nov 2023 16:10:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/go-and-mysql-time/</guid>
-      <description>一、时间概念 时间标准 某个时间系统的时间标准又称时间基准，是定义如何测量时间的一种规范，具体包括测量时间间隔的尺度基准和定义起始时刻的参考基准。&#xA;UTC&#xA;https://en.wikipedia.org/wiki/Coordinated_Universal_Time 标准时间 标准时间是在同一时区内的不同地区，舍弃地区性的子午线定出的太阳时或地方平时，而共同采用的同步时间。&#xA;Time Zone&#xA;https://en.wikipedia.org/wiki/Time_zone https://en.wikipedia.org/wiki/Tz_database https://en.wikipedia.org/wiki/List_of_tz_database_time_zones 国际标准 ISO 8610 国际标准化组织的日期和时间的表示方法。&#xA;Date&#xA;2023-11-05 Time in UTC&#xA;06:50:41Z T065041Z Date and time in UTC&#xA;2023-11-05T06:50:41Z 20231105T065041Z Date and time with the offset&#xA;2023-11-04T23:50:41−07:00 UTC−07:00 2023-11-05T06:50:41+00:00 UTC+00:00 2023-11-05T13:50:41+07:00 UTC+07:00 Ref:&#xA;The T is just a literal to separate the date from the time, and the Z means &amp;ldquo;zero hour offset&amp;rdquo; also known as &amp;ldquo;Zulu time&amp;rdquo; (UTC). UTC GMT Time in China - CST Time in the United States 二、Time in Linux 查看所在时区的日期和时间</description>
+      <description>一、时间概念 时间标准 某个时间系统的时间标准又称时间基准，是定义如何测量时间的一种规范，具体包括测量时间间隔的尺度基准和定义起始时刻的参考基准。&#xA;UTC&#xA;https://en.wikipedia.org/wiki/Coordinated_Universal_Time 标准时间 标准时间是在同一时区内的不同地区，舍弃地区性的子午线定出的太阳时或地方平时，而共同采用的同步时间。&#xA;Time Zone&#xA;https://en.wikipedia.org/wiki/Time_zone https://en.wikipedia.org/wiki/Tz_database https://en.wikipedia.org/wiki/List_of_tz_database_time_zones 国际标准 ISO 8610 国际标准化组织的日期和时间的表示方法。&#xA;Date&#xA;2023-11-05 Time in UTC&#xA;06:50:41Z T065041Z Date and time in UTC&#xA;2023-11-05T06:50:41Z 20231105T065041Z Date and time with the offset&#xA;2023-11-04T23:50:41−07:00 UTC−07:00 2023-11-05T06:50:41+00:00 UTC+00:00 2023-11-05T13:50:41+07:00 UTC+07:00 Ref:&#xA;The T is just a literal to separate the date from the time, and the Z means &amp;ldquo;zero hour offset&amp;rdquo; also known as &amp;ldquo;Zulu time&amp;rdquo; (UTC). UTC GMT Time in China - CST Time in the United States How to Think About Time https://errorprone.</description>
     </item>
     <item>
       <title>翦商</title>
