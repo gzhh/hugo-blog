@@ -1,7 +1,7 @@
 ---
 title: "资治通鉴"
 date: 2024-08-12T00:00:52+08:00
-lastmod: 2024-08-12T00:00:52+08:00
+lastmod: 2024-12-03T15:40:52+08:00
 draft: false
 categories: [Read]
 tags: [History]

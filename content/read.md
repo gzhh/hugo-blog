@@ -22,6 +22,8 @@ weight: 50
 | [原则](https://book.douban.com/subject/27608239/) | 方法论 | 想读 |  | | | |
 | [Unix/Linux<br>编程实践教程](https://book.douban.com/subject/1219329/) | 计算机 | 想读 | | 主题阅读 | | |
 | [Linux/UNIX<br>系统编程手册](https://book.douban.com/subject/25809330/) | 计算机 | 想读 | | 主题阅读 | | |
+| [Wireshark网络<br>分析的艺术](https://book.douban.com/subject/26710788/) | 计算机 | 想读 | | 主题阅读 | | |
+| [Wireshark网络<br>分析就这么简单](https://book.douban.com/subject/26268767/) | 计算机 | 想读 | | 主题阅读 | | |
 | [用Go语言自制<br>编译器](https://book.douban.com/subject/35909089/) | 计算机 | 想读 | 微信阅读 | 主题阅读 | | |
 | [用Go语言自制<br>解释器](https://book.douban.com/subject/35909085/) | 计算机 | 想读 | 微信阅读 | 主题阅读 | | |
 | [Programming<br>Kubernetes](https://book.douban.com/subject/33393681/) | 计算机 | 想读 | PDF | 分析阅读 | | |
@@ -38,7 +40,6 @@ weight: 50
 | [当我谈跑步时<br>我谈些什么](https://book.douban.com/subject/3369600/) | 文学 | 想读 |  | | |
 | [沉默的大多数](https://book.douban.com/subject/1054685/) | 文学 | 在读 | Kindle | 分析阅读 | 2024/03/09 |  |
 | [维特根斯坦传](https://book.douban.com/subject/6152040/) | 传记 | 想读 |  | | | |
-| [昨日的世界](https://book.douban.com/subject/4238162/) | 传记 | 想读 |  | | | |
 | [结构性改革](https://book.douban.com/subject/35147504/) | 经济 | 想读 |  | |  |  |
 | [分析与思考](https://book.douban.com/subject/35149551/) | 经济 | 想读 |  | |  |  |
 | [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | | | |
@@ -55,6 +56,7 @@ weight: 50
 | [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2024/08/21 |  |
 | [西游记](https://book.douban.com/subject/1321544/) | 小说 | [在读](/reads/history/journey-to-the-west) | 实体书 | 分析阅读 | 2024/09/21 | |
 | [资治通鉴](https://book.douban.com/subject/6790302/) | 历史 | [在读](/reads/history/zizhi-tongjian) | iBooks | 主题阅读 | 2024/08/11 | |
+| [昨日的世界](https://book.douban.com/subject/4238162/) | 传记 | 想读 |  | | | |
 | [美丽新世界](https://book.douban.com/subject/27002046/) | 文学 | [已读](/reads/brave-new-world/) | 实体书 | 分析阅读 | 2024/10/26 | 2024/10/26 |
 | [荒原狼](https://book.douban.com/subject/24744381/) | 哲学 | [已读](/reads/philosophy/der-steppenwolf/) | iBooks | 分析阅读 | 2024/10/04 | 2024/10/04 |
 | [幸福之路](https://book.douban.com/subject/3633588/) | 哲学 | [已读](/reads/philosophy/the-conquest-of-happiness/) | iBooks | 分析阅读 | 2024/09/07 | 2024/09/15 |
