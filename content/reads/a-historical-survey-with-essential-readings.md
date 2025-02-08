@@ -17,6 +17,17 @@ tags: [Philosophy]
 
 亚里士多德 [https://zh.wikipedia.org/wiki/亚里士多德](https://zh.wikipedia.org/wiki/%E4%BA%9A%E9%87%8C%E5%A3%AB%E5%A4%9A%E5%BE%B7)
 
+主义
+- 犬儒主义 https://zh.wikipedia.org/wiki/犬儒主义
+  - 犬儒认为人是理性动物，可以通过严格训练并按照自然来幸福地生活，同时应该摒弃财富、权力、名利等传统欲望，甚至可以在公共场合公然蔑视传统规范，转而追求一种没有任何财产的简单生活。
+- 斯多葛主义 https://zh.wikipedia.org/wiki/斯多葛主义 
+  - 斯多葛主义最著名的教诲是“美德是唯一的善”，而那些外部事物，诸如健康、财富、愉悦等，本身不存在善与恶的区分（道德中性），而是“为美德行动提供材料”。
+  - 斯多葛派主张的四种枢德
+    - 智慧
+    - 勇气
+    - 正义
+    - 节制
+
 ### 中世纪哲学
 
 奥古斯丁 [https://zh.wikipedia.org/wiki/希波的奥古斯丁](https://zh.wikipedia.org/wiki/%E5%B8%8C%E6%B3%A2%E7%9A%84%E5%A5%A5%E5%8F%A4%E6%96%AF%E4%B8%81)
@@ -128,3 +139,5 @@ tags: [Philosophy]
 ### 参考
 
 [https://zh.wikipedia.org/wiki/西方哲学史](https://zh.wikipedia.org/wiki/%E8%A5%BF%E6%96%B9%E5%93%B2%E5%AD%A6%E5%8F%B2)
+
+[https://zh.wikipedia.org/wiki/古希腊哲学](https://zh.wikipedia.org/wiki/古希腊哲学)

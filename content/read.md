@@ -28,49 +28,50 @@ weight: 50
 -->
 
 ### 2025
-| 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
-| ----  | ---- | ---- | ---- | ---- | ---- | ---- |
-| [暗淡蓝点](https://book.douban.com/subject/26214114/) | 天文学 | 想读 |  | | | |
-| [宇宙](https://book.douban.com/subject/35490038/) | 天文学 | 想读 |  | | | |
-| [原则](https://book.douban.com/subject/27608239/) | 方法论 | 想读 |  | | | |
-| [Unix/Linux<br>编程实践教程](https://book.douban.com/subject/1219329/) | 计算机 | 想读 | | 主题阅读 | | |
-| [Linux/UNIX<br>系统编程手册](https://book.douban.com/subject/25809330/) | 计算机 | 想读 | | 主题阅读 | | |
-| [Wireshark网络<br>分析的艺术](https://book.douban.com/subject/26710788/) | 计算机 | 想读 | | 主题阅读 | | |
-| [Wireshark网络<br>分析就这么简单](https://book.douban.com/subject/26268767/) | 计算机 | 想读 | | 主题阅读 | | |
-| [用Go语言自制<br>编译器](https://book.douban.com/subject/35909089/) | 计算机 | 想读 | 微信阅读 | 主题阅读 | | |
-| [用Go语言自制<br>解释器](https://book.douban.com/subject/35909085/) | 计算机 | 想读 | 微信阅读 | 主题阅读 | | |
-| [Programming<br>Kubernetes](https://book.douban.com/subject/33393681/) | 计算机 | 想读 | PDF | 分析阅读 | | |
-| [Kubernetes<br>生产化实践之路](https://book.douban.com/subject/35268764/) | 计算机 | 在读 | 实体书 | 分析阅读 | 2022/07/07 | |
-| [Software<br>Engineering at<br>Google](https://www.goodreads.com/book/show/48816586-software-engineering-at-google) | 计算机 | 想读 | PDF | 分析阅读 | | |
-| [The Manager's Path](https://book.douban.com/subject/26997855/) | 计算机 | 想读 | | 分析阅读 | |  |
-| [The Staff<br>Engineer's Path](https://book.douban.com/subject/35858196/) | 计算机 | 想读 | | 分析阅读 | |  |
-| [System Design<br>Interview: <br>Volume 2](https://goodreads.com/book/show/60631342-system-design-interview-an-insider-s-guide) | 计算机 | 想读 | PDF | 分析阅读 | |
-| [NoSQL Distilled](https://www.goodreads.com/book/show/13610343-nosql-distilled) | 计算机 | 想读 | | 主题阅读 | | |
-| [人月神话](https://book.douban.com/subject/1102259/) | 计算机 | 想读 |  | 分析阅读 | | |
-| [百年孤独](https://book.douban.com/subject/6082808/) | 小说 | 想读 |  | 分析阅读 | | |
-| [非暴力沟通](https://book.douban.com/subject/3533221/) | 心理 | 想读 |  | 分析阅读 | | |
-| [你想活出怎样<br>的人生](https://book.douban.com/subject/34659228/) | 教育 | 想读 |  | 分析阅读 | | |
-| [当我谈跑步时<br>我谈些什么](https://book.douban.com/subject/3369600/) | 文学 | 想读 |  | | |
-| [沉默的大多数](https://book.douban.com/subject/1054685/) | 文学 | 在读 | Kindle | 分析阅读 | 2024/03/09 |  |
-| [维特根斯坦传](https://book.douban.com/subject/6152040/) | 传记 | 想读 |  | | | |
-| [结构性改革](https://book.douban.com/subject/35147504/) | 经济 | 想读 |  | |  |  |
-| [分析与思考](https://book.douban.com/subject/35149551/) | 经济 | 想读 |  | |  |  |
-| [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | | | |
-| [深度工作](https://book.douban.com/subject/27056409/) | 方法论 | 想读 |  | | | |
-| [福格行为模型](https://book.douban.com/subject/35594496/) | 方法论 | 想读 |  |  |  | |
-| [高效能人士的<br>七个习惯](https://book.douban.com/subject/5325618/) | 方法论 | 想读 |  | | | |
-| [如何赢得友谊<br>并影响他人](https://book.douban.com/subject/26954744/) | 人际关系 | 想读 |  | | | |
-| [穷查理宝典](https://book.douban.com/subject/26831789/) | 方法论 | 想读 | PDF | 分析阅读 | 2023/06/10 | |
-| [Linux内核设计<br>与实现](https://book.douban.com/subject/6097773/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/07/08 | |
-| [网络是怎样<br>连接的](https://book.douban.com/subject/26941639/) | 计算机 | 在读 | PDF | 分析阅读 | 2022/06/19 | |
-| [Fluent Python,<br>2nd Edition](https://book.douban.com/subject/34990079/) | 计算机 | 在读 | PDF | 主题阅读 | 2023/09/13 |  |
-| [A Philosophy of<br>Software Design](https://book.douban.com/subject/30218046/) | 计算机 | 在读 | iBooks | 主题阅读 | 2024/08/24 |  |
-| [代码大全](https://book.douban.com/subject/1477390/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2024/08/21 |  |
-| [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2024/08/21 |  |
-| [百年孤独](https://book.douban.com/subject/6082808/) | 小说 | 想读 | iBooks | 分析阅读 | | |
-| [西游记](https://book.douban.com/subject/1321544/) | 小说 | [在读](/reads/history/journey-to-the-west) | 实体书 | 分析阅读 | 2024/09/21 | |
-| [资治通鉴](https://book.douban.com/subject/6790302/) | 历史 | [在读](/reads/history/zizhi-tongjian) | iBooks | 主题阅读 | 2024/08/11 | |
-| [昨日的世界](https://book.douban.com/subject/4238162/) | 传记 | 想读 |  | | | |
+| 书名 | 作者 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| [暗淡蓝点](https://book.douban.com/subject/26214114/) | | 天文学 | 想读 |  | | | |
+| [宇宙](https://book.douban.com/subject/35490038/) | | 天文学 | 想读 |  | | | |
+| [原则](https://book.douban.com/subject/27608239/) | | 方法论 | 想读 |  | | | |
+| [Unix/Linux<br>编程实践教程](https://book.douban.com/subject/1219329/) | | 计算机 | 想读 | | 主题阅读 | | |
+| [Linux/UNIX<br>系统编程手册](https://book.douban.com/subject/25809330/) | | 计算机 | 想读 | | 主题阅读 | | |
+| [Wireshark网络<br>分析的艺术](https://book.douban.com/subject/26710788/) | | 计算机 | 想读 | | 主题阅读 | | |
+| [Wireshark网络<br>分析就这么简单](https://book.douban.com/subject/26268767/) | | 计算机 | 想读 | | 主题阅读 | | |
+| [用Go语言自制<br>编译器](https://book.douban.com/subject/35909089/) | | 计算机 | 想读 | 微信阅读 | 主题阅读 | | |
+| [用Go语言自制<br>解释器](https://book.douban.com/subject/35909085/) | | 计算机 | 想读 | 微信阅读 | 主题阅读 | | |
+| [Programming<br>Kubernetes](https://book.douban.com/subject/33393681/) | | 计算机 | 想读 | PDF | 分析阅读 | | |
+| [Kubernetes<br>生产化实践之路](https://book.douban.com/subject/35268764/) | | 计算机 | 在读 | 实体书 | 分析阅读 | 2022/07/07 | |
+| [Software<br>Engineering at<br>Google](https://www.goodreads.com/book/show/48816586-software-engineering-at-google) | | 计算机 | 想读 | PDF | 分析阅读 | | |
+| [The Manager's Path](https://book.douban.com/subject/26997855/) | | 计算机 | 想读 | | 分析阅读 | |  |
+| [The Staff<br>Engineer's Path](https://book.douban.com/subject/35858196/) | | 计算机 | 想读 | | 分析阅读 | |  |
+| [System Design<br>Interview: <br>Volume 2](https://goodreads.com/book/show/60631342-system-design-interview-an-insider-s-guide) | | 计算机 | 想读 | PDF | 分析阅读 | |
+| [NoSQL Distilled](https://www.goodreads.com/book/show/13610343-nosql-distilled) | | 计算机 | 想读 | | 主题阅读 | | |
+| [人月神话](https://book.douban.com/subject/1102259/) | | 计算机 | 想读 |  | 分析阅读 | | |
+| [非暴力沟通](https://book.douban.com/subject/3533221/) | | 心理 | 想读 |  | 分析阅读 | | |
+| [你想活出怎样<br>的人生](https://book.douban.com/subject/34659228/) | | 教育 | 想读 |  | 分析阅读 | | |
+| [当我谈跑步时<br>我谈些什么](https://book.douban.com/subject/3369600/) | | 文学 | 想读 |  | | |
+| [沉默的大多数](https://book.douban.com/subject/1054685/) | | 文学 | 在读 | Kindle | 分析阅读 | 2024/03/09 |  |
+| [维特根斯坦传](https://book.douban.com/subject/6152040/) | | 传记 | 想读 |  | | | |
+| [结构性改革](https://book.douban.com/subject/35147504/) | | 经济 | 想读 |  | |  |  |
+| [分析与思考](https://book.douban.com/subject/35149551/) | | 经济 | 想读 |  | |  |  |
+| [通往奴役之路](https://book.douban.com/subject/1077528/) | | 经济 | 想读 |  | | | |
+| [深度工作](https://book.douban.com/subject/27056409/) | | 方法论 | 想读 |  | | | |
+| [福格行为模型](https://book.douban.com/subject/35594496/) | | 方法论 | 想读 |  |  |  | |
+| [高效能人士的<br>七个习惯](https://book.douban.com/subject/5325618/) | | 方法论 | 想读 |  | | | |
+| [如何赢得友谊<br>并影响他人](https://book.douban.com/subject/26954744/) | | 人际关系 | 想读 |  | | | |
+| [穷查理宝典](https://book.douban.com/subject/26831789/) | | 方法论 | 想读 | PDF | 分析阅读 | 2023/06/10 | |
+| [Linux内核设计<br>与实现](https://book.douban.com/subject/6097773/) | | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/07/08 | |
+| [网络是怎样<br>连接的](https://book.douban.com/subject/26941639/) | | 计算机 | 在读 | PDF | 分析阅读 | 2022/06/19 | |
+| [Fluent Python,<br>2nd Edition](https://book.douban.com/subject/34990079/) | | 计算机 | 在读 | PDF | 主题阅读 | 2023/09/13 |  |
+| [A Philosophy of<br>Software Design](https://book.douban.com/subject/30218046/) | | 计算机 | 在读 | iBooks | 主题阅读 | 2024/08/24 |  |
+| [The Design of the<br>UNIX Operating System](https://book.douban.com/subject/1768601/) | | 计算机 | 在读 | PDF | 主题阅读 | 2025/02/04 |  |
+| [代码大全](https://book.douban.com/subject/1477390/) | | 计算机 | 在读 | 实体书 | 主题阅读 | 2024/08/21 |  |
+| [程序设计实践](https://book.douban.com/subject/26712028/) | | 计算机 | 在读 | 实体书 | 主题阅读 | 2024/08/21 |  |
+| [百年孤独](https://book.douban.com/subject/6082808/) | | 小说 | 想读 | iBooks | 分析阅读 | | |
+| [西游记](https://book.douban.com/subject/1321544/) | | 小说 | [在读](/reads/history/journey-to-the-west) | 实体书 | 分析阅读 | 2024/09/21 | |
+| [资治通鉴](https://book.douban.com/subject/6790302/) | | 历史 | [在读](/reads/history/zizhi-tongjian) | iBooks | 主题阅读 | 2024/08/11 | |
+| [昨日的世界](https://book.douban.com/subject/4238162/) | | 传记 | 想读 |  | | | |
+| [赞美闲散](https://book.douban.com/subject/36794809/) | 罗素 | 随笔 | 想读 |  | | | |
 
 ### 2024
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
