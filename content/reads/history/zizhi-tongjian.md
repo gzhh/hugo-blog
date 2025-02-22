@@ -7,20 +7,17 @@ categories: [Read]
 tags: [History]
 ---
 
-# 感想
-
-
-## 中国历史
-- https://zh.wikipedia.org/wiki/中国历史
-
-
 ## 笔记
-资治通鉴
-- https://zh.wikipedia.org/wiki/资治通鉴
 
 版本
 - https://book.douban.com/subject/6790302/
 - https://book.douban.com/subject/34852717/
+
+资治通鉴
+- https://zh.wikipedia.org/wiki/资治通鉴
+
+中国历史
+- https://zh.wikipedia.org/wiki/中国历史
 
 四书五经
 - https://zh.wikipedia.org/zh-cn/四书五经
