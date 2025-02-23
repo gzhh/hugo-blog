@@ -33,6 +33,9 @@ weight: 50
 | [暗淡蓝点](https://book.douban.com/subject/26214114/) | 天文学 | 想读 |  | | | |
 | [宇宙](https://book.douban.com/subject/35490038/) | 天文学 | 想读 |  | | | |
 | [原则](https://book.douban.com/subject/27608239/) | 方法论 | 想读 |  | | | |
+| [赞美闲散](https://book.douban.com/subject/36794809/) | 随笔 | 想读 |  | | | |
+| [昨日的世界](https://book.douban.com/subject/4238162/) | 传记 | 想读 |  | | | |
+| [筚路维艰](https://book.douban.com/subject/26171466/) | 历史 | 想读 |  | | | |
 | [Unix/Linux<br>编程实践教程](https://book.douban.com/subject/1219329/) | 计算机 | 想读 | | 主题阅读 | | |
 | [Linux/UNIX<br>系统编程手册](https://book.douban.com/subject/25809330/) | 计算机 | 想读 | | 主题阅读 | | |
 | [Wireshark网络<br>分析的艺术](https://book.douban.com/subject/26710788/) | 计算机 | 想读 | | 主题阅读 | | |
@@ -68,11 +71,10 @@ weight: 50
 | [The Design of the<br>UNIX Operating System](https://book.douban.com/subject/1768601/) | 计算机 | 在读 | PDF | 主题阅读 | 2025/02/04 |  |
 | [代码大全](https://book.douban.com/subject/1477390/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2024/08/21 |  |
 | [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2024/08/21 |  |
+| [中国现代小说史](https://book.douban.com/subject/26299127/) | 文学史 | 想读 | iBooks | 主题阅读 | | |
 | [百年孤独](https://book.douban.com/subject/6082808/) | 小说 | 想读 | iBooks | 分析阅读 | | |
 | [西游记](https://book.douban.com/subject/1321544/) | 小说 | [在读](/reads/history/journey-to-the-west) | 实体书 | 分析阅读 | 2024/09/21 | |
 | [资治通鉴](https://book.douban.com/subject/6790302/) | 历史 | [在读](/reads/history/zizhi-tongjian) | iBooks | 主题阅读 | 2024/08/11 | |
-| [赞美闲散](https://book.douban.com/subject/36794809/) | 随笔 | 想读 |  | | | |
-| [昨日的世界](https://book.douban.com/subject/4238162/) | 传记 | 想读 |  | | | |
 | [精神与爱欲](https://book.douban.com/subject/35492879/) | 哲学 | [已读](/reads/philosophy/narcissus-and-goldmund/) | 实体书 | 分析阅读 | 2025/02/22 | 2025/02/22 |
 
 ### 2024
