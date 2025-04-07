@@ -8,5 +8,5 @@ weight: 50
 
 ## 一、方法论
 ### 1. 程序员工作方法论
-- [Being Glue 作为胶水](/works/being-glue)
+- [Being Glue 作为胶水](/work/being-glue)
 

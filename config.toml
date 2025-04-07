@@ -71,6 +71,10 @@ disqusShortname = "gzhh-tech"
 #   name = "Work"
 #   weight = 2
 #   url  = "work/"
+# [[menu.main]]
+#   name = "Life"
+#   weight = 2
+#   url  = "life/"
 [[menu.main]]
   name = "Read"
   weight = 3 
