@@ -1,7 +1,7 @@
 ---
 title: "资治通鉴"
 date: 2024-08-12T00:00:52+08:00
-lastmod: 2024-12-03T15:40:52+08:00
+lastmod: 2025-07-25T15:40:52+08:00
 draft: false
 categories: [Read]
 tags: [History]
@@ -54,3 +54,10 @@ tags: [History]
 参考
 - 儒家不再居正统 魏晋人名“僧”“道”多 https://china.huanqiu.com/article/9CaKrnJNgJN
 - 金明馆丛稿初编 - 天师道与滨海地域之关系 https://book.douban.com/subject/35127758/
+
+
+
+### 五代十国
+
+人吃人最疯狂的时代
+
