@@ -76,6 +76,7 @@ https://zh.wikipedia.org/wiki/生命的意义
 | [中国现代小说史](https://book.douban.com/subject/26299127/) | 文学史 | 想读 | iBooks | 主题阅读 | | |
 | [百年孤独](https://book.douban.com/subject/6082808/) | 小说 | 想读 | iBooks | 分析阅读 | | |
 | [西游记](https://book.douban.com/subject/1321544/) | 小说 | [在读](/reads/history/journey-to-the-west) | 实体书 | 分析阅读 | 2024/09/21 | |
+| [鱼不存在](https://book.douban.com/subject/36096300/) | 文学 | 已读 | iBooks | 分析阅读 | 2025/07/26 | 2025/07/26 |
 | [资治通鉴](https://book.douban.com/subject/6790302/) | 历史 | [已读](/reads/history/zizhi-tongjian) | iBooks | 主题阅读 | 2024/08/11 | 2025/07/20 |
 | [精神与爱欲](https://book.douban.com/subject/35492879/) | 哲学 | [已读](/reads/philosophy/narcissus-and-goldmund/) | 实体书 | 分析阅读 | 2025/02/22 | 2025/02/22 |
 
