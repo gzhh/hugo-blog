@@ -32,7 +32,6 @@ https://zh.wikipedia.org/wiki/生命的意义
 ### 2025
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| [暗淡蓝点](https://book.douban.com/subject/26214114/) | 天文学 | 想读 |  | | | |
 | [宇宙](https://book.douban.com/subject/35490038/) | 天文学 | 想读 |  | | | |
 | [原则](https://book.douban.com/subject/27608239/) | 方法论 | 想读 |  | | | |
 | [赞美闲散](https://book.douban.com/subject/36794809/) | 随笔 | 想读 |  | | | |
@@ -76,6 +75,7 @@ https://zh.wikipedia.org/wiki/生命的意义
 | [中国现代小说史](https://book.douban.com/subject/26299127/) | 文学史 | 想读 | iBooks | 主题阅读 | | |
 | [百年孤独](https://book.douban.com/subject/6082808/) | 小说 | 想读 | iBooks | 分析阅读 | | |
 | [西游记](https://book.douban.com/subject/1321544/) | 小说 | [在读](/reads/history/journey-to-the-west) | 实体书 | 分析阅读 | 2024/09/21 | |
+| [暗淡蓝点](https://book.douban.com/subject/26214114/) | 天文学 | 已读 | PDF | 分析阅读 | 2025/08/03 | 2025/08/10 |
 | [鱼不存在](https://book.douban.com/subject/36096300/) | 文学 | 已读 | iBooks | 分析阅读 | 2025/07/26 | 2025/07/26 |
 | [资治通鉴](https://book.douban.com/subject/6790302/) | 历史 | [已读](/reads/history/zizhi-tongjian) | iBooks | 主题阅读 | 2024/08/11 | 2025/07/20 |
 | [精神与爱欲](https://book.douban.com/subject/35492879/) | 哲学 | [已读](/reads/philosophy/narcissus-and-goldmund/) | 实体书 | 分析阅读 | 2025/02/22 | 2025/02/22 |
