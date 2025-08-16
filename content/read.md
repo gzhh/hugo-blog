@@ -68,13 +68,13 @@ https://zh.wikipedia.org/wiki/生命的意义
 | [Linux内核设计<br>与实现](https://book.douban.com/subject/6097773/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/07/08 | |
 | [网络是怎样<br>连接的](https://book.douban.com/subject/26941639/) | 计算机 | 在读 | PDF | 分析阅读 | 2022/06/19 | |
 | [Fluent Python,<br>2nd Edition](https://book.douban.com/subject/34990079/) | 计算机 | 在读 | PDF | 主题阅读 | 2023/09/13 |  |
-| [A Philosophy of<br>Software Design](https://book.douban.com/subject/30218046/) | 计算机 | 在读 | iBooks | 主题阅读 | 2024/08/24 |  |
 | [The Design of the<br>UNIX Operating System](https://book.douban.com/subject/1768601/) | 计算机 | 在读 | PDF | 主题阅读 | 2025/02/04 |  |
 | [代码大全](https://book.douban.com/subject/1477390/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2024/08/21 |  |
 | [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2024/08/21 |  |
 | [中国现代小说史](https://book.douban.com/subject/26299127/) | 文学史 | 想读 | iBooks | 主题阅读 | | |
 | [百年孤独](https://book.douban.com/subject/6082808/) | 小说 | 想读 | iBooks | 分析阅读 | | |
 | [西游记](https://book.douban.com/subject/1321544/) | 小说 | [在读](/reads/history/journey-to-the-west) | 实体书 | 分析阅读 | 2024/09/21 | |
+| [A Philosophy of<br>Software Design](https://book.douban.com/subject/30218046/) | 计算机 | 已读 | iBooks | 主题阅读 | 2025/08/16 | 2025/08/16 |
 | [暗淡蓝点](https://book.douban.com/subject/26214114/) | 天文学 | 已读 | PDF | 分析阅读 | 2025/08/03 | 2025/08/10 |
 | [鱼不存在](https://book.douban.com/subject/36096300/) | 文学 | 已读 | iBooks | 分析阅读 | 2025/07/26 | 2025/07/26 |
 | [资治通鉴](https://book.douban.com/subject/6790302/) | 历史 | [已读](/reads/history/zizhi-tongjian) | iBooks | 主题阅读 | 2024/08/11 | 2025/07/20 |
