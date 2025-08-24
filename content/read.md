@@ -72,8 +72,10 @@ https://zh.wikipedia.org/wiki/生命的意义
 | [代码大全](https://book.douban.com/subject/1477390/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2024/08/21 |  |
 | [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2024/08/21 |  |
 | [中国现代小说史](https://book.douban.com/subject/26299127/) | 文学史 | 想读 | iBooks | 主题阅读 | | |
+| [全球通史](https://book.douban.com/subject/1025643/) | 历史 | 想读 | iBooks | 主题阅读 | | |
 | [百年孤独](https://book.douban.com/subject/6082808/) | 小说 | 想读 | iBooks | 分析阅读 | | |
 | [西游记](https://book.douban.com/subject/1321544/) | 小说 | [在读](/reads/history/journey-to-the-west) | 实体书 | 分析阅读 | 2024/09/21 | |
+| [When the Heavens<br>Went on Sale](https://book.douban.com/subject/36402681/) | 商业 | [已读](/reads/business/when-the-heavens-went-on-sale/) | iBooks | 分析阅读 | 2025/08/23 | 2025/08/24 |
 | [A Philosophy of<br>Software Design](https://book.douban.com/subject/30218046/) | 计算机 | 已读 | iBooks | 主题阅读 | 2025/08/16 | 2025/08/16 |
 | [暗淡蓝点](https://book.douban.com/subject/26214114/) | 天文学 | 已读 | PDF | 分析阅读 | 2025/08/03 | 2025/08/10 |
 | [鱼不存在](https://book.douban.com/subject/36096300/) | 文学 | 已读 | iBooks | 分析阅读 | 2025/07/26 | 2025/07/26 |
