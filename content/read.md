@@ -75,6 +75,7 @@ https://zh.wikipedia.org/wiki/生命的意义
 | [全球通史](https://book.douban.com/subject/1025643/) | 历史 | 想读 | iBooks | 主题阅读 | | |
 | [百年孤独](https://book.douban.com/subject/6082808/) | 小说 | 想读 | iBooks | 分析阅读 | | |
 | [西游记](https://book.douban.com/subject/1321544/) | 小说 | [在读](/reads/history/journey-to-the-west) | 实体书 | 分析阅读 | 2024/09/21 | |
+| [银河帝国：<br>基地七部曲](https://book.douban.com/subject/26389895/) | 小说 | 在读 | iBooks | 分析阅读 | 2025/08/31 | |
 | [When the Heavens<br>Went on Sale](https://book.douban.com/subject/36402681/) | 商业 | [已读](/reads/business/when-the-heavens-went-on-sale/) | iBooks | 分析阅读 | 2025/08/23 | 2025/08/24 |
 | [A Philosophy of<br>Software Design](https://book.douban.com/subject/30218046/) | 计算机 | 已读 | iBooks | 主题阅读 | 2025/08/16 | 2025/08/16 |
 | [暗淡蓝点](https://book.douban.com/subject/26214114/) | 天文学 | 已读 | PDF | 分析阅读 | 2025/08/03 | 2025/08/10 |
