@@ -59,6 +59,7 @@ https://zh.wikipedia.org/wiki/生命的意义
 | [结构性改革](https://book.douban.com/subject/35147504/) | 经济 | 想读 |  | |  |  |
 | [分析与思考](https://book.douban.com/subject/35149551/) | 经济 | 想读 |  | |  |  |
 | [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | | | |
+| [进化心理学](https://book.douban.com/subject/26683297/) | 社会学 | 想读 |  | | | |
 | [自私的基因](https://book.douban.com/subject/11445548/) | 社会学 | 想读 |  | | | |
 | [深度工作](https://book.douban.com/subject/27056409/) | 方法论 | 想读 |  | | | |
 | [福格行为模型](https://book.douban.com/subject/35594496/) | 方法论 | 想读 |  |  |  | |
@@ -73,9 +74,11 @@ https://zh.wikipedia.org/wiki/生命的意义
 | [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2024/08/21 |  |
 | [中国现代小说史](https://book.douban.com/subject/26299127/) | 文学史 | 想读 | iBooks | 主题阅读 | | |
 | [全球通史](https://book.douban.com/subject/1025643/) | 历史 | 想读 | iBooks | 主题阅读 | | |
+| [霍布斯鲍姆<br>年代四部曲](https://book.douban.com/subject/27106738/) | 历史 | 想读 | iBooks | 主题阅读 | | |
 | [百年孤独](https://book.douban.com/subject/6082808/) | 小说 | 想读 | iBooks | 分析阅读 | | |
 | [西游记](https://book.douban.com/subject/1321544/) | 小说 | [在读](/reads/history/journey-to-the-west) | 实体书 | 分析阅读 | 2024/09/21 | |
-| [银河帝国：<br>基地七部曲](https://book.douban.com/subject/26389895/) | 小说 | 在读 | iBooks | 分析阅读 | 2025/08/31 | |
+| [银河帝国：<br>基地七部曲](https://book.douban.com/subject/26389895/) | 小说 | [在读](/reads/sci-fi/foundation-series/) | iBooks | 分析阅读 | 2025/08/31 | |
+| [上帝掷骰子吗](https://book.douban.com/subject/1467022/) | 物理学 | 已读 | iBooks | 分析阅读 | 2025/11/09 | 2025/11/29 |
 | [When the Heavens<br>Went on Sale](https://book.douban.com/subject/36402681/) | 商业 | [已读](/reads/business/when-the-heavens-went-on-sale/) | iBooks | 分析阅读 | 2025/08/23 | 2025/08/24 |
 | [A Philosophy of<br>Software Design](https://book.douban.com/subject/30218046/) | 计算机 | 已读 | iBooks | 主题阅读 | 2025/08/16 | 2025/08/16 |
 | [暗淡蓝点](https://book.douban.com/subject/26214114/) | 天文学 | 已读 | PDF | 分析阅读 | 2025/08/03 | 2025/08/10 |
@@ -234,6 +237,9 @@ https://zh.wikipedia.org/wiki/生命的意义
 | [鸟哥的Linux私房菜](https://book.douban.com/subject/4889838/) | 计算机 | 已读 | 实体书 | 主题阅读 |  |  |
 | [大话数据结构](https://book.douban.com/subject/6424904/) | 计算机 | 已读 | 实体书 | 分析阅读 |  |  |
 | [大话设计模式](https://book.douban.com/subject/2334288/) | 计算机 | 已读 | 实体书 | 分析阅读 |  |  |
+| [黄金时代](https://book.douban.com/subject/1089243/) | 文学 | 已读 | 实体书 | 主题阅读 |  |  |
+| [自我与本我](https://book.douban.com/subject/6797700/) | 心理学 | 已读 | 实体书 | 主题阅读 |  |  |
+| [性学三论](https://book.douban.com/subject/26319527/) | 心理学 | 已读 | 实体书 | 主题阅读 |  |  |
 | [浪潮之巅](https://book.douban.com/subject/6709783/) | 计算机 | 已读 | 实体书 | 分析阅读 |  |  |
 | [数学之美](https://book.douban.com/subject/10750155/) | 数学、计算机 | 已读 | 实体书 | 分析阅读 |  |  |
 | [平行宇宙](https://book.douban.com/subject/3117464/) | 计算机 | 已读 | 实体书 | 分析阅读 |  |  |
