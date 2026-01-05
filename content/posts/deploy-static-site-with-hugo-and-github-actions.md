@@ -83,9 +83,9 @@ tags: [Blog, Hugo]
 
 
 ## 配置域名及域名解析
-使用 Github Page 提供的域名 gzhh.github.io 浏览博客有时候会觉得不太个性化，于是在 Godaddy 上买了 gzhh.tech 域名，将 DNS 托管到 Cloudflare，新建一条 blog 指向 gzhh.github.io 的 CNAME 记录，那么生效后就可以通过 blog.gzhh.tech 来访问博客站点。
+使用 Github Page 提供的域名 gzhh.github.io 浏览博客有时候会觉得不太个性化，于是在 Godaddy 上买了 gzhh.tech（joeygao.com） 域名，将 DNS 托管到 Cloudflare，新建一条 blog 指向 gzhh.github.io 的 CNAME 记录，那么生效后就可以通过 blog.gzhh.tech（blog.joeygao.com） 来访问博客站点。
 
-前文已提到需要在 Github Page 项目的根目录添加一个 CNAME 文件，内容为 blog.gzhh.tech。
+前文已提到需要在 Github Page 项目的根目录添加一个 CNAME 文件，内容为 blog.gzhh.tech（blog.joeygao.com）。
 
 
 ## 博客图片

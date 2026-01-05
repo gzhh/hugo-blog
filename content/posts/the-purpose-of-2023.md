@@ -121,7 +121,7 @@ categories: [Misc]
 
 另外维护了一个阅读页面，刚开始是在 Notion 上维护的，后来才迁移到博客上
 
-[gzhh's read page](https://blog.gzhh.tech/read/)
+[gzhh's read page](/read/)
 
 **理财**
 

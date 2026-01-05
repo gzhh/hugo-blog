@@ -36,7 +36,7 @@ jobs:
       - uses: "finnp/create-file-action@master"
         env:
           FILE_NAME: "./public/CNAME"
-          FILE_DATA: "blog.gzhh.tech"
+          FILE_DATA: "blog.joeygao.com"
 
       # 将站点发布到对应仓库
       - name: Deploy

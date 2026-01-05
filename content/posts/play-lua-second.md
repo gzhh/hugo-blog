@@ -8,7 +8,7 @@ categories: [Lua]
 <!--more-->
 
 ### 说在前面
-这一篇接着 [Lua 语言入门（一）](http://blog.gzhh.tech/2019/09/29/play-lua-first/) 继续写，主要是 lua 稍微高级一点的编程方式。
+这一篇接着 [Lua 语言入门（一）](/posts/play-lua-first/) 继续写，主要是 lua 稍微高级一点的编程方式。
 
 - 1.Closure 闭包
 
