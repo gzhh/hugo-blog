@@ -1,5 +1,5 @@
-baseURL = "https://blog.gzhh.tech"
-title = "gzhh's blog"
+baseURL = "https://blog.joeygao.com"
+title = "JoeyGao's blog"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
@@ -17,9 +17,9 @@ pygmentscodefencesguesssyntax = true
 disqusShortname = "gzhh-tech"
 
 [params]
-  author = "gzhh"
+  author = "Joey Gao"
   info = "Stay Hungry Stay Foolish"
-  description = "gzhh's personal website"
+  description = "JoeyGao's personal website"
   keywords = "blog,developer,personal"
   avatarurl = "images/avatar.jpg"
   #gravatar = "zhonghuangao@gmail.com"
