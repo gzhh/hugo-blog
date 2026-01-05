@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Summary on gzhh&#39;s blog</title>
+    <link>http://localhost:1313/tags/summary/</link>
+    <description>Recent content in Summary on gzhh&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Jan 2023 23:59:30 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/summary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023新年计划</title>
+      <link>http://localhost:1313/posts/the-purpose-of-2023/</link>
+      <pubDate>Sat, 28 Jan 2023 23:59:30 +0800</pubDate>
+      <guid>http://localhost:1313/posts/the-purpose-of-2023/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2022新年计划</title>
+      <link>http://localhost:1313/posts/the-purpose-of-2022/</link>
+      <pubDate>Fri, 31 Dec 2021 23:55:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/the-purpose-of-2022/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2021新年计划</title>
+      <link>http://localhost:1313/posts/the-purpose-of-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 01:10:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/the-purpose-of-2021/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2019新年计划</title>
+      <link>http://localhost:1313/posts/the-purpose-of-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 22:10:51 +0800</pubDate>
+      <guid>http://localhost:1313/posts/the-purpose-of-2019/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2018新年计划</title>
+      <link>http://localhost:1313/posts/the-purpose-of-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:43:02 +0800</pubDate>
+      <guid>http://localhost:1313/posts/the-purpose-of-2018/</guid>
+      <description>&lt;p&gt;2018要来了，回想2017年出校门实习的这半年来，学到了挺多职场的知识，但是对自己还是不够满意，比自己的期望也低了好多，而且人也变得懒惰了，希望2018能改掉这些毛病，努力争取获取的一个更好的机会。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2017新年计划</title>
+      <link>http://localhost:1313/posts/the-purpose-of-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 23:26:25 +0800</pubDate>
+      <guid>http://localhost:1313/posts/the-purpose-of-2017/</guid>
+      <description>&lt;p&gt;今天是2017年的第一天，度过了有很过欢笑也有很多悲伤的2016年，不管怎样，2016年都过去了，新生活还要继续，写点新年的计划吧，虽然知道很大部分很难完成，但还是写一下吧，万一完成了呢。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

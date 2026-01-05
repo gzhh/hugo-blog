@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quick-Sort on gzhh&#39;s blog</title>
+    <link>http://localhost:1313/tags/quick-sort/</link>
+    <description>Recent content in Quick-Sort on gzhh&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Apr 2018 23:24:03 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/quick-sort/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>常见排序算法</title>
+      <link>http://localhost:1313/posts/sort-algorithm/</link>
+      <pubDate>Sun, 01 Apr 2018 23:24:03 +0800</pubDate>
+      <guid>http://localhost:1313/posts/sort-algorithm/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

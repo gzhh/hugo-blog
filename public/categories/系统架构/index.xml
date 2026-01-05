@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>系统架构 on gzhh&#39;s blog</title>
+    <link>http://localhost:1313/categories/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/</link>
+    <description>Recent content in 系统架构 on gzhh&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 20 Jun 2022 17:58:50 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【阅读笔记】微服务架构设计模式</title>
+      <link>http://localhost:1313/posts/microservices-patterns/</link>
+      <pubDate>Mon, 20 Jun 2022 17:58:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/microservices-patterns/</guid>
+      <description>Table Of Contents 一、系统架构设计介绍 单体架构 微服务架构 二、服务的拆分策略 拆分规范 拆分策略 拆分难点 三、微服务架构中的进程间通信 RPC（同步通信机制） 同步通信机制局部故障问题 服务发现 消息代理 MQ（异步消息通信机制） 四、管理事务 Saga 五、微服务架构中的业务逻辑设计 业务逻辑组织模式 领域驱动设计 DDD 六、使用事件溯源开发业务逻辑 七、在微服务架构中实现查询 使用API组合模式进行查询 使用CQRS模式 八、外部API模式 九 &amp;amp; 十、微服务架构中的测试策略 自动化测试的四个阶段 测试的不同类型 测试金字塔 使用测试象限进行分类 十一、开发面向生产环境的微服务应用 安全性 可配置 设计可观测的服务 使用微服务基底模式开发服务 服务网格 十二：部署微服务应用 虚拟机 docker k8s 容器部署 Serverless 部署 十三、微服务架构的重构策略 需要考虑的问题 重构策略 设计服务与单体的协作方式 将新功能实现为服务 从单体中提取功能到独立服务 参考 一、系统架构设计介绍 单体架构 定义：一个系统的所有子模块都被部署在同一台服务器上。&#xA;单体架构的好处&#xA;应用的开发简单 易于对应用程序进行大规模的更改 测试相对简单直观 部署简单 横向扩展容易 单体地狱&#xA;随着不断的在单体架构的基础上扩展，每一次实现更多功能的时候，就会导致代码库膨胀。并且随着研发团队规模的不断壮大，团队的管理成本也不断提高，开发变得缓慢和痛苦。&#xA;单体架构的弊端&#xA;过度的复杂性会吓退开发者 开发速度缓慢 从代码提交到实际部署的周期很长，而且容易出问题 难以扩展 交付可靠的单体应用是一项挑战 需要长期依赖某个可能过时的技术栈 微服务架构 定义：将一个单体应用按照不同的功能模块进行分解，拆分成一个个小的服务，每个服务实现了一组相关的功能。</description>
+    </item>
+  </channel>
+</rss>

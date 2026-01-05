@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Go on gzhh&#39;s blog</title>
+    <link>http://localhost:1313/categories/go/</link>
+    <description>Recent content in Go on gzhh&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 05 Jul 2021 17:38:50 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gin 生命周期</title>
+      <link>http://localhost:1313/posts/lifecycle-of-gin-framework/</link>
+      <pubDate>Mon, 05 Jul 2021 17:38:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/lifecycle-of-gin-framework/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
