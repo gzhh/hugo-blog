@@ -29,7 +29,7 @@ https://zh.wikipedia.org/wiki/生命的意义
 | [纯粹理性批判](https://book.douban.com/subject/1216737/) | 哲学 | 想读 |  | | | |
 -->
 
-### 2025
+### 2026
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | [宇宙](https://book.douban.com/subject/35490038/) | 天文学 | 想读 |  | | | |
@@ -78,6 +78,10 @@ https://zh.wikipedia.org/wiki/生命的意义
 | [百年孤独](https://book.douban.com/subject/6082808/) | 小说 | 想读 | iBooks | 分析阅读 | | |
 | [西游记](https://book.douban.com/subject/1321544/) | 小说 | [在读](/reads/history/journey-to-the-west) | 实体书 | 分析阅读 | 2024/09/21 | |
 | [银河帝国：<br>基地七部曲](https://book.douban.com/subject/26389895/) | 小说 | [在读](/reads/sci-fi/foundation-series/) | iBooks | 分析阅读 | 2025/08/31 | |
+
+### 2025
+| 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | [上帝掷骰子吗](https://book.douban.com/subject/1467022/) | 物理学 | 已读 | iBooks | 分析阅读 | 2025/11/09 | 2025/11/29 |
 | [When the Heavens<br>Went on Sale](https://book.douban.com/subject/36402681/) | 商业 | [已读](/reads/business/when-the-heavens-went-on-sale/) | iBooks | 分析阅读 | 2025/08/23 | 2025/08/24 |
 | [A Philosophy of<br>Software Design](https://book.douban.com/subject/30218046/) | 计算机 | 已读 | iBooks | 主题阅读 | 2025/08/16 | 2025/08/16 |
