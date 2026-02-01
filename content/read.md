@@ -79,7 +79,7 @@ https://zh.wikipedia.org/wiki/生命的意义
 | [银河帝国：<br>基地七部曲](https://book.douban.com/subject/26389895/) | 小说 | [在读](/reads/sci-fi/foundation-series/) | iBooks | 分析阅读 | 2025/08/31 | |
 | [就业、利息<br>和货币通论](https://book.douban.com/subject/1137246/) | 经济 | 想读 |  | | | |
 | [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | | | |
-| [不可思议的惊奇](https://book.douban.com/subject/3423381/) | 传记 | [已读](/reads/) | iBooks | 分析阅读 | 2026/01/18 | 2026/02/01 |
+| [不可思议的惊奇](https://book.douban.com/subject/3423381/) | 传记 | [已读](/reads/biography/the-life-and-art-of-glenn-gould/) | iBooks | 分析阅读 | 2026/01/18 | 2026/02/01 |
 
 ### 2025
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
