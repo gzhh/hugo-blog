@@ -58,7 +58,6 @@ https://zh.wikipedia.org/wiki/生命的意义
 | [维特根斯坦传](https://book.douban.com/subject/6152040/) | 传记 | 想读 |  | | | |
 | [结构性改革](https://book.douban.com/subject/35147504/) | 经济 | 想读 |  | |  |  |
 | [分析与思考](https://book.douban.com/subject/35149551/) | 经济 | 想读 |  | |  |  |
-| [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | | | |
 | [进化心理学](https://book.douban.com/subject/26683297/) | 社会学 | 想读 |  | | | |
 | [自私的基因](https://book.douban.com/subject/11445548/) | 社会学 | 想读 |  | | | |
 | [深度工作](https://book.douban.com/subject/27056409/) | 方法论 | 想读 |  | | | |
@@ -78,6 +77,9 @@ https://zh.wikipedia.org/wiki/生命的意义
 | [百年孤独](https://book.douban.com/subject/6082808/) | 小说 | 想读 | iBooks | 分析阅读 | | |
 | [西游记](https://book.douban.com/subject/1321544/) | 小说 | [在读](/reads/history/journey-to-the-west) | 实体书 | 分析阅读 | 2024/09/21 | |
 | [银河帝国：<br>基地七部曲](https://book.douban.com/subject/26389895/) | 小说 | [在读](/reads/sci-fi/foundation-series/) | iBooks | 分析阅读 | 2025/08/31 | |
+| [就业、利息<br>和货币通论](https://book.douban.com/subject/1137246/) | 经济 | 想读 |  | | | |
+| [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | | | |
+| [不可思议的惊奇](https://book.douban.com/subject/3423381/) | 传记 | [已读](/reads/) | iBooks | 分析阅读 | 2026/01/18 | 2026/02/01 |
 
 ### 2025
 | 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
