@@ -52,7 +52,6 @@ https://zh.wikipedia.org/wiki/生命的意义
 | [NoSQL Distilled](https://www.goodreads.com/book/show/13610343-nosql-distilled) | 计算机 | 想读 | | 主题阅读 | | |
 | [人月神话](https://book.douban.com/subject/1102259/) | 计算机 | 想读 |  | 分析阅读 | | |
 | [非暴力沟通](https://book.douban.com/subject/3533221/) | 心理 | 想读 |  | 分析阅读 | | |
-| [你想活出怎样<br>的人生](https://book.douban.com/subject/34659228/) | 教育 | 想读 |  | 分析阅读 | | |
 | [当我谈跑步时<br>我谈些什么](https://book.douban.com/subject/3369600/) | 文学 | 想读 |  | | |
 | [沉默的大多数](https://book.douban.com/subject/1054685/) | 文学 | 在读 | Kindle | 分析阅读 | 2024/03/09 |  |
 | [维特根斯坦传](https://book.douban.com/subject/6152040/) | 传记 | 想读 |  | | | |
@@ -79,6 +78,9 @@ https://zh.wikipedia.org/wiki/生命的意义
 | [银河帝国：<br>基地七部曲](https://book.douban.com/subject/26389895/) | 小说 | [在读](/reads/sci-fi/foundation-series/) | iBooks | 分析阅读 | 2025/08/31 | |
 | [就业、利息<br>和货币通论](https://book.douban.com/subject/1137246/) | 经济 | 想读 |  | | | |
 | [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | | | |
+| [工作、消费主义<br>和新穷人](https://book.douban.com/subject/35593780/) | 经济 | 想读 | iBooks | 主题阅读 | | |
+| [聪明的投资者](https://book.douban.com/subject/5243775/) | 经济 | 想读 | iBooks | 主题阅读 | 2026/02/01 | |
+| [你想活出怎样<br>的人生](https://book.douban.com/subject/34659228/) | 教育 | 已读 | 实体书 | 分析阅读 | 2026/03/29 | 2026/03/29 |
 | [不可思议的惊奇](https://book.douban.com/subject/3423381/) | 传记 | [已读](/reads/biography/the-life-and-art-of-glenn-gould/) | iBooks | 分析阅读 | 2026/01/18 | 2026/02/01 |
 
 ### 2025
