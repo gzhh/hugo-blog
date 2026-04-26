@@ -27,16 +27,7 @@ https://zh.wikipedia.org/wiki/生命的意义
 | [人生的智慧](https://book.douban.com/subject/3261600/) | 哲学 | 想读 |  | | | |
 | [作为意志和<br>表象的世界](https://book.douban.com/subject/1004699/) | 哲学 | 想读 |  | | | |
 | [纯粹理性批判](https://book.douban.com/subject/1216737/) | 哲学 | 想读 |  | | | |
--->
 
-### 2026
-| 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| [宇宙](https://book.douban.com/subject/35490038/) | 天文学 | 想读 |  | | | |
-| [原则](https://book.douban.com/subject/27608239/) | 方法论 | 想读 |  | | | |
-| [赞美闲散](https://book.douban.com/subject/36794809/) | 随笔 | 想读 |  | | | |
-| [昨日的世界](https://book.douban.com/subject/4238162/) | 传记 | 想读 |  | | | |
-| [筚路维艰](https://book.douban.com/subject/26171466/) | 历史 | 想读 |  | | | |
 | [Unix/Linux<br>编程实践教程](https://book.douban.com/subject/1219329/) | 计算机 | 想读 | | 主题阅读 | | |
 | [Linux/UNIX<br>系统编程手册](https://book.douban.com/subject/25809330/) | 计算机 | 想读 | | 主题阅读 | | |
 | [Wireshark网络<br>分析的艺术](https://book.douban.com/subject/26710788/) | 计算机 | 想读 | | 主题阅读 | | |
@@ -50,7 +41,20 @@ https://zh.wikipedia.org/wiki/生命的意义
 | [The Staff<br>Engineer's Path](https://book.douban.com/subject/35858196/) | 计算机 | 想读 | | 分析阅读 | |  |
 | [System Design<br>Interview: <br>Volume 2](https://goodreads.com/book/show/60631342-system-design-interview-an-insider-s-guide) | 计算机 | 想读 | PDF | 分析阅读 | |
 | [NoSQL Distilled](https://www.goodreads.com/book/show/13610343-nosql-distilled) | 计算机 | 想读 | | 主题阅读 | | |
-| [人月神话](https://book.douban.com/subject/1102259/) | 计算机 | 想读 |  | 分析阅读 | | |
+| [网络是怎样<br>连接的](https://book.douban.com/subject/26941639/) | 计算机 | 在读 | PDF | 分析阅读 | 2022/06/19 | |
+
+| [Linux内核设计<br>与实现](https://book.douban.com/subject/6097773/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/07/08 | |
+| [The Design of the<br>UNIX Operating System](https://book.douban.com/subject/1768601/) | 计算机 | 在读 | PDF | 主题阅读 | 2025/02/04 |  |
+-->
+
+### 2026
+| 书名 | 标签 | 状态 | 媒介 | 方式 | 开始日期 | 结束日期 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| [宇宙](https://book.douban.com/subject/35490038/) | 天文学 | 想读 |  | | | |
+| [原则](https://book.douban.com/subject/27608239/) | 方法论 | 想读 |  | | | |
+| [赞美闲散](https://book.douban.com/subject/36794809/) | 随笔 | 想读 |  | | | |
+| [昨日的世界](https://book.douban.com/subject/4238162/) | 传记 | 想读 |  | | | |
+| [筚路维艰](https://book.douban.com/subject/26171466/) | 历史 | 想读 |  | | | |
 | [非暴力沟通](https://book.douban.com/subject/3533221/) | 心理 | 想读 |  | 分析阅读 | | |
 | [当我谈跑步时<br>我谈些什么](https://book.douban.com/subject/3369600/) | 文学 | 想读 |  | | |
 | [沉默的大多数](https://book.douban.com/subject/1054685/) | 文学 | 在读 | Kindle | 分析阅读 | 2024/03/09 |  |
@@ -64,22 +68,20 @@ https://zh.wikipedia.org/wiki/生命的意义
 | [高效能人士的<br>七个习惯](https://book.douban.com/subject/5325618/) | 方法论 | 想读 |  | | | |
 | [如何赢得友谊<br>并影响他人](https://book.douban.com/subject/26954744/) | 社会学 | 想读 |  | | | |
 | [穷查理宝典](https://book.douban.com/subject/26831789/) | 方法论 | 想读 | PDF | 分析阅读 | 2023/06/10 | |
-| [Linux内核设计<br>与实现](https://book.douban.com/subject/6097773/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2023/07/08 | |
-| [网络是怎样<br>连接的](https://book.douban.com/subject/26941639/) | 计算机 | 在读 | PDF | 分析阅读 | 2022/06/19 | |
+| [人月神话](https://book.douban.com/subject/1102259/) | 计算机 | 想读 |  | 分析阅读 | | |
 | [Fluent Python,<br>2nd Edition](https://book.douban.com/subject/34990079/) | 计算机 | 在读 | PDF | 主题阅读 | 2023/09/13 |  |
-| [The Design of the<br>UNIX Operating System](https://book.douban.com/subject/1768601/) | 计算机 | 在读 | PDF | 主题阅读 | 2025/02/04 |  |
 | [代码大全](https://book.douban.com/subject/1477390/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2024/08/21 |  |
 | [程序设计实践](https://book.douban.com/subject/26712028/) | 计算机 | 在读 | 实体书 | 主题阅读 | 2024/08/21 |  |
 | [中国现代小说史](https://book.douban.com/subject/26299127/) | 文学史 | 想读 | iBooks | 主题阅读 | | |
 | [全球通史](https://book.douban.com/subject/1025643/) | 历史 | 想读 | iBooks | 主题阅读 | | |
 | [霍布斯鲍姆<br>年代四部曲](https://book.douban.com/subject/27106738/) | 历史 | 想读 | iBooks | 主题阅读 | | |
 | [百年孤独](https://book.douban.com/subject/6082808/) | 小说 | 想读 | iBooks | 分析阅读 | | |
-| [西游记](https://book.douban.com/subject/1321544/) | 小说 | [在读](/reads/history/journey-to-the-west) | 实体书 | 分析阅读 | 2024/09/21 | |
-| [银河帝国：<br>基地七部曲](https://book.douban.com/subject/26389895/) | 小说 | [在读](/reads/sci-fi/foundation-series/) | iBooks | 分析阅读 | 2025/08/31 | |
 | [就业、利息<br>和货币通论](https://book.douban.com/subject/1137246/) | 经济 | 想读 |  | | | |
 | [通往奴役之路](https://book.douban.com/subject/1077528/) | 经济 | 想读 |  | | | |
 | [工作、消费主义<br>和新穷人](https://book.douban.com/subject/35593780/) | 经济 | 想读 | iBooks | 主题阅读 | | |
-| [聪明的投资者](https://book.douban.com/subject/5243775/) | 经济 | 想读 | iBooks | 主题阅读 | 2026/02/01 | |
+| [西游记](https://book.douban.com/subject/1321544/) | 小说 | [在读](/reads/history/journey-to-the-west) | 实体书 | 分析阅读 | 2024/09/21 | |
+| [银河帝国：<br>基地七部曲](https://book.douban.com/subject/26389895/) | 小说 | [在读](/reads/sci-fi/foundation-series/) | iBooks | 分析阅读 | 2025/08/31 | |
+| [聪明的投资者](https://book.douban.com/subject/5243775/) | 经济 | 已读 | iBooks | 主题阅读 | 2026/02/01 | 2026/04/26 |
 | [你想活出怎样<br>的人生](https://book.douban.com/subject/34659228/) | 教育 | 已读 | 实体书 | 分析阅读 | 2026/03/29 | 2026/03/29 |
 | [不可思议的惊奇](https://book.douban.com/subject/3423381/) | 传记 | [已读](/reads/biography/the-life-and-art-of-glenn-gould/) | iBooks | 分析阅读 | 2026/01/18 | 2026/02/01 |
 

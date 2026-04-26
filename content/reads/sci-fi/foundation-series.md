@@ -9,5 +9,6 @@ tags: [Sci-Fi]
 
 资料
 - https://en.wikipedia.org/wiki/Foundation_(novel_series)
+- https://en.wikipedia.org/wiki/Foundation_universe
 
 
