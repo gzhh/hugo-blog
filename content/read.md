@@ -81,6 +81,7 @@ https://zh.wikipedia.org/wiki/生命的意义
 | [工作、消费主义<br>和新穷人](https://book.douban.com/subject/35593780/) | 经济 | 想读 | iBooks | 主题阅读 | | |
 | [西游记](https://book.douban.com/subject/1321544/) | 小说 | [在读](/reads/history/journey-to-the-west) | 实体书 | 分析阅读 | 2024/09/21 | |
 | [银河帝国：<br>基地七部曲](https://book.douban.com/subject/26389895/) | 小说 | [在读](/reads/sci-fi/foundation-series/) | iBooks | 分析阅读 | 2025/08/31 | |
+| [禅与摩托车<br>维修艺术](https://book.douban.com/subject/6811366/) | 哲学 | 已读 | iBooks | 分析阅读 | 2026/05/02 | 2026/05/04 |
 | [聪明的投资者](https://book.douban.com/subject/5243775/) | 经济 | 已读 | iBooks | 主题阅读 | 2026/02/01 | 2026/04/26 |
 | [你想活出怎样<br>的人生](https://book.douban.com/subject/34659228/) | 教育 | 已读 | 实体书 | 分析阅读 | 2026/03/29 | 2026/03/29 |
 | [不可思议的惊奇](https://book.douban.com/subject/3423381/) | 传记 | [已读](/reads/biography/the-life-and-art-of-glenn-gould/) | iBooks | 分析阅读 | 2026/01/18 | 2026/02/01 |
