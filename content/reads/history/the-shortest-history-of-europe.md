@@ -341,3 +341,51 @@ tags: [History]
 ### 西班牙内战
 
 [https://zh.wikipedia.org/wiki/西班牙内战](https://zh.wikipedia.org/wiki/%E8%A5%BF%E7%8F%AD%E7%89%99%E5%86%85%E6%88%98)
+
+
+# 番外
+- 北欧五国 https://zh.wikipedia.org/wiki/%E5%8C%97%E6%AD%90%E4%BA%94%E5%9C%8B
+- 波罗的海国家 https://zh.wikipedia.org/wiki/%E6%B3%A2%E7%BD%97%E7%9A%84%E6%B5%B7%E5%9B%BD%E5%AE%B6
+- 北欧波罗的海八国 https://zh.wikipedia.org/wiki/%E5%8C%97%E6%AD%90%E6%B3%A2%E7%BE%85%E7%9A%84%E6%B5%B7%E5%85%AB%E5%9C%8B
+- 中欧4国-维谢格拉德集团 https://zh.wikipedia.org/wiki/%E7%B6%AD%E8%AC%9D%E6%A0%BC%E6%8B%89%E5%BE%B7%E9%9B%86%E5%9C%98
+- 南斯拉夫 https://zh.wikipedia.org/wiki/%E5%8D%97%E6%96%AF%E6%8B%89%E5%A4%AB%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E8%81%94%E9%82%A6%E5%85%B1%E5%92%8C%E5%9B%BD
+  - 南斯拉夫 = 斯洛文尼亚、克罗地亚、波黑、黑山、北马其顿、塞尔维亚、科索沃？
+- 巴尔干半岛国家：阿尔巴尼亚、希腊
+
+[中立国](https://zh.wikipedia.org/wiki/%E4%B8%AD%E7%AB%8B%E5%9C%8B)
+- 瑞士
+- 奥地利？
+
+知名海湾
+- 南欧
+  - 地中海、亚得里亚海
+  - 爱琴海
+  - 马尔马拉海
+  - 黑海
+  - 亚速海
+- 北欧
+  - 北海
+  - 英吉利海峡
+  - 波罗的海
+
+## 0.知识
+- [欧洲国家面积列表](https://zh.wikipedia.org/wiki/%E6%AD%90%E6%B4%B2%E5%9C%8B%E5%AE%B6%E9%9D%A2%E7%A9%8D%E5%88%97%E8%A1%A8)
+- [欧洲足联国家联赛](https://zh.wikipedia.org/wiki/%E6%AD%90%E6%B4%B2%E8%B6%B3%E5%8D%94%E5%9C%8B%E5%AE%B6%E8%81%AF%E8%B3%BD)
+
+## 1.[苏联](https://zh.wikipedia.org/wiki/%E8%8B%8F%E8%81%94)
+苏联 = 东斯拉夫国家（俄罗斯、白俄罗斯、乌克兰）+ 摩尔多瓦 + 波罗的海3国 + 外高加索3国 + 中亚斯坦5国
+
+- [独立国家联合体](https://zh.wikipedia.org/wiki/%E7%8D%A8%E7%AB%8B%E5%9C%8B%E5%AE%B6%E8%81%AF%E5%90%88%E9%AB%94)
+  - （俄罗斯、白俄罗斯）+ 摩尔多瓦? + 外高加索（亚美尼亚、阿塞拜疆）+ 中亚斯坦5国
+- [集体安全条约组织](https://zh.wikipedia.org/wiki/%E9%9B%86%E4%BD%93%E5%AE%89%E5%85%A8%E6%9D%A1%E7%BA%A6%E7%BB%84%E7%BB%87)
+
+## 2.[华约](https://zh.wikipedia.org/wiki/%E5%8D%8E%E6%B2%99%E6%9D%A1%E7%BA%A6%E7%BB%84%E7%BB%87)
+华约 = 苏联 + 东德 + 中欧3国（波兰、捷克斯洛伐克、匈牙利）+ 罗马尼亚、保加利亚 + 阿尔巴尼亚?
+
+## 3.[北约](https://zh.wikipedia.org/wiki/%E5%8C%97%E5%A4%A7%E8%A5%BF%E6%B4%8B%E5%85%AC%E7%BA%A6%E7%BB%84%E7%BB%87)
+
+## 4.重要事件
+- 布拉格之春 https://zh.wikipedia.org/wiki/%E5%B8%83%E6%8B%89%E6%A0%BC%E4%B9%8B%E6%98%A5
+- 东欧剧变 https://zh.wikipedia.org/wiki/%E4%B8%9C%E6%AC%A7%E5%89%A7%E5%8F%98
+- 阿拉伯之春 https://zh.wikipedia.org/wiki/%E9%98%BF%E6%8B%89%E4%BC%AF%E4%B9%8B%E6%98%A5
+

@@ -53,6 +53,7 @@ https://zh.wikipedia.org/wiki/生命的意义
 | [宇宙](https://book.douban.com/subject/35490038/) | 天文学 | 想读 |  | | | |
 | [原则](https://book.douban.com/subject/27608239/) | 方法论 | 想读 |  | | | |
 | [赞美闲散](https://book.douban.com/subject/36794809/) | 随笔 | 想读 |  | | | |
+| [何为良好生活](https://book.douban.com/subject/26363926/) | 哲学 | 想读 |  | | | |
 | [昨日的世界](https://book.douban.com/subject/4238162/) | 传记 | 想读 |  | | | |
 | [筚路维艰](https://book.douban.com/subject/26171466/) | 历史 | 想读 |  | | | |
 | [非暴力沟通](https://book.douban.com/subject/3533221/) | 心理 | 想读 |  | 分析阅读 | | |
