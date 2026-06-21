@@ -344,11 +344,11 @@ tags: [History]
 
 
 # 番外
-- 北欧五国 https://zh.wikipedia.org/wiki/%E5%8C%97%E6%AD%90%E4%BA%94%E5%9C%8B
-- 波罗的海国家 https://zh.wikipedia.org/wiki/%E6%B3%A2%E7%BD%97%E7%9A%84%E6%B5%B7%E5%9B%BD%E5%AE%B6
-- 北欧波罗的海八国 https://zh.wikipedia.org/wiki/%E5%8C%97%E6%AD%90%E6%B3%A2%E7%BE%85%E7%9A%84%E6%B5%B7%E5%85%AB%E5%9C%8B
-- 中欧4国-维谢格拉德集团 https://zh.wikipedia.org/wiki/%E7%B6%AD%E8%AC%9D%E6%A0%BC%E6%8B%89%E5%BE%B7%E9%9B%86%E5%9C%98
-- 南斯拉夫 https://zh.wikipedia.org/wiki/%E5%8D%97%E6%96%AF%E6%8B%89%E5%A4%AB%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E8%81%94%E9%82%A6%E5%85%B1%E5%92%8C%E5%9B%BD
+- [北欧五国](https://zh.wikipedia.org/wiki/%E5%8C%97%E6%AD%90%E4%BA%94%E5%9C%8B)
+- [波罗的海国家](https://zh.wikipedia.org/wiki/%E6%B3%A2%E7%BD%97%E7%9A%84%E6%B5%B7%E5%9B%BD%E5%AE%B6)
+- [北欧波罗的海八国](https://zh.wikipedia.org/wiki/%E5%8C%97%E6%AD%90%E6%B3%A2%E7%BE%85%E7%9A%84%E6%B5%B7%E5%85%AB%E5%9C%8B)
+- [中欧4国-维谢格拉德集团](https://zh.wikipedia.org/wiki/%E7%B6%AD%E8%AC%9D%E6%A0%BC%E6%8B%89%E5%BE%B7%E9%9B%86%E5%9C%98)
+- [南斯拉夫](https://zh.wikipedia.org/wiki/%E5%8D%97%E6%96%AF%E6%8B%89%E5%A4%AB%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E8%81%94%E9%82%A6%E5%85%B1%E5%92%8C%E5%9B%BD)
   - 南斯拉夫 = 斯洛文尼亚、克罗地亚、波黑、黑山、北马其顿、塞尔维亚、科索沃？
 - 巴尔干半岛国家：阿尔巴尼亚、希腊
 
@@ -385,7 +385,7 @@ tags: [History]
 ## 3.[北约](https://zh.wikipedia.org/wiki/%E5%8C%97%E5%A4%A7%E8%A5%BF%E6%B4%8B%E5%85%AC%E7%BA%A6%E7%BB%84%E7%BB%87)
 
 ## 4.重要事件
-- 布拉格之春 https://zh.wikipedia.org/wiki/%E5%B8%83%E6%8B%89%E6%A0%BC%E4%B9%8B%E6%98%A5
-- 东欧剧变 https://zh.wikipedia.org/wiki/%E4%B8%9C%E6%AC%A7%E5%89%A7%E5%8F%98
-- 阿拉伯之春 https://zh.wikipedia.org/wiki/%E9%98%BF%E6%8B%89%E4%BC%AF%E4%B9%8B%E6%98%A5
+- [布拉格之春](https://zh.wikipedia.org/wiki/%E5%B8%83%E6%8B%89%E6%A0%BC%E4%B9%8B%E6%98%A5)
+- [东欧剧变](https://zh.wikipedia.org/wiki/%E4%B8%9C%E6%AC%A7%E5%89%A7%E5%8F%98)
+- [阿拉伯之春](https://zh.wikipedia.org/wiki/%E9%98%BF%E6%8B%89%E4%BC%AF%E4%B9%8B%E6%98%A5)
 
